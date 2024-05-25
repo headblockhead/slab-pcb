@@ -30,6 +30,7 @@ The circuitboard and schematics for the Slab keyboard project. [Firmware here](h
 |Key diodes|Generic: SOD-123 diode|C393516|75|100|$0.0115|$1.15|3||
 |I²C OLED 128x32|SSD1306|C5248081|1|3|$2.0128|$6.04|2|Useful in other projects + headers required.|
 |Kailh hotswap MX switch sockets|CPG151101S11-16|C5156480|75|80|$0.1243|$7.94|1||
+|**TOTAL**|||338|531||$44.97|||
 
 ## Used libraries
 ### External
