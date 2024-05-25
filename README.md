@@ -16,7 +16,7 @@ The circuitboard and schematics for the Slab keyboard project. [Firmware here](h
 - 3D printer (For the case)
 - M3 screws (length currently undecided)
 - This circuitboard (I used JLCPCB)
-- Materials from the BOM (I used LSCSC)
+- Materials from the BOM (I used LCSC)
 
 ## BOM
 | Part Usage | Part Number | LCSC Number | # Needed | # Suggested | Cost/Unit ($) | Cost/Total ($) | Relative soldering difficulty / 5 | Notes
