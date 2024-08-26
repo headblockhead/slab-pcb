@@ -9,15 +9,8 @@ The full circuitboard and schematics for the [Slab keyboard project](https://git
 - Desoldering Braid (lifesaver for SMD soldering by hand)
 - Flux Pen (Can help with soldering SMD components)
 - ['Adjustable Helping Hand with Magnifying Glass'](https://www.amazon.co.uk/01902-Adjustable-Magnifying-Soldering-Alligator/dp/B000P42O3C?th=1) or other magnification solution
-- Good lighting! - A very bright light or sunlight through a window. Dim lighting only makes soldering harder.
+- Good lighting! - A very bright light or sunlight through a window.
 - Electronics tweezers (Good for holding parts steady)
-### Project (TODO: relocate theese)
-- Keyswitches
-- Keycaps
-- 3D printer (For the case)
-- M3 screws (length currently undecided)
-- This circuitboard (I used JLCPCB)
-- Materials from the BOM (I used LCSC)
 
 ## BOM
 | Part Usage | Part Number | LCSC Number | # Needed | # Suggested | Cost/Unit ($) | Cost/Total ($) | Relative soldering difficulty / 5 | Notes
