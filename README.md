@@ -1,6 +1,7 @@
 # Slab PCB
-The circuitboard and schematics for the Slab keyboard project. [Firmware here](https://github.com/headblockhead/slab-firmware).
+The full circuitboard and schematics for the [Slab keyboard project](https://github.com/headblockhead/slab).
 
+![The PCB](https://github.com/user-attachments/assets/ca80b5f5-c5eb-4f25-88ec-4695488eec44)
 ## Supplies
 ### PCB
 - Solder
