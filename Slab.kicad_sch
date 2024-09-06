@@ -19995,7 +19995,7 @@
 		)
 		(uuid "b1d8f9be-b11b-45b2-a6c8-0be4eb1edb38")
 	)
-	(label "KEY1"
+	(label "~{KEY1}"
 		(at 173.99 26.67 90)
 		(fields_autoplaced yes)
 		(effects
@@ -20693,7 +20693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 138.43 215.9 0)
 			(effects
 				(font
@@ -20826,7 +20826,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 383.8448 82.55 0)
 			(effects
 				(font
@@ -20968,7 +20968,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 292.4048 100.33 0)
 			(effects
 				(font
@@ -21020,7 +21020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04c66919-09e9-4302-8d8f-536ce344d827")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR0558"
 			(at 384.81 222.25 0)
 			(effects
 				(font
@@ -21070,7 +21070,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR055")
+					(reference "#PWR0558")
 					(unit 1)
 				)
 			)
@@ -21103,7 +21103,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 216.2048 118.11 0)
 			(effects
 				(font
@@ -21172,7 +21172,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 338.1248 118.11 0)
 			(effects
 				(font
@@ -21290,7 +21290,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "05f8c1f9-2bf5-4ebe-83a1-066056bffe00")
-		(property "Reference" "C105"
+		(property "Reference" "C81"
 			(at 90.678 31.496 90)
 			(effects
 				(font
@@ -21344,7 +21344,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "C105")
+					(reference "C81")
 					(unit 1)
 				)
 			)
@@ -21426,7 +21426,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "064fcf03-f178-4bea-bb8c-384283a0b857")
-		(property "Reference" "TP29"
+		(property "Reference" "TP23"
 			(at 42.418 240.03 0)
 			(effects
 				(font
@@ -21444,7 +21444,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 48.26 243.84 0)
 			(effects
 				(font
@@ -21477,7 +21477,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP29")
+					(reference "TP23")
 					(unit 1)
 				)
 			)
@@ -21492,7 +21492,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0714c08d-07d8-4bac-8d0f-8fac97894d1e")
-		(property "Reference" "R2"
+		(property "Reference" "R10"
 			(at 143.51 270.764 90)
 			(effects
 				(font
@@ -21546,7 +21546,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "R2")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -21579,7 +21579,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 338.1248 82.55 0)
 			(effects
 				(font
@@ -21697,7 +21697,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07cd439c-e289-4653-b7aa-bd6d552aaf0f")
-		(property "Reference" "TP14"
+		(property "Reference" "TP30"
 			(at 62.992 265.43 0)
 			(effects
 				(font
@@ -21715,7 +21715,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 67.31 269.24 0)
 			(effects
 				(font
@@ -21748,7 +21748,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP14")
+					(reference "TP30")
 					(unit 1)
 				)
 			)
@@ -21836,7 +21836,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "090f0b3f-324a-478a-9fcd-14184978edeb")
-		(property "Reference" "TP25"
+		(property "Reference" "TP5"
 			(at 55.372 92.71 0)
 			(effects
 				(font
@@ -21854,7 +21854,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 59.69 96.52 0)
 			(effects
 				(font
@@ -21887,7 +21887,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP25")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -21969,7 +21969,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0acc30dc-7de7-4570-9d31-ad0a50fa5733")
-		(property "Reference" "C86"
+		(property "Reference" "C99"
 			(at 196.342 156.718 0)
 			(effects
 				(font
@@ -21987,7 +21987,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 192.0748 153.67 0)
 			(effects
 				(font
@@ -22023,7 +22023,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "C86")
+					(reference "C99")
 					(unit 1)
 				)
 			)
@@ -22123,7 +22123,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 322.8848 64.77 0)
 			(effects
 				(font
@@ -22326,7 +22326,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 353.3648 82.55 0)
 			(effects
 				(font
@@ -22590,7 +22590,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "12520ee4-64ef-44da-9102-3c6202c9e823")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR0525"
 			(at 300.99 163.83 0)
 			(effects
 				(font
@@ -22640,7 +22640,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR044")
+					(reference "#PWR0525")
 					(unit 1)
 				)
 			)
@@ -22728,7 +22728,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "135c9263-b388-43c7-a9f2-9a18ec0ad778")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR0105"
 			(at 34.29 231.14 0)
 			(effects
 				(font
@@ -22778,7 +22778,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR019")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -22860,7 +22860,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "139d2860-7cd8-418a-b6b2-b4a49dc703fd")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR0547"
 			(at 364.49 215.9 0)
 			(effects
 				(font
@@ -22911,7 +22911,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR059")
+					(reference "#PWR0547")
 					(unit 1)
 				)
 			)
@@ -23017,7 +23017,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 261.9248 82.55 0)
 			(effects
 				(font
@@ -23068,7 +23068,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "13da927c-e761-46ba-89e9-4edc3e1955ba")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR0501"
 			(at 170.18 21.59 0)
 			(effects
 				(font
@@ -23118,7 +23118,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR039")
+					(reference "#PWR0501")
 					(unit 1)
 				)
 			)
@@ -23133,7 +23133,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1454d96f-09ab-43c6-8853-20aa8cfda001")
-		(property "Reference" "TP19"
+		(property "Reference" "TP18"
 			(at 133.35 232.41 90)
 			(effects
 				(font
@@ -23150,7 +23150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 139.7 227.33 0)
 			(effects
 				(font
@@ -23183,7 +23183,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP19")
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -23265,7 +23265,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14cc7155-ebb2-4826-826d-43c8b5949267")
-		(property "Reference" "TP9"
+		(property "Reference" "TP10"
 			(at 132.08 215.9 90)
 			(effects
 				(font
@@ -23282,7 +23282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 138.43 210.82 0)
 			(effects
 				(font
@@ -23315,7 +23315,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP9")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -23330,7 +23330,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14ee85ef-87eb-4cd7-8481-3d77878e7ca1")
-		(property "Reference" "C80"
+		(property "Reference" "C78"
 			(at 59.944 27.178 0)
 			(effects
 				(font
@@ -23384,7 +23384,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "C80")
+					(reference "C78")
 					(unit 1)
 				)
 			)
@@ -23551,7 +23551,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 322.8848 82.55 0)
 			(effects
 				(font
@@ -23602,7 +23602,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1751ce1c-4c4d-49f2-b349-b6752bb529a5")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR0524"
 			(at 252.73 163.83 0)
 			(effects
 				(font
@@ -23652,7 +23652,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR040")
+					(reference "#PWR0524")
 					(unit 1)
 				)
 			)
@@ -23667,7 +23667,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17d14a33-eee9-49f7-bee2-70d8f706e820")
-		(property "Reference" "TP4"
+		(property "Reference" "TP3"
 			(at 150.622 44.45 0)
 			(effects
 				(font
@@ -23685,7 +23685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 154.94 48.26 0)
 			(effects
 				(font
@@ -23718,7 +23718,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP4")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -23733,7 +23733,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1831cde7-e3ca-4f0a-9c79-6ecc1b009f97")
-		(property "Reference" "U5"
+		(property "Reference" "U3"
 			(at 100.584 216.154 0)
 			(effects
 				(font
@@ -23749,7 +23749,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PW14"
+		(property "Footprint" "CustomKeyboardLibrary:SN74AHCT125PWR"
 			(at 85.09 222.25 0)
 			(effects
 				(font
@@ -23823,7 +23823,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "U5")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -23856,7 +23856,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 307.6448 82.55 0)
 			(effects
 				(font
@@ -23907,7 +23907,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "191b0833-00b8-4709-ab2a-8bb9e5e65dc9")
-		(property "Reference" "TP34"
+		(property "Reference" "TP36"
 			(at 226.06 187.452 0)
 			(effects
 				(font
@@ -23925,7 +23925,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 222.25 184.15 0)
 			(effects
 				(font
@@ -23958,7 +23958,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP34")
+					(reference "TP36")
 					(unit 1)
 				)
 			)
@@ -23973,7 +23973,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19433497-7cec-4c2f-b983-cabeed235f8b")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR0124"
 			(at 82.55 223.52 0)
 			(effects
 				(font
@@ -24023,7 +24023,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR022")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -24111,7 +24111,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b508c61-679a-4c78-9999-aa03ecb563be")
-		(property "Reference" "TP3"
+		(property "Reference" "TP2"
 			(at 148.082 41.91 0)
 			(effects
 				(font
@@ -24129,7 +24129,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 152.4 45.72 0)
 			(effects
 				(font
@@ -24162,7 +24162,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP3")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -24177,7 +24177,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1bb4325b-c163-44a5-b31e-640b5c57223a")
-		(property "Reference" "R8"
+		(property "Reference" "R4"
 			(at 35.56 64.516 90)
 			(effects
 				(font
@@ -24229,7 +24229,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "R8")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -24469,7 +24469,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 399.0848 100.33 0)
 			(effects
 				(font
@@ -24727,7 +24727,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "22529af6-cd93-4e63-ba75-9f370e46cc90")
-		(property "Reference" "C98"
+		(property "Reference" "C90"
 			(at 25.146 52.578 0)
 			(effects
 				(font
@@ -24745,7 +24745,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RP2350_80QFN_minimal:C_0402_1005Metric_small_pads"
+		(property "Footprint" "CustomKeyboardLibrary:C_0402_1005Metric_small_pads"
 			(at 30.1752 58.42 0)
 			(effects
 				(font
@@ -24781,7 +24781,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "C98")
+					(reference "C90")
 					(unit 1)
 				)
 			)
@@ -24813,7 +24813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 138.43 213.36 0)
 			(effects
 				(font
@@ -24879,7 +24879,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 338.1248 64.77 0)
 			(effects
 				(font
@@ -24930,7 +24930,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "24caacb0-283a-4112-a40c-9a774700458b")
-		(property "Reference" "R16"
+		(property "Reference" "R12"
 			(at 375.92 26.924 90)
 			(effects
 				(font
@@ -24946,7 +24946,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 375.92 30.988 90)
 			(effects
 				(font
@@ -24982,7 +24982,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "R16")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -25064,7 +25064,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "26a6ffad-ddf5-409d-9ff0-dce4f89171fd")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR0128"
 			(at 148.59 265.43 0)
 			(effects
 				(font
@@ -25114,7 +25114,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR034")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -25342,7 +25342,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28f77790-cb52-4d73-a779-c850c5dd6022")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR0112"
 			(at 116.84 215.9 0)
 			(effects
 				(font
@@ -25392,7 +25392,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR012")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -25547,7 +25547,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "29c39c7e-68d5-44c0-ba53-3b721309da91")
-		(property "Reference" "TP28"
+		(property "Reference" "TP16"
 			(at 67.31 232.664 0)
 			(effects
 				(font
@@ -25565,7 +25565,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 63.5 228.6 0)
 			(effects
 				(font
@@ -25598,7 +25598,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP28")
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -25669,7 +25669,7 @@
 			)
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR08")
+					(reference "#PWR0523")
 					(unit 1)
 				)
 			)
@@ -25824,7 +25824,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a2599cc-a59d-4ebe-a7d0-71f553f97efb")
-		(property "Reference" "R7"
+		(property "Reference" "R11"
 			(at 143.51 279.4 90)
 			(effects
 				(font
@@ -25878,7 +25878,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "R7")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -25893,7 +25893,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a7a0e3c-41c3-4a41-8cfc-0eb318f76bd3")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 19.05 232.664 0)
 			(effects
 				(font
@@ -25909,7 +25909,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 31.75 254 0)
 			(effects
 				(font
@@ -25990,7 +25990,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -26005,7 +26005,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a8b7f91-d3e0-4361-87f0-bd02fa6795da")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR0527"
 			(at 397.51 163.83 0)
 			(effects
 				(font
@@ -26055,7 +26055,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR052")
+					(reference "#PWR0527")
 					(unit 1)
 				)
 			)
@@ -26088,7 +26088,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 185.7248 100.33 0)
 			(effects
 				(font
@@ -26214,7 +26214,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2cfef483-fdc8-4619-b61c-efef29d94c6e")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR0129"
 			(at 151.13 276.86 0)
 			(effects
 				(font
@@ -26264,7 +26264,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR09")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -26297,7 +26297,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 231.4448 135.89 0)
 			(effects
 				(font
@@ -26366,7 +26366,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 383.8448 64.77 0)
 			(effects
 				(font
@@ -26484,7 +26484,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2fafd70f-de26-4311-ba8c-100432bf0df0")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR0131"
 			(at 76.2 41.91 0)
 			(effects
 				(font
@@ -26534,7 +26534,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR071")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -26616,7 +26616,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "306eba86-d6ba-483a-abdd-e66d16202b77")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR0542"
 			(at 274.32 207.01 0)
 			(effects
 				(font
@@ -26667,7 +26667,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR057")
+					(reference "#PWR0542")
 					(unit 1)
 				)
 			)
@@ -26682,7 +26682,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "308e7b22-a8a2-4a23-a173-65c4bae1b9b4")
-		(property "Reference" "TP18"
+		(property "Reference" "TP17"
 			(at 133.35 229.87 90)
 			(effects
 				(font
@@ -26699,7 +26699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 139.7 224.79 0)
 			(effects
 				(font
@@ -26732,7 +26732,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP18")
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -26820,7 +26820,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3215079d-d968-4947-99a4-7c103e3d31bf")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR0133"
 			(at 72.39 29.21 0)
 			(effects
 				(font
@@ -26870,7 +26870,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR070")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -27025,7 +27025,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3569bbb5-09d2-4a0e-a19a-8a92becf32f5")
-		(property "Reference" "R17"
+		(property "Reference" "R8"
 			(at 45.974 248.92 90)
 			(effects
 				(font
@@ -27041,7 +27041,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 46.99 248.158 90)
 			(effects
 				(font
@@ -27077,7 +27077,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "R17")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -27092,7 +27092,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "368f64c9-703c-4d9d-a068-b083672968da")
-		(property "Reference" "R14"
+		(property "Reference" "R5"
 			(at 49.276 95.25 90)
 			(effects
 				(font
@@ -27144,7 +27144,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "R14")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -27244,7 +27244,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 261.9248 100.33 0)
 			(effects
 				(font
@@ -27313,7 +27313,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 261.9248 135.89 0)
 			(effects
 				(font
@@ -27365,7 +27365,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "398b7c50-e0cf-47c8-8087-226d6116cb03")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR0107"
 			(at 152.4 224.79 0)
 			(effects
 				(font
@@ -27415,7 +27415,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR035")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -27448,7 +27448,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 175.26 184.15 0)
 			(effects
 				(font
@@ -27552,7 +27552,7 @@
 			)
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR015")
+					(reference "#PWR0515")
 					(unit 1)
 				)
 			)
@@ -27706,7 +27706,7 @@
 			)
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -27997,7 +27997,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "446a592c-e120-4684-a743-aaa06dc295d1")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR0534"
 			(at 172.72 181.61 0)
 			(effects
 				(font
@@ -28047,7 +28047,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR060")
+					(reference "#PWR0534")
 					(unit 1)
 				)
 			)
@@ -28135,7 +28135,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "44fac9d9-3680-4e87-b968-70b725764392")
-		(property "Reference" "TP11"
+		(property "Reference" "TP27"
 			(at 118.237 260.35 0)
 			(effects
 				(font
@@ -28153,7 +28153,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 122.555 264.16 0)
 			(effects
 				(font
@@ -28186,7 +28186,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP11")
+					(reference "TP27")
 					(unit 1)
 				)
 			)
@@ -28335,7 +28335,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "46079271-1052-4947-8aa8-9d9a1fa54631")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR0135"
 			(at 26.67 53.34 0)
 			(effects
 				(font
@@ -28385,7 +28385,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR025")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -28400,7 +28400,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4690e53a-c916-41cb-b5b6-cae01128e3f5")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR0544"
 			(at 368.3 213.36 0)
 			(effects
 				(font
@@ -28450,7 +28450,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR054")
+					(reference "#PWR0544")
 					(unit 1)
 				)
 			)
@@ -28465,7 +28465,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "46fb1156-d35d-4f0b-b256-e6190d9306ba")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR0108"
 			(at 152.4 219.71 0)
 			(effects
 				(font
@@ -28515,7 +28515,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR031")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -28530,7 +28530,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "472e69c3-ee1f-475a-a2b4-08456d85bb86")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR0121"
 			(at 30.48 101.6 0)
 			(effects
 				(font
@@ -28580,7 +28580,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR028")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -28668,7 +28668,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "476d6f37-c145-43de-a10e-1cbfb90a9eb4")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR0535"
 			(at 219.71 181.61 0)
 			(effects
 				(font
@@ -28718,7 +28718,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR061")
+					(reference "#PWR0535")
 					(unit 1)
 				)
 			)
@@ -28751,7 +28751,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 185.7248 118.11 0)
 			(effects
 				(font
@@ -28821,7 +28821,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Buzzer_Beeper:MagneticBuzzer_CUI_CMT-8504-100-SMT"
 			(at 390.525 19.05 90)
 			(effects
 				(font
@@ -28963,7 +28963,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 200.9648 64.77 0)
 			(effects
 				(font
@@ -29082,7 +29082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ba2874a-1481-4aa6-9cc0-090f7b7452bd")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR0557"
 			(at 336.55 222.25 0)
 			(effects
 				(font
@@ -29132,7 +29132,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR051")
+					(reference "#PWR0557")
 					(unit 1)
 				)
 			)
@@ -29214,7 +29214,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4cc0aef9-1faa-45d8-a1e7-fdc987a0cc64")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR0529"
 			(at 236.22 166.37 0)
 			(effects
 				(font
@@ -29265,7 +29265,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR041")
+					(reference "#PWR0529")
 					(unit 1)
 				)
 			)
@@ -29298,7 +29298,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 368.6048 135.89 0)
 			(effects
 				(font
@@ -29416,7 +29416,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d67e821-6327-445c-a8bb-cde617c9b1e4")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR0543"
 			(at 321.31 208.28 0)
 			(effects
 				(font
@@ -29467,7 +29467,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR058")
+					(reference "#PWR0543")
 					(unit 1)
 				)
 			)
@@ -29701,7 +29701,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4faa8092-84ae-46a8-9fb7-559ad7ac936b")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR0130"
 			(at 22.86 49.53 0)
 			(effects
 				(font
@@ -29751,7 +29751,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR01")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -29784,7 +29784,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 185.7248 64.77 0)
 			(effects
 				(font
@@ -29836,7 +29836,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "52e76423-e967-4ddd-bcfd-9f93216f0829")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR0132"
 			(at 22.86 67.31 0)
 			(effects
 				(font
@@ -29886,7 +29886,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR02")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -29919,7 +29919,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 277.1648 135.89 0)
 			(effects
 				(font
@@ -30110,7 +30110,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "537b5c2e-c51a-43f7-92d0-b1c8495d7659")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR0137"
 			(at 119.38 38.1 0)
 			(effects
 				(font
@@ -30160,7 +30160,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR076")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -30175,7 +30175,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5410f562-1416-4f38-a473-70277c650ce8")
-		(property "Reference" "TP10"
+		(property "Reference" "TP26"
 			(at 62.992 260.35 0)
 			(effects
 				(font
@@ -30193,7 +30193,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 67.31 264.16 0)
 			(effects
 				(font
@@ -30226,7 +30226,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP10")
+					(reference "TP26")
 					(unit 1)
 				)
 			)
@@ -30241,7 +30241,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "542ee682-8182-4d5e-8ad0-893901969f18")
-		(property "Reference" "TP15"
+		(property "Reference" "TP31"
 			(at 115.697 265.43 0)
 			(effects
 				(font
@@ -30259,7 +30259,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 120.015 269.24 0)
 			(effects
 				(font
@@ -30292,7 +30292,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP15")
+					(reference "TP31")
 					(unit 1)
 				)
 			)
@@ -30325,7 +30325,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 231.4448 64.77 0)
 			(effects
 				(font
@@ -30376,7 +30376,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "54a3d50f-0347-490e-9c48-f0ff89500f82")
-		(property "Reference" "C89"
+		(property "Reference" "C102"
 			(at 339.852 156.718 0)
 			(effects
 				(font
@@ -30394,7 +30394,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 335.5848 153.67 0)
 			(effects
 				(font
@@ -30430,7 +30430,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "C89")
+					(reference "C102")
 					(unit 1)
 				)
 			)
@@ -30445,7 +30445,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5566fd24-d51b-4d73-b258-2a94839e88c5")
-		(property "Reference" "C99"
+		(property "Reference" "C97"
 			(at 92.964 250.9266 90)
 			(effects
 				(font
@@ -30499,7 +30499,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "C99")
+					(reference "C97")
 					(unit 1)
 				)
 			)
@@ -30654,7 +30654,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "57774896-72ba-4131-aa21-5547c288d4be")
-		(property "Reference" "C87"
+		(property "Reference" "C100"
 			(at 243.332 156.718 0)
 			(effects
 				(font
@@ -30672,7 +30672,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 239.0648 153.67 0)
 			(effects
 				(font
@@ -30708,7 +30708,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "C87")
+					(reference "C100")
 					(unit 1)
 				)
 			)
@@ -30723,7 +30723,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "58574aae-063d-4004-ab9f-2829baaf5d1a")
-		(property "Reference" "C101"
+		(property "Reference" "C92"
 			(at 22.86 102.362 90)
 			(effects
 				(font
@@ -30777,7 +30777,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "C101")
+					(reference "C92")
 					(unit 1)
 				)
 			)
@@ -31072,7 +31072,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5ba7ab83-be97-411d-8f53-c5836a8d3f4f")
-		(property "Reference" "TP23"
+		(property "Reference" "TP22"
 			(at 133.35 240.03 90)
 			(effects
 				(font
@@ -31089,7 +31089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 139.7 234.95 0)
 			(effects
 				(font
@@ -31122,7 +31122,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP23")
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -31362,7 +31362,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "610778d7-a451-499e-ac43-3fa3fd405855")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR0134"
 			(at 50.8 54.61 0)
 			(effects
 				(font
@@ -31412,7 +31412,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR026")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -31427,7 +31427,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "610fb24d-189d-4051-bca4-ca3676c81c4d")
-		(property "Reference" "TP6"
+		(property "Reference" "TP8"
 			(at 132.08 210.82 90)
 			(effects
 				(font
@@ -31444,7 +31444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 138.43 205.74 0)
 			(effects
 				(font
@@ -31477,7 +31477,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP6")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -31577,7 +31577,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 246.6848 82.55 0)
 			(effects
 				(font
@@ -31695,7 +31695,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63e5392d-d600-4c28-9d2e-c9ecd5d0047a")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR0517"
 			(at 166.37 69.85 0)
 			(effects
 				(font
@@ -31745,7 +31745,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR020")
+					(reference "#PWR0517")
 					(unit 1)
 				)
 			)
@@ -32042,7 +32042,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6592f7a4-068c-4d32-9198-00e570d4b20e")
-		(property "Reference" "C107"
+		(property "Reference" "C83"
 			(at 95.758 31.496 90)
 			(effects
 				(font
@@ -32096,7 +32096,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "C107")
+					(reference "C83")
 					(unit 1)
 				)
 			)
@@ -32202,7 +32202,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 322.8848 118.11 0)
 			(effects
 				(font
@@ -32253,7 +32253,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6633895a-acc0-4af7-8695-93b02f3a91bf")
-		(property "Reference" "TP31"
+		(property "Reference" "TP39"
 			(at 370.84 187.452 0)
 			(effects
 				(font
@@ -32271,7 +32271,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 367.03 184.15 0)
 			(effects
 				(font
@@ -32304,7 +32304,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP31")
+					(reference "TP39")
 					(unit 1)
 				)
 			)
@@ -32319,7 +32319,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "668f299c-dbbc-4aac-abd7-66b53e3a8d9e")
-		(property "Reference" "TP16"
+		(property "Reference" "TP32"
 			(at 116.967 267.97 0)
 			(effects
 				(font
@@ -32337,7 +32337,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 121.285 271.78 0)
 			(effects
 				(font
@@ -32370,7 +32370,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP16")
+					(reference "TP32")
 					(unit 1)
 				)
 			)
@@ -32385,7 +32385,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69b3b279-cb7a-4711-9bba-ed6852497e66")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR0119"
 			(at 36.83 175.26 0)
 			(effects
 				(font
@@ -32435,7 +32435,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR072")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -32450,7 +32450,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6a3ecc5a-88f6-49a7-8d50-0e73d9783dab")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR0114"
 			(at 87.63 257.81 0)
 			(effects
 				(font
@@ -32500,7 +32500,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR030")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -32752,7 +32752,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 307.6448 64.77 0)
 			(effects
 				(font
@@ -32803,7 +32803,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6cb57807-184e-4e34-b701-e368428e46e3")
-		(property "Reference" "TP38"
+		(property "Reference" "TP28"
 			(at 44.45 262.636 0)
 			(effects
 				(font
@@ -32821,7 +32821,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 48.26 266.7 0)
 			(effects
 				(font
@@ -32854,7 +32854,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP38")
+					(reference "TP28")
 					(unit 1)
 				)
 			)
@@ -32869,7 +32869,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6cb9498f-2aef-4881-ae9e-2945cacc5bb3")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR0118"
 			(at 36.83 185.42 0)
 			(effects
 				(font
@@ -32919,7 +32919,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR075")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -33074,7 +33074,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6eac7c30-adb1-4096-b995-1c9cac928ae6")
-		(property "Reference" "C100"
+		(property "Reference" "C91"
 			(at 22.86 86.106 90)
 			(effects
 				(font
@@ -33128,7 +33128,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "C100")
+					(reference "C91")
 					(unit 1)
 				)
 			)
@@ -33161,7 +33161,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 246.6848 118.11 0)
 			(effects
 				(font
@@ -33230,7 +33230,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 353.3648 118.11 0)
 			(effects
 				(font
@@ -33445,7 +33445,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 353.3648 100.33 0)
 			(effects
 				(font
@@ -33514,7 +33514,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 399.0848 64.77 0)
 			(effects
 				(font
@@ -33638,7 +33638,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "749828e0-7fa6-4234-a3c2-4d2ade0e0401")
-		(property "Reference" "C103"
+		(property "Reference" "C80"
 			(at 85.598 31.496 90)
 			(effects
 				(font
@@ -33692,7 +33692,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "C103")
+					(reference "C80")
 					(unit 1)
 				)
 			)
@@ -33707,7 +33707,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7527dc17-61de-4bfe-b96c-2cd78c9fd808")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR0103"
 			(at 46.99 231.14 0)
 			(effects
 				(font
@@ -33757,7 +33757,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR067")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -33772,7 +33772,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "75c991f9-7fcc-4c0f-aaaf-56e45a8a26b3")
-		(property "Reference" "TP33"
+		(property "Reference" "TP37"
 			(at 274.32 187.452 0)
 			(effects
 				(font
@@ -33790,7 +33790,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 270.51 184.15 0)
 			(effects
 				(font
@@ -33823,7 +33823,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP33")
+					(reference "TP37")
 					(unit 1)
 				)
 			)
@@ -33838,7 +33838,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "761784bc-8341-4284-82f0-b3cc44bb15ba")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 130.048 43.18 90)
 			(effects
 				(font
@@ -33890,7 +33890,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -33905,7 +33905,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "76a6b88f-89a6-457d-bdad-64dbc5253f13")
-		(property "Reference" "TP26"
+		(property "Reference" "TP14"
 			(at 69.85 218.186 0)
 			(effects
 				(font
@@ -33923,7 +33923,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 73.66 222.25 0)
 			(effects
 				(font
@@ -33956,7 +33956,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP26")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -33971,7 +33971,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "76d1cb84-63f0-4cfb-b436-096764362046")
-		(property "Reference" "SW3"
+		(property "Reference" "SW2"
 			(at 143.51 261.112 0)
 			(effects
 				(font
@@ -33987,7 +33987,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
 			(at 143.51 254 0)
 			(effects
 				(font
@@ -34023,7 +34023,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "SW3")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -34038,7 +34038,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "76e6cd65-0024-4006-8740-c57d7361cce9")
-		(property "Reference" "R4"
+		(property "Reference" "R13"
 			(at 178.308 180.086 90)
 			(effects
 				(font
@@ -34054,7 +34054,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 176.53 179.578 90)
 			(effects
 				(font
@@ -34090,7 +34090,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "R4")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -34123,7 +34123,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 307.6448 100.33 0)
 			(effects
 				(font
@@ -34174,7 +34174,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "773ec897-cb87-4ff5-8c60-539f6de3c4e5")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR0136"
 			(at 27.94 44.45 0)
 			(effects
 				(font
@@ -34224,7 +34224,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR069")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -34257,7 +34257,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 338.1248 100.33 0)
 			(effects
 				(font
@@ -34308,7 +34308,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "786e0ed2-fb9d-47c2-9e8d-4503895c1599")
-		(property "Reference" "TP2"
+		(property "Reference" "TP1"
 			(at 41.148 29.21 0)
 			(effects
 				(font
@@ -34326,7 +34326,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 36.83 25.4 0)
 			(effects
 				(font
@@ -34359,7 +34359,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP2")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -34392,7 +34392,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 185.7248 82.55 0)
 			(effects
 				(font
@@ -34584,7 +34584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a77d9fe-7b26-45ed-a9bd-fc6a340fe700")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR0505"
 			(at 318.77 34.29 0)
 			(effects
 				(font
@@ -34634,7 +34634,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR016")
+					(reference "#PWR0505")
 					(unit 1)
 				)
 			)
@@ -34667,7 +34667,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 383.8448 118.11 0)
 			(effects
 				(font
@@ -34719,7 +34719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d22b050-d213-4031-9f97-8b69e86e40c6")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR0123"
 			(at 85.09 243.84 0)
 			(effects
 				(font
@@ -34769,7 +34769,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR021")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -34802,7 +34802,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 383.8448 100.33 0)
 			(effects
 				(font
@@ -34853,7 +34853,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7dd92747-9b4f-4818-a867-78966e9bf1f6")
-		(property "Reference" "TP7"
+		(property "Reference" "TP9"
 			(at 132.08 213.36 90)
 			(effects
 				(font
@@ -34870,7 +34870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 138.43 208.28 0)
 			(effects
 				(font
@@ -34903,7 +34903,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP7")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -34918,7 +34918,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e53f719-834a-473b-8ce2-a72c99e418fc")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR0507"
 			(at 298.45 39.37 0)
 			(effects
 				(font
@@ -34968,7 +34968,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR017")
+					(reference "#PWR0507")
 					(unit 1)
 				)
 			)
@@ -35074,7 +35074,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 216.2048 64.77 0)
 			(effects
 				(font
@@ -35143,7 +35143,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 200.9648 118.11 0)
 			(effects
 				(font
@@ -35194,7 +35194,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "835663ea-58a8-4610-8f52-34b48938ec44")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR0541"
 			(at 226.06 207.01 0)
 			(effects
 				(font
@@ -35245,7 +35245,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR056")
+					(reference "#PWR0541")
 					(unit 1)
 				)
 			)
@@ -35278,7 +35278,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 368.6048 100.33 0)
 			(effects
 				(font
@@ -35329,7 +35329,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85259abd-81cc-44d9-bcc3-0da2d22c836b")
-		(property "Reference" "C108"
+		(property "Reference" "C84"
 			(at 98.298 31.496 90)
 			(effects
 				(font
@@ -35383,7 +35383,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "C108")
+					(reference "C84")
 					(unit 1)
 				)
 			)
@@ -35398,7 +35398,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "86b93ded-cfea-4d5c-b23f-7831e7a40e53")
-		(property "Reference" "TP30"
+		(property "Reference" "TP24"
 			(at 42.164 248.666 0)
 			(effects
 				(font
@@ -35416,7 +35416,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 38.1 246.38 0)
 			(effects
 				(font
@@ -35449,7 +35449,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP30")
+					(reference "TP24")
 					(unit 1)
 				)
 			)
@@ -35464,7 +35464,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "86f287c8-cad1-43d2-94cb-348577ac5cc3")
-		(property "Reference" "R5"
+		(property "Reference" "R14"
 			(at 225.298 180.086 90)
 			(effects
 				(font
@@ -35480,7 +35480,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 223.52 179.578 90)
 			(effects
 				(font
@@ -35516,7 +35516,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "R5")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -35531,7 +35531,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "87fb3388-1601-4360-a623-1838896f8ea4")
-		(property "Reference" "TP21"
+		(property "Reference" "TP19"
 			(at 133.35 234.95 90)
 			(effects
 				(font
@@ -35548,7 +35548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 139.7 229.87 0)
 			(effects
 				(font
@@ -35581,7 +35581,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP21")
+					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -35596,7 +35596,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8897d6a6-f60d-409b-8929-4d2a3e1599c3")
-		(property "Reference" "R11"
+		(property "Reference" "R17"
 			(at 370.078 180.086 90)
 			(effects
 				(font
@@ -35612,7 +35612,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 368.3 179.578 90)
 			(effects
 				(font
@@ -35648,7 +35648,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "R11")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -35681,7 +35681,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 216.2048 82.55 0)
 			(effects
 				(font
@@ -35750,7 +35750,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 399.0848 135.89 0)
 			(effects
 				(font
@@ -35819,7 +35819,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 292.4048 135.89 0)
 			(effects
 				(font
@@ -35871,7 +35871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b5c7661-5e5f-4610-90b0-fc03321f28c3")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR0554"
 			(at 240.03 222.25 0)
 			(effects
 				(font
@@ -35921,7 +35921,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR043")
+					(reference "#PWR0554")
 					(unit 1)
 				)
 			)
@@ -36003,7 +36003,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8bd9e336-9ea5-4afe-94bb-ce224f5031f7")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR0127"
 			(at 148.59 259.08 0)
 			(effects
 				(font
@@ -36053,7 +36053,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR036")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -36068,7 +36068,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c1ab15d-8a98-4bc7-888c-32378a2548fc")
-		(property "Reference" "R6"
+		(property "Reference" "R3"
 			(at 130.302 51.054 90)
 			(effects
 				(font
@@ -36120,7 +36120,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "R6")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -36153,7 +36153,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 277.1648 118.11 0)
 			(effects
 				(font
@@ -36295,7 +36295,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 200.9648 100.33 0)
 			(effects
 				(font
@@ -36346,7 +36346,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "921091bf-c028-4cec-a2d3-3407f689f30b")
-		(property "Reference" "TP32"
+		(property "Reference" "TP38"
 			(at 322.58 187.452 0)
 			(effects
 				(font
@@ -36364,7 +36364,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 318.77 184.15 0)
 			(effects
 				(font
@@ -36397,7 +36397,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP32")
+					(reference "TP38")
 					(unit 1)
 				)
 			)
@@ -36710,7 +36710,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 216.2048 100.33 0)
 			(effects
 				(font
@@ -36966,7 +36966,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "94dd18f9-ecec-4e86-a568-a5396a74e40e")
-		(property "Reference" "SW1"
+		(property "Reference" "SW3"
 			(at 340.106 22.86 0)
 			(effects
 				(font
@@ -37021,7 +37021,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "SW1")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -37176,7 +37176,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9659b1ac-40e1-423a-9c3f-75adaba50129")
-		(property "Reference" "TP17"
+		(property "Reference" "TP15"
 			(at 133.35 227.33 90)
 			(effects
 				(font
@@ -37193,7 +37193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 139.7 222.25 0)
 			(effects
 				(font
@@ -37226,7 +37226,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP17")
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -37241,7 +37241,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "97373748-73cc-4c08-9e63-d31bd3593b24")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR0116"
 			(at 44.45 113.03 0)
 			(effects
 				(font
@@ -37291,7 +37291,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR073")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -37324,7 +37324,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 216.2048 135.89 0)
 			(effects
 				(font
@@ -37375,7 +37375,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9848ad01-e67c-4a67-9d5b-7f3bd5fb6078")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR0538"
 			(at 364.49 181.61 0)
 			(effects
 				(font
@@ -37425,7 +37425,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR064")
+					(reference "#PWR0538")
 					(unit 1)
 				)
 			)
@@ -37440,7 +37440,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "988a8048-3986-4300-8760-a342d1a556de")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR0503"
 			(at 387.35 22.86 0)
 			(effects
 				(font
@@ -37490,7 +37490,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR023")
+					(reference "#PWR0503")
 					(unit 1)
 				)
 			)
@@ -37572,7 +37572,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99ac771b-0744-4273-b570-540ce0612ed4")
-		(property "Reference" "C111"
+		(property "Reference" "C93"
 			(at 39.751 174.0916 0)
 			(effects
 				(font
@@ -37626,7 +37626,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "C111")
+					(reference "C93")
 					(unit 1)
 				)
 			)
@@ -37765,7 +37765,7 @@
 			)
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR03")
+					(reference "#PWR0551")
 					(unit 1)
 				)
 			)
@@ -37780,7 +37780,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b3ea97a-9871-4817-ae5c-29c03af25b15")
-		(property "Reference" "TP27"
+		(property "Reference" "TP21"
 			(at 52.832 234.95 0)
 			(effects
 				(font
@@ -37798,7 +37798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 57.15 238.76 0)
 			(effects
 				(font
@@ -37831,7 +37831,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP27")
+					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -37846,7 +37846,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c31e783-87a0-4340-aab6-740289d3abf1")
-		(property "Reference" "C112"
+		(property "Reference" "C87"
 			(at 110.998 31.496 90)
 			(effects
 				(font
@@ -37900,7 +37900,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "C112")
+					(reference "C87")
 					(unit 1)
 				)
 			)
@@ -37915,7 +37915,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d034407-018e-4920-b328-ce4baf1fb290")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR0126"
 			(at 46.99 219.71 0)
 			(effects
 				(font
@@ -37965,7 +37965,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR065")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -38115,7 +38115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f232bb6-33ba-452f-8ef2-953b29daae7c")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR0556"
 			(at 323.85 222.25 0)
 			(effects
 				(font
@@ -38165,7 +38165,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR050")
+					(reference "#PWR0556")
 					(unit 1)
 				)
 			)
@@ -38180,7 +38180,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f805248-cba7-41d6-859a-c25d2e4712a5")
-		(property "Reference" "TP37"
+		(property "Reference" "TP34"
 			(at 331.724 32.004 0)
 			(effects
 				(font
@@ -38198,7 +38198,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 327.66 29.21 0)
 			(effects
 				(font
@@ -38231,7 +38231,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP37")
+					(reference "TP34")
 					(unit 1)
 				)
 			)
@@ -38246,7 +38246,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f96288b-33ef-4613-ab8d-0e6afdcc89c5")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 106.172 184.658 0)
 			(effects
 				(font
@@ -38264,7 +38264,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RP2350_80QFN_minimal:RP2350-QFN-80-1EP_10x10_P0.4mm_EP3.4x3.4mm_ThermalVias"
+		(property "Footprint" "CustomKeyboardLibrary:RP2350-QFN-80-1EP_10x10_P0.4mm_EP3.4x3.4mm_ThermalVias"
 			(at 71.12 88.9 0)
 			(effects
 				(font
@@ -38537,7 +38537,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "U3")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -38570,7 +38570,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 399.0848 82.55 0)
 			(effects
 				(font
@@ -38639,7 +38639,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 277.1648 100.33 0)
 			(effects
 				(font
@@ -38763,7 +38763,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3428b23-11ff-4a9e-a23b-de07bdfb1b69")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR0530"
 			(at 284.48 166.37 0)
 			(effects
 				(font
@@ -38814,7 +38814,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR046")
+					(reference "#PWR0530")
 					(unit 1)
 				)
 			)
@@ -38975,7 +38975,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a6ee21c3-3b62-4b70-8f0a-8a0ce95c9c0b")
-		(property "Reference" "C102"
+		(property "Reference" "C94"
 			(at 104.648 210.566 90)
 			(effects
 				(font
@@ -38993,7 +38993,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 116.84 211.1248 0)
 			(effects
 				(font
@@ -39029,7 +39029,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "C102")
+					(reference "C94")
 					(unit 1)
 				)
 			)
@@ -39135,7 +39135,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 353.3648 135.89 0)
 			(effects
 				(font
@@ -39332,7 +39332,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aadf3078-94e8-46a6-aaee-b4555db5182a")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR0537"
 			(at 316.23 181.61 0)
 			(effects
 				(font
@@ -39382,7 +39382,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR063")
+					(reference "#PWR0537")
 					(unit 1)
 				)
 			)
@@ -39543,7 +39543,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ac85d439-b871-4f7a-8971-2674a3419f1a")
-		(property "Reference" "C97"
+		(property "Reference" "C89"
 			(at 18.796 52.578 0)
 			(effects
 				(font
@@ -39561,7 +39561,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RP2350_80QFN_minimal:C_0402_1005Metric_small_pads"
+		(property "Footprint" "CustomKeyboardLibrary:C_0402_1005Metric_small_pads"
 			(at 23.8252 58.42 0)
 			(effects
 				(font
@@ -39597,7 +39597,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "C97")
+					(reference "C89")
 					(unit 1)
 				)
 			)
@@ -39612,7 +39612,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad5bb510-3d63-4bb3-b648-2f51dc926521")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR0101"
 			(at 22.86 231.14 0)
 			(effects
 				(font
@@ -39662,7 +39662,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR018")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -39677,7 +39677,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aea7940e-e0a6-4d9a-9183-424aa5d26730")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR0102"
 			(at 24.13 283.21 0)
 			(effects
 				(font
@@ -39727,7 +39727,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR06")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -39760,7 +39760,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 277.1648 82.55 0)
 			(effects
 				(font
@@ -39829,7 +39829,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 231.4448 82.55 0)
 			(effects
 				(font
@@ -40007,7 +40007,7 @@
 			)
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "U2")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -40022,7 +40022,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b043e74d-e1df-4507-82cf-2c871e4d8bf1")
-		(property "Reference" "C81"
+		(property "Reference" "C79"
 			(at 79.248 31.496 90)
 			(effects
 				(font
@@ -40076,7 +40076,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "C81")
+					(reference "C79")
 					(unit 1)
 				)
 			)
@@ -40164,7 +40164,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b1286c3c-25b4-45fa-868c-e8893e4be2e7")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR0125"
 			(at 90.17 191.77 0)
 			(effects
 				(font
@@ -40214,7 +40214,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR074")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -40229,7 +40229,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b1804570-ead0-45cc-93a2-e09ad52afcab")
-		(property "Reference" "R15"
+		(property "Reference" "R7"
 			(at 45.72 241.3 90)
 			(effects
 				(font
@@ -40245,7 +40245,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CustomKeyboardLibrary:SN74AHCT125PWR"
 			(at 46.99 245.618 90)
 			(effects
 				(font
@@ -40281,7 +40281,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "R15")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -40296,7 +40296,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b216420b-b638-498a-8549-fd2f659df5d7")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR0122"
 			(at 43.18 242.57 0)
 			(effects
 				(font
@@ -40346,7 +40346,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR010")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -40379,7 +40379,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 368.6048 64.77 0)
 			(effects
 				(font
@@ -40448,7 +40448,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 292.4048 64.77 0)
 			(effects
 				(font
@@ -40645,7 +40645,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b34ac741-e3e0-42d8-8acb-4bd020aecaea")
-		(property "Reference" "TP22"
+		(property "Reference" "TP20"
 			(at 133.35 237.49 90)
 			(effects
 				(font
@@ -40662,7 +40662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 139.7 232.41 0)
 			(effects
 				(font
@@ -40695,7 +40695,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP22")
+					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -40862,7 +40862,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 200.9648 82.55 0)
 			(effects
 				(font
@@ -40931,7 +40931,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 338.1248 135.89 0)
 			(effects
 				(font
@@ -40982,7 +40982,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5a6b7b3-9832-428f-8921-2a8b3df881f2")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR0502"
 			(at 298.45 21.59 0)
 			(effects
 				(font
@@ -41032,7 +41032,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR024")
+					(reference "#PWR0502")
 					(unit 1)
 				)
 			)
@@ -41205,7 +41205,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RP2350_80QFN_minimal:L_pol_2016"
+		(property "Footprint" "CustomKeyboardLibrary:L_pol_2016"
 			(at 34.29 53.34 0)
 			(effects
 				(font
@@ -41257,7 +41257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8bb19c0-a303-4850-a80d-1ada36dba559")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR0555"
 			(at 288.29 222.25 0)
 			(effects
 				(font
@@ -41307,7 +41307,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR049")
+					(reference "#PWR0555")
 					(unit 1)
 				)
 			)
@@ -41322,7 +41322,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b8c5b300-245b-4bb7-aeb7-35c5ce560c09")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR0508"
 			(at 388.62 40.64 0)
 			(effects
 				(font
@@ -41372,7 +41372,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR068")
+					(reference "#PWR0508")
 					(unit 1)
 				)
 			)
@@ -41472,7 +41472,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 231.4448 100.33 0)
 			(effects
 				(font
@@ -41590,7 +41590,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bdc9827f-533a-483a-9b79-cf8fe0f53b3f")
-		(property "Reference" "C78"
+		(property "Reference" "C76"
 			(at 47.244 27.178 0)
 			(effects
 				(font
@@ -41644,7 +41644,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "C78")
+					(reference "C76")
 					(unit 1)
 				)
 			)
@@ -41659,7 +41659,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be98887a-0f3f-44ba-9177-ec6eb9f3db5b")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR0109"
 			(at 151.13 238.76 0)
 			(effects
 				(font
@@ -41709,7 +41709,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR038")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -41724,7 +41724,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bf9e94f4-7fa0-46d8-a480-37024c8d22ed")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR0117"
 			(at 40.64 101.6 0)
 			(effects
 				(font
@@ -41774,7 +41774,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR029")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -41789,7 +41789,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c072112b-b8d9-4585-b717-3fbde644d767")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR0532"
 			(at 381 166.37 0)
 			(effects
 				(font
@@ -41840,7 +41840,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR053")
+					(reference "#PWR0532")
 					(unit 1)
 				)
 			)
@@ -42019,7 +42019,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 307.6448 135.89 0)
 			(effects
 				(font
@@ -42070,7 +42070,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c2673f45-7450-4718-be5b-9533014bbd6d")
-		(property "Reference" "C76"
+		(property "Reference" "C95"
 			(at 16.002 219.71 0)
 			(effects
 				(font
@@ -42124,7 +42124,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "C76")
+					(reference "C95")
 					(unit 1)
 				)
 			)
@@ -42157,7 +42157,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 292.4048 118.11 0)
 			(effects
 				(font
@@ -42299,7 +42299,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 185.7248 135.89 0)
 			(effects
 				(font
@@ -42350,7 +42350,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c7e109fc-3031-433a-86bc-9f2faebdabf2")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR0113"
 			(at 109.22 218.44 0)
 			(effects
 				(font
@@ -42400,7 +42400,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR013")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -42415,7 +42415,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c8261ba1-1659-4fc0-9f17-32173d10eb85")
-		(property "Reference" "TP36"
+		(property "Reference" "TP33"
 			(at 328.93 20.32 0)
 			(effects
 				(font
@@ -42433,7 +42433,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 337.82 24.13 0)
 			(effects
 				(font
@@ -42466,7 +42466,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP36")
+					(reference "TP33")
 					(unit 1)
 				)
 			)
@@ -42481,7 +42481,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c8439987-1e26-4d27-a518-905a1bbc3097")
-		(property "Reference" "C110"
+		(property "Reference" "C86"
 			(at 103.378 31.496 90)
 			(effects
 				(font
@@ -42535,7 +42535,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "C110")
+					(reference "C86")
 					(unit 1)
 				)
 			)
@@ -42769,7 +42769,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca563333-1bef-4d62-8b62-c7e8e374df3e")
-		(property "Reference" "C96"
+		(property "Reference" "C88"
 			(at 46.99 42.672 0)
 			(effects
 				(font
@@ -42823,7 +42823,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "C96")
+					(reference "C88")
 					(unit 1)
 				)
 			)
@@ -42838,7 +42838,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca7022c3-6dc7-4e2b-8cc8-84256efd1518")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR0536"
 			(at 267.97 181.61 0)
 			(effects
 				(font
@@ -42888,7 +42888,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR062")
+					(reference "#PWR0536")
 					(unit 1)
 				)
 			)
@@ -42903,7 +42903,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc2fc0ea-49ed-48e3-886d-b24f135821a7")
-		(property "Reference" "C91"
+		(property "Reference" "C98"
 			(at 307.086 20.32 90)
 			(effects
 				(font
@@ -42921,7 +42921,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 307.0352 29.21 0)
 			(effects
 				(font
@@ -42957,7 +42957,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "C91")
+					(reference "C98")
 					(unit 1)
 				)
 			)
@@ -42972,7 +42972,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ccf70f62-49bd-4f77-9892-f257ac060adc")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR0531"
 			(at 332.74 166.37 0)
 			(effects
 				(font
@@ -43023,7 +43023,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR047")
+					(reference "#PWR0531")
 					(unit 1)
 				)
 			)
@@ -43105,7 +43105,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf020450-5f5f-4d8a-bce8-bb15085406a3")
-		(property "Reference" "C79"
+		(property "Reference" "C77"
 			(at 53.594 27.178 0)
 			(effects
 				(font
@@ -43159,7 +43159,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "C79")
+					(reference "C77")
 					(unit 1)
 				)
 			)
@@ -43444,7 +43444,7 @@
 			)
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR04")
+					(reference "#PWR0552")
 					(unit 1)
 				)
 			)
@@ -43593,7 +43593,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d2c55d24-622c-4cbe-9386-c77e09a1f7be")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR0120"
 			(at 19.05 101.6 0)
 			(effects
 				(font
@@ -43643,7 +43643,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR027")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -43676,7 +43676,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 200.9648 135.89 0)
 			(effects
 				(font
@@ -43727,7 +43727,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4280a13-fa0b-4876-83c1-0a51b51490fc")
-		(property "Reference" "TP39"
+		(property "Reference" "TP29"
 			(at 41.91 273.304 0)
 			(effects
 				(font
@@ -43745,7 +43745,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 38.1 269.24 0)
 			(effects
 				(font
@@ -43778,7 +43778,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP39")
+					(reference "TP29")
 					(unit 1)
 				)
 			)
@@ -43811,7 +43811,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 399.0848 118.11 0)
 			(effects
 				(font
@@ -43880,7 +43880,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 368.6048 82.55 0)
 			(effects
 				(font
@@ -43931,7 +43931,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d723633b-4788-4f10-9da0-e462e3a3623c")
-		(property "Reference" "R10"
+		(property "Reference" "R16"
 			(at 321.818 180.086 90)
 			(effects
 				(font
@@ -43947,7 +43947,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 320.04 179.578 90)
 			(effects
 				(font
@@ -43983,7 +43983,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "R10")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -44016,7 +44016,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 231.4448 118.11 0)
 			(effects
 				(font
@@ -44085,7 +44085,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 246.6848 135.89 0)
 			(effects
 				(font
@@ -44259,7 +44259,7 @@
 			)
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR014")
+					(reference "#PWR0511")
 					(unit 1)
 				)
 			)
@@ -44420,7 +44420,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc4165bf-c1be-4b7d-928d-411dc17c897c")
-		(property "Reference" "TP5"
+		(property "Reference" "TP7"
 			(at 132.08 208.28 90)
 			(effects
 				(font
@@ -44437,7 +44437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 138.43 203.2 0)
 			(effects
 				(font
@@ -44470,7 +44470,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP5")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -44848,7 +44848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "debc7650-0b7f-4c8a-b4e4-ac8faa755f8a")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR0553"
 			(at 227.33 222.25 0)
 			(effects
 				(font
@@ -44898,7 +44898,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR042")
+					(reference "#PWR0553")
 					(unit 1)
 				)
 			)
@@ -44931,7 +44931,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 261.9248 118.11 0)
 			(effects
 				(font
@@ -44983,7 +44983,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df50e3cc-b42a-4f8e-8b76-1ee165e67d9a")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR0110"
 			(at 151.13 243.84 0)
 			(effects
 				(font
@@ -45033,7 +45033,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR037")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -45133,7 +45133,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 292.4048 82.55 0)
 			(effects
 				(font
@@ -45202,7 +45202,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 322.8848 100.33 0)
 			(effects
 				(font
@@ -45253,7 +45253,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0c6bfd8-e7b6-4695-a2ba-b8177751d536")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR0111"
 			(at 99.06 260.35 0)
 			(effects
 				(font
@@ -45303,7 +45303,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR033")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -45336,7 +45336,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 261.9248 64.77 0)
 			(effects
 				(font
@@ -45387,7 +45387,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e143925c-dadb-4484-8d94-36103c97eea4")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR0104"
 			(at 22.86 220.98 0)
 			(effects
 				(font
@@ -45437,7 +45437,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR011")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -45665,7 +45665,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e3656ebb-269c-404f-af9d-c6db71900a8b")
-		(property "Reference" "C88"
+		(property "Reference" "C101"
 			(at 291.592 156.718 0)
 			(effects
 				(font
@@ -45683,7 +45683,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 287.3248 153.67 0)
 			(effects
 				(font
@@ -45719,7 +45719,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "C88")
+					(reference "C101")
 					(unit 1)
 				)
 			)
@@ -45752,7 +45752,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 307.6448 118.11 0)
 			(effects
 				(font
@@ -45803,7 +45803,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e4eeda42-2b37-4cea-af70-578250fd77cb")
-		(property "Reference" "C109"
+		(property "Reference" "C85"
 			(at 100.838 31.496 90)
 			(effects
 				(font
@@ -45857,7 +45857,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "C109")
+					(reference "C85")
 					(unit 1)
 				)
 			)
@@ -45880,7 +45880,7 @@
 				)
 			)
 		)
-		(property "Value" "MX_SK6812MINI-E"
+		(property "Value" "SK6812MINI-E"
 			(at 298.45 19.304 0)
 			(effects
 				(font
@@ -45888,7 +45888,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:LED_MX_6028R-ROT_Custom"
+		(property "Footprint" "CustomKeyboardLibrary:LED_6028R_Custom"
 			(at 298.45 25.4 0)
 			(effects
 				(font
@@ -45945,7 +45945,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e58b3415-ae56-4093-9a73-319084d83a14")
-		(property "Reference" "TP24"
+		(property "Reference" "TP4"
 			(at 55.372 87.63 0)
 			(effects
 				(font
@@ -45963,7 +45963,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 59.69 91.44 0)
 			(effects
 				(font
@@ -45996,7 +45996,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP24")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -46096,7 +46096,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 353.3648 64.77 0)
 			(effects
 				(font
@@ -46147,7 +46147,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e7530941-cbc5-4bd6-9d53-767b49d55cf9")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR0115"
 			(at 87.63 284.48 0)
 			(effects
 				(font
@@ -46197,7 +46197,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR032")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -46443,7 +46443,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 322.8848 135.89 0)
 			(effects
 				(font
@@ -46494,7 +46494,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e9e5cb1e-89f3-46fd-aed3-13167bad158c")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR0106"
 			(at 53.34 251.46 0)
 			(effects
 				(font
@@ -46544,7 +46544,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR07")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -46560,7 +46560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea57a71a-9374-454a-9787-43cf30aadbd3")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR0549"
 			(at 271.78 219.71 0)
 			(effects
 				(font
@@ -46610,7 +46610,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR048")
+					(reference "#PWR0549")
 					(unit 1)
 				)
 			)
@@ -46625,7 +46625,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea8c5886-7e29-4712-9d34-623252368160")
-		(property "Reference" "SW2"
+		(property "Reference" "SW1"
 			(at 143.51 248.666 0)
 			(effects
 				(font
@@ -46641,7 +46641,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
 			(at 143.51 247.65 0)
 			(effects
 				(font
@@ -46677,7 +46677,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -46759,7 +46759,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec196a8e-02d3-434f-8c1d-356810360de1")
-		(property "Reference" "TP8"
+		(property "Reference" "TP25"
 			(at 116.967 257.81 0)
 			(effects
 				(font
@@ -46777,7 +46777,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 121.285 261.62 0)
 			(effects
 				(font
@@ -46810,7 +46810,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP8")
+					(reference "TP25")
 					(unit 1)
 				)
 			)
@@ -46825,7 +46825,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "edd7fa33-67f8-4428-91bb-fd7cf5906421")
-		(property "Reference" "TP20"
+		(property "Reference" "TP6"
 			(at 56.642 105.41 0)
 			(effects
 				(font
@@ -46843,7 +46843,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 60.96 109.22 0)
 			(effects
 				(font
@@ -46876,7 +46876,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP20")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -46891,7 +46891,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee1da5a4-592b-4b81-8633-eb6c7619f492")
-		(property "Reference" "C106"
+		(property "Reference" "C82"
 			(at 93.218 31.496 90)
 			(effects
 				(font
@@ -46945,7 +46945,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "C106")
+					(reference "C82")
 					(unit 1)
 				)
 			)
@@ -46978,7 +46978,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 246.6848 64.77 0)
 			(effects
 				(font
@@ -47153,7 +47153,7 @@
 			)
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR05")
+					(reference "#PWR0528")
 					(unit 1)
 				)
 			)
@@ -47303,7 +47303,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f11e3c05-8e80-4043-9055-561bd41326c7")
-		(property "Reference" "R12"
+		(property "Reference" "R9"
 			(at 73.66 257.302 0)
 			(effects
 				(font
@@ -47357,7 +47357,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "R12")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -47372,7 +47372,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f136adfe-1bcc-4828-bdec-644f985a8512")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 34.29 207.01 0)
 			(effects
 				(font
@@ -47427,7 +47427,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -47442,7 +47442,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f21e438a-0c18-4495-8dc1-8d4a7bd894de")
-		(property "Reference" "R13"
+		(property "Reference" "R6"
 			(at 49.53 103.9622 90)
 			(effects
 				(font
@@ -47494,7 +47494,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "R13")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -47582,7 +47582,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3b45503-0c5e-44ef-ba1f-882e970b81a2")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR0522"
 			(at 167.64 151.13 0)
 			(effects
 				(font
@@ -47632,7 +47632,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR066")
+					(reference "#PWR0522")
 					(unit 1)
 				)
 			)
@@ -47854,7 +47854,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f55dbd1b-9a1a-451d-8d25-6c2a2584bf00")
-		(property "Reference" "C90"
+		(property "Reference" "C103"
 			(at 388.112 156.718 0)
 			(effects
 				(font
@@ -47872,7 +47872,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 383.8448 153.67 0)
 			(effects
 				(font
@@ -47908,7 +47908,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "C90")
+					(reference "C103")
 					(unit 1)
 				)
 			)
@@ -48136,7 +48136,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f92d945c-84b6-4543-bb54-10c822c442d9")
-		(property "Reference" "R9"
+		(property "Reference" "R15"
 			(at 273.558 180.086 90)
 			(effects
 				(font
@@ -48152,7 +48152,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 271.78 179.578 90)
 			(effects
 				(font
@@ -48188,7 +48188,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "R9")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -48203,7 +48203,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f97f468b-0cf2-4403-90a3-f352b0de9a64")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR0526"
 			(at 349.25 163.83 0)
 			(effects
 				(font
@@ -48253,7 +48253,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR045")
+					(reference "#PWR0526")
 					(unit 1)
 				)
 			)
@@ -48422,7 +48422,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 277.1648 64.77 0)
 			(effects
 				(font
@@ -48540,7 +48540,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb429a2e-3b64-4e8d-b913-4ff19f6e886e")
-		(property "Reference" "TP1"
+		(property "Reference" "TP11"
 			(at 40.894 211.074 0)
 			(effects
 				(font
@@ -48558,7 +48558,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 46.99 217.17 0)
 			(effects
 				(font
@@ -48591,7 +48591,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP1")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -48624,7 +48624,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 383.8448 135.89 0)
 			(effects
 				(font
@@ -48693,7 +48693,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 246.6848 100.33 0)
 			(effects
 				(font
@@ -48762,7 +48762,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 368.6048 118.11 0)
 			(effects
 				(font
@@ -48880,7 +48880,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ffd21005-006c-4e79-87dd-7d61de48c2d4")
-		(property "Reference" "C77"
+		(property "Reference" "C96"
 			(at 49.911 219.8116 0)
 			(effects
 				(font
@@ -48934,7 +48934,7 @@
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "C77")
+					(reference "C96")
 					(unit 1)
 				)
 			)
