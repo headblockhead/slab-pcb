@@ -1,5 +1,7 @@
 (sym_lib_table
   (version 7)
   (lib (name "CustomSymbols")(type "KiCad")(uri "${KIPRJMOD}/CustomSymbols.kicad_sym")(options "")(descr ""))
-  (lib (name "RP2350")(type "KiCad")(uri "${KIPRJMOD}/MCU_RaspberryPi_RP2350.kicad_sym")(options "")(descr ""))
+  (lib (name "RP2350_80")(type "KiCad")(uri "${KIPRJMOD}/MCU_RaspberryPi_RP2350_80.kicad_sym")(options "")(descr ""))
+  (lib (name "RP2350_60")(type "KiCad")(uri "${KIPRJMOD}/MCU_RaspberryPi_RP2350_60.kicad_sym")(options "")(descr ""))
+  (lib (name "RS45111A900F")(type "KiCad")(uri "${KIPRJMOD}/RS45111A900F.kicad_sym")(options "")(descr ""))
 )

@@ -11,16 +11,43 @@
 		(company "Edward Hesketh")
 	)
 	(lib_symbols
-		(symbol "+5V_2"
-			(power)
-			(pin_numbers hide)
+		(symbol "Analog_ADC:ADS1110"
 			(pin_names
-				(offset 0) hide)
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
+			(property "Reference" "U"
+				(at -7.62 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ADS1110"
+				(at 1.27 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+				(at 11.43 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ads1110.pdf"
+				(at -7.62 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -28,15 +55,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
+			(property "Description" "16 Bit Analog to Digital converter with on board reference"
 				(at 0 0 0)
 				(effects
 					(font
@@ -45,7 +64,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "ki_keywords" "16 Bit Analog to digital converter ADC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -54,7 +73,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -63,58 +82,24 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_2_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
+			(symbol "ADS1110_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+						(type background)
 					)
 				)
 			)
-			(symbol "+5V_2_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
+			(symbol "ADS1110_1_1"
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "VIN+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -122,6 +107,96 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "VIN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2291,6 +2366,167 @@
 				)
 			)
 		)
+		(symbol "Device:R_Potentiometer"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Potentiometer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:RotaryEncoder"
 			(pin_names
 				(offset 0.254) hide)
@@ -3083,6 +3319,108 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Memory_Flash:W25Q128JVS"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3715,7 +4053,7 @@
 				)
 			)
 		)
-		(symbol "RP2350:RP2350_80QFN"
+		(symbol "RP2350_60:RP2350_60QFN"
 			(pin_names
 				(offset 1.016)
 			)
@@ -3730,15 +4068,15 @@
 					)
 				)
 			)
-			(property "Value" "RP2350_80QFN"
-				(at 25.4 -96.52 0)
+			(property "Value" "RP2350_60QFN"
+				(at 24.13 -49.53 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "RP2350_80QFN_minimal:RP2350-QFN-80-1EP_10x10_P0.4mm_EP3.4x3.4mm_ThermalVias"
+			(property "Footprint" "RP2350_60QFN_minimal:RP2350-QFN-60-1EP_7x7_P0.4mm_EP3.4x3.4mm_ThermalVias"
 				(at -19.05 0 0)
 				(effects
 					(font
@@ -3765,7 +4103,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "RP2350_80QFN_0_0"
+			(symbol "RP2350_60QFN_0_0"
 				(text "Raspberry Pi"
 					(at 0 5.08 0)
 					(effects
@@ -3775,10 +4113,10 @@
 					)
 				)
 			)
-			(symbol "RP2350_80QFN_0_1"
+			(symbol "RP2350_60QFN_0_1"
 				(rectangle
-					(start -29.21 48.26)
-					(end 34.29 -93.98)
+					(start 29.21 48.26)
+					(end -29.21 -48.26)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3788,8 +4126,8 @@
 					)
 				)
 			)
-			(symbol "RP2350_80QFN_1_0"
-				(text "RP2350B QFN-80"
+			(symbol "RP2350_60QFN_1_0"
+				(text "RP2350A QFN-60"
 					(at 0 0 0)
 					(effects
 						(font
@@ -3798,11 +4136,11 @@
 					)
 				)
 			)
-			(symbol "RP2350_80QFN_1_1"
-				(pin bidirectional line
-					(at 36.83 22.86 180)
+			(symbol "RP2350_60QFN_1_1"
+				(pin power_in line
+					(at 8.89 50.8 270)
 					(length 2.54)
-					(name "GPIO4"
+					(name "IOVDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3817,10 +4155,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -17.78 50.8 270)
+				(pin bidirectional line
+					(at 31.75 15.24 180)
 					(length 2.54)
-					(name "DVDD"
+					(name "GPIO7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3828,258 +4166,6 @@
 						)
 					)
 					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 36.83 2.54 180)
-					(length 2.54)
-					(name "GPIO12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 36.83 0 180)
-					(length 2.54)
-					(name "GPIO13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 36.83 -2.54 180)
-					(length 2.54)
-					(name "GPIO14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 36.83 -5.08 180)
-					(length 2.54)
-					(name "GPIO15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 8.89 50.8 270)
-					(length 2.54)
-					(name "IOVDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 36.83 -7.62 180)
-					(length 2.54)
-					(name "GPIO16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 36.83 -10.16 180)
-					(length 2.54)
-					(name "GPIO17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 36.83 -12.7 180)
-					(length 2.54)
-					(name "GPIO18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 36.83 -15.24 180)
-					(length 2.54)
-					(name "GPIO19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 36.83 20.32 180)
-					(length 2.54)
-					(name "GPIO5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 36.83 -17.78 180)
-					(length 2.54)
-					(name "GPIO20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 36.83 -20.32 180)
-					(length 2.54)
-					(name "GPIO21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 36.83 -22.86 180)
-					(length 2.54)
-					(name "GPIO22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 36.83 -25.4 180)
-					(length 2.54)
-					(name "GPIO23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4097,7 +4183,7 @@
 							)
 						)
 					)
-					(number "24"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4106,16 +4192,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 36.83 -27.94 180)
+					(at 31.75 12.7 180)
 					(length 2.54)
-					(name "GPIO24"
+					(name "GPIO8"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "25"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4124,16 +4210,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 36.83 -30.48 180)
+					(at 31.75 10.16 180)
 					(length 2.54)
-					(name "GPIO25"
+					(name "GPIO9"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "26"
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4142,16 +4228,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 36.83 -33.02 180)
+					(at 31.75 7.62 180)
 					(length 2.54)
-					(name "GPIO26"
+					(name "GPIO10"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "27"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4160,34 +4246,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 36.83 -35.56 180)
+					(at 31.75 5.08 180)
 					(length 2.54)
-					(name "GPIO27"
+					(name "GPIO11"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 11.43 50.8 270)
-					(length 2.54)
-					(name "IOVDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4196,88 +4264,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 36.83 17.78 180)
+					(at 31.75 2.54 180)
 					(length 2.54)
-					(name "GPIO6"
+					(name "GPIO12"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -31.75 -2.54 0)
-					(length 2.54)
-					(name "XIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -31.75 -7.62 0)
-					(length 2.54)
-					(name "XOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -20.32 50.8 270)
-					(length 2.54)
-					(name "DVDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -31.75 -31.75 0)
-					(length 2.54)
-					(name "SWCLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "33"
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4286,34 +4282,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at -31.75 -34.29 0)
+					(at 31.75 0 180)
 					(length 2.54)
-					(name "SWD"
+					(name "GPIO13"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "34"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -31.75 -20.32 0)
-					(length 2.54)
-					(name "RUN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "35"
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4322,16 +4300,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 36.83 -38.1 180)
+					(at 31.75 -2.54 180)
 					(length 2.54)
-					(name "GPIO28"
+					(name "GPIO14"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "36"
+					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4340,16 +4318,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 36.83 -40.64 180)
+					(at 31.75 -5.08 180)
 					(length 2.54)
-					(name "GPIO29"
+					(name "GPIO15"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "37"
+					(number "19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4358,70 +4336,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 36.83 -43.18 180)
+					(at 31.75 33.02 180)
 					(length 2.54)
-					(name "GPIO30"
+					(name "GPIO0"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 36.83 -45.72 180)
-					(length 2.54)
-					(name "GPIO31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 36.83 15.24 180)
-					(length 2.54)
-					(name "GPIO7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 36.83 -48.26 180)
-					(length 2.54)
-					(name "GPIO32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "40"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4439,7 +4363,7 @@
 							)
 						)
 					)
-					(number "41"
+					(number "20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4447,17 +4371,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 36.83 -50.8 180)
+				(pin input line
+					(at -31.75 -2.54 0)
 					(length 2.54)
-					(name "GPIO33"
+					(name "XIN"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "42"
+					(number "21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4465,125 +4389,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 36.83 -53.34 180)
+				(pin passive line
+					(at -31.75 -7.62 0)
 					(length 2.54)
-					(name "GPIO34"
+					(name "XOUT"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "43"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 36.83 -55.88 180)
-					(length 2.54)
-					(name "GPIO35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "44"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 36.83 -58.42 180)
-					(length 2.54)
-					(name "GPIO36"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "45"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 36.83 -60.96 180)
-					(length 2.54)
-					(name "GPIO37"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "46"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 36.83 -63.5 180)
-					(length 2.54)
-					(name "GPIO38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "47"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 36.83 -66.04 180)
-					(length 2.54)
-					(name "GPIO39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "48"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 36.83 -71.12 180)
-					(length 2.54)
-					(name "GPIO40_ADC0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "49"
+					(number "22"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4592,16 +4408,142 @@
 					)
 				)
 				(pin power_in line
-					(at 13.97 50.8 270)
+					(at -20.32 50.8 270)
 					(length 2.54)
-					(name "IOVDD"
+					(name "DVDD"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -31.75 -31.75 0)
+					(length 2.54)
+					(name "SWCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -31.75 -34.29 0)
+					(length 2.54)
+					(name "SWD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -31.75 -20.32 0)
+					(length 2.54)
+					(name "RUN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 31.75 -7.62 180)
+					(length 2.54)
+					(name "GPIO16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 31.75 -10.16 180)
+					(length 2.54)
+					(name "GPIO17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 31.75 -12.7 180)
+					(length 2.54)
+					(name "GPIO18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 31.75 30.48 180)
+					(length 2.54)
+					(name "GPIO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4619,25 +4561,7 @@
 							)
 						)
 					)
-					(number "50"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -22.86 50.8 270)
-					(length 2.54)
-					(name "DVDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "51"
+					(number "30"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4646,16 +4570,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 36.83 -73.66 180)
+					(at 31.75 -15.24 180)
 					(length 2.54)
-					(name "GPIO41_ADC1"
+					(name "GPIO19"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "52"
+					(number "31"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4664,16 +4588,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 36.83 -76.2 180)
+					(at 31.75 -17.78 180)
 					(length 2.54)
-					(name "GPIO42_ADC2"
+					(name "GPIO20"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "53"
+					(number "32"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4682,16 +4606,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 36.83 -78.74 180)
+					(at 31.75 -20.32 180)
 					(length 2.54)
-					(name "GPIO43_ADC3"
+					(name "GPIO21"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "54"
+					(number "33"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4700,16 +4624,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 36.83 -81.28 180)
+					(at 31.75 -22.86 180)
 					(length 2.54)
-					(name "GPIO44_ADC4"
+					(name "GPIO22"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "55"
+					(number "34"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4718,16 +4642,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 36.83 -83.82 180)
+					(at 31.75 -25.4 180)
 					(length 2.54)
-					(name "GPIO45_ADC5"
+					(name "GPIO23"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "56"
+					(number "35"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4736,16 +4660,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 36.83 -86.36 180)
+					(at 31.75 -27.94 180)
 					(length 2.54)
-					(name "GPIO46_ADC6"
+					(name "GPIO24"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "57"
+					(number "36"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4754,52 +4678,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 36.83 -88.9 180)
+					(at 31.75 -30.48 180)
 					(length 2.54)
-					(name "GPIO47_ADC7"
+					(name "GPIO25"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "58"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 21.59 50.8 270)
-					(length 2.54)
-					(name "ADC_AVDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "59"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 36.83 12.7 180)
-					(length 2.54)
-					(name "GPIO8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
+					(number "37"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4817,7 +4705,7 @@
 							)
 						)
 					)
-					(number "60"
+					(number "38"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4826,16 +4714,106 @@
 					)
 				)
 				(pin power_in line
-					(at -31.75 39.37 0)
+					(at -22.86 50.8 270)
 					(length 2.54)
-					(name "VREG_AVDD"
+					(name "DVDD"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "61"
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 31.75 27.94 180)
+					(length 2.54)
+					(name "GPIO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 31.75 -35.56 180)
+					(length 2.54)
+					(name "GPIO26_ADC0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 31.75 -38.1 180)
+					(length 2.54)
+					(name "GPIO27_ADC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 31.75 -40.64 180)
+					(length 2.54)
+					(name "GPIO28_ADC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 31.75 -43.18 180)
+					(length 2.54)
+					(name "GPIO29_ADC3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4844,268 +4822,16 @@
 					)
 				)
 				(pin power_in line
-					(at -31.75 29.21 0)
+					(at 16.51 50.8 270)
 					(length 2.54)
-					(name "VREG_PGND"
+					(name "ADC_AVDD"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "62"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -31.75 31.75 0)
-					(length 2.54)
-					(name "VREG_LX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "63"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -31.75 36.83 0)
-					(length 2.54)
-					(name "VREG_VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "64"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -31.75 34.29 0)
-					(length 2.54)
-					(name "VREG_FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "65"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 36.83 40.64 180)
-					(length 2.54)
-					(name "USB_DM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "66"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 36.83 43.18 180)
-					(length 2.54)
-					(name "USB_DP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "67"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 50.8 270)
-					(length 2.54)
-					(name "USB_OTP_VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "68"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 50.8 270)
-					(length 2.54)
-					(name "QSPI_IOVDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "69"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 36.83 10.16 180)
-					(length 2.54)
-					(name "GPIO9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -31.75 10.16 0)
-					(length 2.54)
-					(name "QSPI_SD3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "70"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -31.75 6.35 0)
-					(length 2.54)
-					(name "QSPI_SCLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "71"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -31.75 17.78 0)
-					(length 2.54)
-					(name "QSPI_SD0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "72"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -31.75 12.7 0)
-					(length 2.54)
-					(name "QSPI_SD2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "73"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -31.75 15.24 0)
-					(length 2.54)
-					(name "QSPI_SD1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "74"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -31.75 21.59 0)
-					(length 2.54)
-					(name "QSPI_SS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "75"
+					(number "44"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5123,7 +4849,79 @@
 							)
 						)
 					)
-					(number "76"
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -31.75 39.37 0)
+					(length 2.54)
+					(name "VREG_AVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -31.75 29.21 0)
+					(length 2.54)
+					(name "VREG_PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -31.75 31.75 0)
+					(length 2.54)
+					(name "VREG_LX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -31.75 36.83 0)
+					(length 2.54)
+					(name "VREG_VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5132,16 +4930,34 @@
 					)
 				)
 				(pin bidirectional line
-					(at 36.83 33.02 180)
+					(at 31.75 25.4 180)
 					(length 2.54)
-					(name "GPIO0"
+					(name "GPIO3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "77"
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -31.75 34.29 0)
+					(length 2.54)
+					(name "VREG_FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "50"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5150,16 +4966,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 36.83 30.48 180)
+					(at 31.75 40.64 180)
 					(length 2.54)
-					(name "GPIO1"
+					(name "USB_DM"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "78"
+					(number "51"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5168,16 +4984,52 @@
 					)
 				)
 				(pin bidirectional line
-					(at 36.83 27.94 180)
+					(at 31.75 43.18 180)
 					(length 2.54)
-					(name "GPIO2"
+					(name "USB_DP"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "79"
+					(number "52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 50.8 270)
+					(length 2.54)
+					(name "USB_OTP_VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "53"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 50.8 270)
+					(length 2.54)
+					(name "QSPI_IOVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "54"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5186,9 +5038,171 @@
 					)
 				)
 				(pin bidirectional line
-					(at 36.83 7.62 180)
+					(at -31.75 10.16 0)
 					(length 2.54)
-					(name "GPIO10"
+					(name "QSPI_SD3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "55"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -31.75 6.35 0)
+					(length 2.54)
+					(name "QSPI_SCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "56"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -31.75 17.78 0)
+					(length 2.54)
+					(name "QSPI_SD0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "57"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -31.75 12.7 0)
+					(length 2.54)
+					(name "QSPI_SD2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "58"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -31.75 15.24 0)
+					(length 2.54)
+					(name "QSPI_SD1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "59"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 50.8 270)
+					(length 2.54)
+					(name "DVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -31.75 21.59 0)
+					(length 2.54)
+					(name "QSPI_SS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "60"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -50.8 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "61"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 31.75 22.86 180)
+					(length 2.54)
+					(name "GPIO4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 31.75 20.32 180)
+					(length 2.54)
+					(name "GPIO5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5204,45 +5218,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 36.83 25.4 180)
+					(at 31.75 17.78 180)
 					(length 2.54)
-					(name "GPIO3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "80"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -96.52 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "81"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 36.83 5.08 180)
-					(length 2.54)
-					(name "GPIO11"
+					(name "GPIO6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6299,6 +6277,12 @@
 		(uuid "0e666bfe-516d-4576-9ff5-02307c31d98d")
 	)
 	(junction
+		(at 106.68 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e869d8d-b865-4e1d-83ae-4b589950cae1")
+	)
+	(junction
 		(at 400.05 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6467,12 +6451,6 @@
 		(uuid "1f4cbbfb-4062-4f29-b8a9-1a51f87940c2")
 	)
 	(junction
-		(at 111.76 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1f84fb09-2fa1-4e17-95a4-47123aaca9c2")
-	)
-	(junction
 		(at 361.95 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6587,12 +6565,6 @@
 		(uuid "2a69f2f4-4d54-45e0-9022-7cadfb7328f6")
 	)
 	(junction
-		(at 101.6 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c270c8a-083b-4046-8c4c-a7606f149fc8")
-	)
-	(junction
 		(at 209.55 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6609,12 +6581,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2dfe9cb7-20ee-4ea0-b225-f51e4cf2291d")
-	)
-	(junction
-		(at 104.14 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2e893f8b-e4b7-4b77-a768-01a4aea74688")
 	)
 	(junction
 		(at 278.13 114.3)
@@ -7025,12 +6991,6 @@
 		(uuid "5757ad7b-1318-4b7c-8c6e-636a51d056d6")
 	)
 	(junction
-		(at 101.6 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "583395aa-029d-4ecf-9a21-650a2efd7408")
-	)
-	(junction
 		(at 180.34 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7061,22 +7021,16 @@
 		(uuid "5981d200-4f95-41c9-9839-09b438aa1669")
 	)
 	(junction
-		(at 43.18 238.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59829905-7524-4651-896f-24683f768efd")
-	)
-	(junction
 		(at 323.85 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a42722d-9f95-4ce2-91db-2d053f4bd7ad")
 	)
 	(junction
-		(at 41.91 217.17)
+		(at 49.53 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5a5f9e77-f0c9-4581-9cae-b69101364330")
+		(uuid "5aca2dd9-bf7e-4093-a85f-df13c67f72f7")
 	)
 	(junction
 		(at 278.13 78.74)
@@ -7187,6 +7141,12 @@
 		(uuid "62471263-fd19-4d0d-b5ec-0bb419aafc26")
 	)
 	(junction
+		(at 39.37 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63fc8501-a3d9-4549-a921-9b75079ec57d")
+	)
+	(junction
 		(at 384.81 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7245,12 +7205,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68f5d191-1607-4579-bbdf-4222a6740da8")
-	)
-	(junction
-		(at 107.95 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6923f512-6c91-4ea3-9d06-1ac8377920f1")
 	)
 	(junction
 		(at 236.22 19.05)
@@ -7493,12 +7447,6 @@
 		(uuid "818a977c-fad8-4158-8fcb-468163f32525")
 	)
 	(junction
-		(at 104.14 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81976249-82a6-4c0c-ac05-27e64d6d80ac")
-	)
-	(junction
 		(at 285.75 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7625,6 +7573,12 @@
 		(uuid "8dc6f2f3-2fb2-447e-a19e-344202849402")
 	)
 	(junction
+		(at 88.9 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8de29f8f-d095-4b43-98d1-9788e110e71a")
+	)
+	(junction
 		(at 72.39 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7745,6 +7699,12 @@
 		(uuid "97465260-e945-4eb8-9b4e-8da361cfb7c7")
 	)
 	(junction
+		(at 29.21 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "983ba7da-5afc-4e89-9f61-3b8972332f4a")
+	)
+	(junction
 		(at 224.79 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7773,6 +7733,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99e251a4-7d9c-40de-a6bd-ec47e04a416b")
+	)
+	(junction
+		(at 44.45 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a4e9763-7af8-4644-815d-7a4b6680c56b")
 	)
 	(junction
 		(at 166.37 111.76)
@@ -7883,6 +7849,12 @@
 		(uuid "a13d1a70-b8d3-4603-9d59-070ea0c23e48")
 	)
 	(junction
+		(at 102.87 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2c14bcb-a3ea-49af-8bc6-6fa7a2a51f53")
+	)
+	(junction
 		(at 243.84 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7985,6 +7957,12 @@
 		(uuid "ae9bfd51-2dcf-4819-a549-a9f60f963130")
 	)
 	(junction
+		(at 34.29 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af5fa58c-2dfd-487f-b36a-c8ebd760c7a0")
+	)
+	(junction
 		(at 175.26 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8043,6 +8021,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b48c2126-cf43-4f8f-8fbe-d82933b4a07b")
+	)
+	(junction
+		(at 24.13 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b586738a-5e51-46a2-bbad-60175ad42216")
 	)
 	(junction
 		(at 43.18 246.38)
@@ -8429,6 +8413,12 @@
 		(uuid "d955b22a-ab97-44f5-b029-43e44eca28d3")
 	)
 	(junction
+		(at 59.69 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9da15e7-55e8-4651-a027-c42a3325ec13")
+	)
+	(junction
 		(at 278.13 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8471,6 +8461,12 @@
 		(uuid "dcc85f11-12d3-4be2-a7fd-5cd71ef176b4")
 	)
 	(junction
+		(at 54.61 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcd82a51-9a3a-42b9-a684-82d35ada0777")
+	)
+	(junction
 		(at 217.17 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8507,6 +8503,12 @@
 		(uuid "de8072b3-a61c-4104-aa14-ccee546e6c43")
 	)
 	(junction
+		(at 68.58 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfc7789a-e0ce-46ca-b6ef-802acb1b6f4c")
+	)
+	(junction
 		(at 99.06 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8517,6 +8519,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4c7540a-20e6-4746-b9ec-aa19e9c18280")
+	)
+	(junction
+		(at 19.05 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e50d07c8-fd32-478e-a627-ed6888240527")
 	)
 	(junction
 		(at 285.75 114.3)
@@ -8559,6 +8567,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea0dc1b6-5c86-45e8-9cc2-c231dee3fb21")
+	)
+	(junction
+		(at 106.68 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea432d91-2718-4a06-8eb0-72550813ef3f")
 	)
 	(junction
 		(at 300.99 76.2)
@@ -8607,12 +8621,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed6d5351-5c21-4982-804b-ddc6a8c9f953")
-	)
-	(junction
-		(at 86.36 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ee6bf175-763c-48f1-a8a2-1fe5725c6cd0")
 	)
 	(junction
 		(at 54.61 96.52)
@@ -8673,12 +8681,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1df7159-f5a1-43f1-b154-3c191fb593c8")
-	)
-	(junction
-		(at 111.76 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f1e1cb48-fffd-4945-8d4c-581b2fc8e4d2")
 	)
 	(junction
 		(at 50.8 40.64)
@@ -8865,6 +8867,10 @@
 		(uuid "070aef25-bf66-4a54-804f-0f52d17f2b5b")
 	)
 	(no_connect
+		(at 43.18 266.7)
+		(uuid "19884e85-d07e-4e0d-8772-f7e67fd3b79f")
+	)
+	(no_connect
 		(at 116.84 227.33)
 		(uuid "20059355-97b6-4bd2-978e-874ae7841bf4")
 	)
@@ -8885,10 +8891,6 @@
 		(uuid "5afe8650-3ee3-48b7-a485-8211c32b2466")
 	)
 	(no_connect
-		(at 139.7 229.87)
-		(uuid "860ec368-b9f2-4b36-8376-932b7982f8c8")
-	)
-	(no_connect
 		(at 85.09 232.41)
 		(uuid "87c303ee-ff3b-4326-a9e8-acca89c2eef7")
 	)
@@ -8899,6 +8901,10 @@
 	(no_connect
 		(at 85.09 229.87)
 		(uuid "907d5441-5aeb-47e2-a8e0-9a7e7fb45a4e")
+	)
+	(no_connect
+		(at 43.18 269.24)
+		(uuid "9777f18d-93a8-444c-adb5-62359021ad8d")
 	)
 	(no_connect
 		(at 85.09 234.95)
@@ -8957,6 +8963,16 @@
 			(type default)
 		)
 		(uuid "00c52718-90ce-4f06-a48b-5144ff19f56e")
+	)
+	(wire
+		(pts
+			(xy 19.05 162.56) (xy 19.05 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0117b68d-7ec9-487e-83c9-226d2fc38649")
 	)
 	(wire
 		(pts
@@ -9130,16 +9146,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 36.83) (xy 104.14 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05876ae0-844f-4511-a209-32d23fb192d6")
-	)
-	(wire
-		(pts
 			(xy 354.33 111.76) (xy 361.95 111.76)
 		)
 		(stroke
@@ -9290,6 +9296,16 @@
 	)
 	(wire
 		(pts
+			(xy 19.05 161.29) (xy 24.13 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bd94ce9-9a76-4bd2-ba3d-9530f2ba7a5b")
+	)
+	(wire
+		(pts
 			(xy 346.71 147.32) (xy 354.33 147.32)
 		)
 		(stroke
@@ -9327,6 +9343,16 @@
 			(type default)
 		)
 		(uuid "0cbc4ab7-cafc-4946-801f-302004a5e475")
+	)
+	(wire
+		(pts
+			(xy 55.88 191.77) (xy 55.88 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d0cb973-d2ed-4eee-b1c4-c8d888c11962")
 	)
 	(wire
 		(pts
@@ -9630,16 +9656,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 238.76) (xy 43.18 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "154210bc-62c3-49b0-b986-0cf0c4e5293a")
-	)
-	(wire
-		(pts
 			(xy 247.65 82.55) (xy 247.65 78.74)
 		)
 		(stroke
@@ -9800,16 +9816,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 264.16) (xy 117.475 264.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19d1bbba-22bb-41e7-9b19-8d5c7d0b572e")
-	)
-	(wire
-		(pts
 			(xy 266.7 21.59) (xy 266.7 29.21)
 		)
 		(stroke
@@ -9860,7 +9866,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 81.28) (xy 127 81.28)
+			(xy 153.67 81.28) (xy 121.92 81.28)
 		)
 		(stroke
 			(width 0)
@@ -10560,6 +10566,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 161.29) (xy 39.37 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d941958-49fb-4ac5-9350-2dc9a79bc60e")
+	)
+	(wire
+		(pts
 			(xy 372.11 29.21) (xy 369.57 29.21)
 		)
 		(stroke
@@ -10740,7 +10756,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 58.42) (xy 127 58.42)
+			(xy 153.67 58.42) (xy 121.92 58.42)
 		)
 		(stroke
 			(width 0)
@@ -10760,7 +10776,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 63.5) (xy 127 63.5)
+			(xy 153.67 63.5) (xy 121.92 63.5)
 		)
 		(stroke
 			(width 0)
@@ -10850,7 +10866,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 48.26) (xy 149.86 48.26)
+			(xy 133.35 48.26) (xy 147.32 48.26)
 		)
 		(stroke
 			(width 0)
@@ -10940,7 +10956,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 73.66) (xy 127 73.66)
+			(xy 153.67 73.66) (xy 121.92 73.66)
 		)
 		(stroke
 			(width 0)
@@ -11560,16 +11576,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 26.67) (xy 119.38 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49b5ae54-060d-48d6-a005-c86504c3ab36")
-	)
-	(wire
-		(pts
 			(xy 308.61 118.11) (xy 308.61 114.3)
 		)
 		(stroke
@@ -11627,16 +11633,6 @@
 			(type default)
 		)
 		(uuid "4b41e99c-1bdf-4a54-b70d-a657f7714a82")
-	)
-	(wire
-		(pts
-			(xy 101.6 36.83) (xy 101.6 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c3c934b-e1d6-41c7-9783-08f80fc45b2a")
 	)
 	(wire
 		(pts
@@ -11800,7 +11796,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 60.96) (xy 127 60.96)
+			(xy 153.67 60.96) (xy 121.92 60.96)
 		)
 		(stroke
 			(width 0)
@@ -11810,7 +11806,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 45.72) (xy 147.32 45.72)
+			(xy 133.35 45.72) (xy 144.78 45.72)
 		)
 		(stroke
 			(width 0)
@@ -11847,16 +11843,6 @@
 			(type default)
 		)
 		(uuid "535e214b-0fd1-446d-8914-69a9d931e68e")
-	)
-	(wire
-		(pts
-			(xy 104.14 26.67) (xy 104.14 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "536151f9-f1d7-47d5-be2d-d9b2ef7eea8d")
 	)
 	(wire
 		(pts
@@ -11937,6 +11923,16 @@
 			(type default)
 		)
 		(uuid "56b70a39-e2ac-4865-ad20-78947c49b352")
+	)
+	(wire
+		(pts
+			(xy 49.53 161.29) (xy 54.61 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5726c2e8-a607-48ea-8ee7-e4614dd26540")
 	)
 	(wire
 		(pts
@@ -12050,7 +12046,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 78.74) (xy 127 78.74)
+			(xy 153.67 78.74) (xy 121.92 78.74)
 		)
 		(stroke
 			(width 0)
@@ -12117,6 +12113,16 @@
 			(type default)
 		)
 		(uuid "5f15b3f0-8001-4347-9ca9-ee52968bcd1b")
+	)
+	(wire
+		(pts
+			(xy 68.58 180.34) (xy 68.58 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f4896d5-2d28-48c2-b3a9-fb9b0ecc5506")
 	)
 	(wire
 		(pts
@@ -12240,16 +12246,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 269.24) (xy 114.935 269.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63eb19cb-6b2f-4078-9dc8-016cdef35abc")
-	)
-	(wire
-		(pts
 			(xy 96.52 26.67) (xy 99.06 26.67)
 		)
 		(stroke
@@ -12340,6 +12336,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 161.29) (xy 29.21 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66b38f62-1511-4b58-8949-ca5bc82bfea0")
+	)
+	(wire
+		(pts
 			(xy 278.13 60.96) (xy 285.75 60.96)
 		)
 		(stroke
@@ -12377,6 +12383,16 @@
 			(type default)
 		)
 		(uuid "675fcf29-c816-4f51-9b4b-1211c0cc5e8f")
+	)
+	(wire
+		(pts
+			(xy 29.21 161.29) (xy 34.29 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6760fd75-ef2c-4b65-bc5d-bb2348efcd93")
 	)
 	(wire
 		(pts
@@ -12450,7 +12466,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 66.04) (xy 127 66.04)
+			(xy 153.67 66.04) (xy 121.92 66.04)
 		)
 		(stroke
 			(width 0)
@@ -12570,6 +12586,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 269.24) (xy 114.3 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b87f5f0-80d7-4203-9c4e-0d18be9a445e")
+	)
+	(wire
+		(pts
 			(xy 354.33 118.11) (xy 354.33 114.3)
 		)
 		(stroke
@@ -12617,16 +12643,6 @@
 			(type default)
 		)
 		(uuid "6c4cc6aa-146d-45d3-94ba-9b0f3200f0cf")
-	)
-	(wire
-		(pts
-			(xy 101.6 38.1) (xy 104.14 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cb68782-d1d6-4cbc-b9e7-797d37a761c0")
 	)
 	(wire
 		(pts
@@ -12680,6 +12696,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 269.24) (xy 74.93 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6de450f2-e2a6-4be9-9fc6-e63a8546c0bb")
+	)
+	(wire
+		(pts
 			(xy 316.23 78.74) (xy 323.85 78.74)
 		)
 		(stroke
@@ -12700,7 +12726,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 55.88) (xy 127 55.88)
+			(xy 153.67 55.88) (xy 121.92 55.88)
 		)
 		(stroke
 			(width 0)
@@ -12767,16 +12793,6 @@
 			(type default)
 		)
 		(uuid "6f61e0d7-b0d4-4b42-ad09-8b6910849c2a")
-	)
-	(wire
-		(pts
-			(xy 107.95 38.1) (xy 111.76 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fb68056-c812-4f03-802a-ecfbf19e28ee")
 	)
 	(wire
 		(pts
@@ -13080,16 +13096,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 269.24) (xy 74.93 269.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "764d1fa2-dad5-4d86-a4b7-7fea1c53c44c")
-	)
-	(wire
-		(pts
 			(xy 308.61 93.98) (xy 316.23 93.98)
 		)
 		(stroke
@@ -13390,16 +13396,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 26.67) (xy 104.14 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f13f0fd-99b8-4caa-96c5-521dcb41b330")
-	)
-	(wire
-		(pts
 			(xy 198.12 21.59) (xy 198.12 29.21)
 		)
 		(stroke
@@ -13410,7 +13406,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 76.2) (xy 127 76.2)
+			(xy 153.67 76.2) (xy 121.92 76.2)
 		)
 		(stroke
 			(width 0)
@@ -13490,7 +13486,17 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 38.1) (xy 101.6 38.1)
+			(xy 100.33 261.62) (xy 114.3 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82278f2b-7bf1-43f3-bd4b-af0f5ffc2acb")
+	)
+	(wire
+		(pts
+			(xy 99.06 38.1) (xy 102.87 38.1)
 		)
 		(stroke
 			(width 0)
@@ -13550,6 +13556,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 161.29) (xy 44.45 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83acdb6d-d32a-4854-95d9-c11ff2afd81f")
+	)
+	(wire
+		(pts
 			(xy 354.33 76.2) (xy 361.95 76.2)
 		)
 		(stroke
@@ -13590,6 +13606,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 26.67) (xy 119.38 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8507364c-308d-48f1-9adf-913e4b6f12a5")
+	)
+	(wire
+		(pts
 			(xy 168.91 66.04) (xy 168.91 60.96)
 		)
 		(stroke
@@ -13600,7 +13626,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 26.67) (xy 91.44 26.67)
+			(xy 80.01 26.67) (xy 88.9 26.67)
 		)
 		(stroke
 			(width 0)
@@ -13727,6 +13753,16 @@
 			(type default)
 		)
 		(uuid "885c3145-7bb9-4238-8373-f2b89498e85f")
+	)
+	(wire
+		(pts
+			(xy 44.45 161.29) (xy 49.53 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8863e4b9-f8eb-4193-a636-0e5cfd7adb53")
 	)
 	(wire
 		(pts
@@ -13907,16 +13943,6 @@
 			(type default)
 		)
 		(uuid "8d949524-74af-4f59-89b9-08a98311c55c")
-	)
-	(wire
-		(pts
-			(xy 104.14 38.1) (xy 107.95 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d956f84-6436-4d90-aa10-6fcb324bafe5")
 	)
 	(wire
 		(pts
@@ -14400,7 +14426,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 68.58) (xy 127 68.58)
+			(xy 153.67 68.58) (xy 121.92 68.58)
 		)
 		(stroke
 			(width 0)
@@ -14590,7 +14616,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 45.72) (xy 127 45.72)
+			(xy 125.73 45.72) (xy 121.92 45.72)
 		)
 		(stroke
 			(width 0)
@@ -14600,7 +14626,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 26.67) (xy 86.36 29.21)
+			(xy 88.9 26.67) (xy 88.9 29.21)
 		)
 		(stroke
 			(width 0)
@@ -14850,7 +14876,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 26.67) (xy 101.6 26.67)
+			(xy 99.06 26.67) (xy 106.68 26.67)
 		)
 		(stroke
 			(width 0)
@@ -14920,7 +14946,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 96.52) (xy 127 96.52)
+			(xy 153.67 96.52) (xy 121.92 96.52)
 		)
 		(stroke
 			(width 0)
@@ -15260,6 +15286,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 26.67) (xy 91.44 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b08f3c53-9008-4539-bf31-f885f16e4990")
+	)
+	(wire
+		(pts
 			(xy 240.03 152.4) (xy 240.03 153.67)
 		)
 		(stroke
@@ -15440,16 +15476,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 261.62) (xy 116.205 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9e3fd69-b71e-4134-a0cd-f8bf80faf006")
-	)
-	(wire
-		(pts
 			(xy 369.57 114.3) (xy 377.19 114.3)
 		)
 		(stroke
@@ -15570,7 +15596,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 36.83) (xy 111.76 38.1)
+			(xy 106.68 36.83) (xy 106.68 38.1)
 		)
 		(stroke
 			(width 0)
@@ -15670,7 +15696,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 26.67) (xy 111.76 29.21)
+			(xy 106.68 26.67) (xy 106.68 29.21)
 		)
 		(stroke
 			(width 0)
@@ -15877,16 +15903,6 @@
 			(type default)
 		)
 		(uuid "cbbadf23-88ed-4516-b381-80a6da522edd")
-	)
-	(wire
-		(pts
-			(xy 101.6 26.67) (xy 101.6 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbbe812f-c562-4301-9b76-32258a1dfa48")
 	)
 	(wire
 		(pts
@@ -16350,6 +16366,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 264.16) (xy 114.3 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d84b7a25-6f9c-4710-a9c5-2bf00258ee75")
+	)
+	(wire
+		(pts
 			(xy 46.99 35.56) (xy 53.34 35.56)
 		)
 		(stroke
@@ -16390,7 +16416,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 71.12) (xy 127 71.12)
+			(xy 153.67 71.12) (xy 121.92 71.12)
 		)
 		(stroke
 			(width 0)
@@ -16417,6 +16443,26 @@
 			(type default)
 		)
 		(uuid "da7b5b91-2d22-4941-acdf-499a3528bbf3")
+	)
+	(wire
+		(pts
+			(xy 148.59 229.87) (xy 139.7 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da903c13-a3e5-4d21-a875-a10303c9076b")
+	)
+	(wire
+		(pts
+			(xy 59.69 161.29) (xy 64.77 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dae97979-8f59-488d-a471-df7c84d5cf3e")
 	)
 	(wire
 		(pts
@@ -16560,6 +16606,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 161.29) (xy 59.69 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dec61bb1-f064-4514-bd2a-37f078dde4b2")
+	)
+	(wire
+		(pts
 			(xy 308.61 60.96) (xy 316.23 60.96)
 		)
 		(stroke
@@ -16700,6 +16756,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 189.23) (xy 58.42 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2c5c3d7-ae3d-4b27-b4b2-55e9b2603c65")
+	)
+	(wire
+		(pts
 			(xy 250.19 57.15) (xy 248.92 57.15)
 		)
 		(stroke
@@ -16707,16 +16773,6 @@
 			(type default)
 		)
 		(uuid "e2cf3822-6e9e-45b4-be5e-f300551f334f")
-	)
-	(wire
-		(pts
-			(xy 104.14 26.67) (xy 111.76 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2d52692-5c9c-4a5a-95dd-729815578b27")
 	)
 	(wire
 		(pts
@@ -16747,16 +16803,6 @@
 			(type default)
 		)
 		(uuid "e4456f94-332e-4372-bfc6-52d8b6380307")
-	)
-	(wire
-		(pts
-			(xy 80.01 26.67) (xy 86.36 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e45803d3-9e51-4e00-b123-72d6964e8c51")
 	)
 	(wire
 		(pts
@@ -16827,6 +16873,16 @@
 			(type default)
 		)
 		(uuid "e6323312-64ba-4a69-ba89-99e379448e6c")
+	)
+	(wire
+		(pts
+			(xy 102.87 38.1) (xy 106.68 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e64d3cd9-125e-4f81-82f2-35a6af961b56")
 	)
 	(wire
 		(pts
@@ -17210,7 +17266,17 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 36.83) (xy 86.36 38.1)
+			(xy 58.42 199.39) (xy 58.42 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1da99c6-8a3a-4e69-92f4-fd1ae9fac09b")
+	)
+	(wire
+		(pts
+			(xy 88.9 36.83) (xy 88.9 38.1)
 		)
 		(stroke
 			(width 0)
@@ -17240,7 +17306,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 83.82) (xy 127 83.82)
+			(xy 153.67 83.82) (xy 121.92 83.82)
 		)
 		(stroke
 			(width 0)
@@ -17327,16 +17393,6 @@
 			(type default)
 		)
 		(uuid "f484a734-0bfd-46f7-a8e5-f992948786ae")
-	)
-	(wire
-		(pts
-			(xy 100.33 271.78) (xy 116.205 271.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4980cfd-1967-462e-b8b5-595b35e55506")
 	)
 	(wire
 		(pts
@@ -17600,6 +17656,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 191.77) (xy 55.88 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa2f781c-ae07-4a20-b3d6-aa5b845e96d9")
+	)
+	(wire
+		(pts
 			(xy 189.23 34.29) (xy 187.96 34.29)
 		)
 		(stroke
@@ -17607,6 +17673,16 @@
 			(type default)
 		)
 		(uuid "fa39760a-2024-41b1-9d97-34fab44bd82d")
+	)
+	(wire
+		(pts
+			(xy 100.33 271.78) (xy 114.3 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa40cd81-b3e5-402c-a3f4-b788b979554c")
 	)
 	(wire
 		(pts
@@ -17760,7 +17836,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 48.26) (xy 127 48.26)
+			(xy 125.73 48.26) (xy 121.92 48.26)
 		)
 		(stroke
 			(width 0)
@@ -17909,6 +17985,18 @@
 		(uuid 752011f2-a338-4eb5-b61d-246049d48a05)
 	)
 	(rectangle
+		(start 15.24 151.13)
+		(end 161.29 175.26)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8205024b-e902-46e3-b6f5-0d3b24e29ed7)
+	)
+	(rectangle
 		(start 285.75 13.97)
 		(end 354.33 38.1)
 		(stroke
@@ -17945,8 +18033,8 @@
 		(uuid 9e60e9a9-2028-40a0-b767-6df021fa500f)
 	)
 	(rectangle
-		(start 24.13 167.64)
-		(end 49.53 182.88)
+		(start 31.75 127)
+		(end 57.15 142.24)
 		(stroke
 			(width 0)
 			(type default)
@@ -17994,7 +18082,7 @@
 	)
 	(rectangle
 		(start 15.24 13.97)
-		(end 161.29 191.77)
+		(end 161.29 149.86)
 		(stroke
 			(width 0)
 			(type default)
@@ -18036,6 +18124,17 @@
 			(justify left)
 		)
 		(uuid "459f4a20-243f-43b6-aaae-fb5562f29c98")
+	)
+	(text "Hardware"
+		(exclude_from_sim no)
+		(at 13.97 175.768 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f2eba58-7a73-49c6-967a-46ccbf7b6fa7")
 	)
 	(text "IO Expanders"
 		(exclude_from_sim no)
@@ -18138,7 +18237,7 @@
 	)
 	(text "RP2350 Microcontroller"
 		(exclude_from_sim no)
-		(at 13.97 192.278 90)
+		(at 13.97 150.368 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18160,7 +18259,7 @@
 	)
 	(text "Main Capacitor"
 		(exclude_from_sim no)
-		(at 22.86 183.388 90)
+		(at 30.48 142.748 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18213,7 +18312,7 @@
 		)
 		(uuid "0376e370-e3be-48c1-a741-dee463347e5a")
 	)
-	(label "KEY68"
+	(label "~{KEY68}"
 		(at 227.33 57.15 90)
 		(fields_autoplaced yes)
 		(effects
@@ -18279,7 +18378,7 @@
 		)
 		(uuid "0ada5ad8-1a35-44ed-8ca0-0acb151c9008")
 	)
-	(label "KEY57"
+	(label "~{KEY57}"
 		(at 257.81 49.53 90)
 		(fields_autoplaced yes)
 		(effects
@@ -18302,7 +18401,7 @@
 		(uuid "0c16cd12-bb5e-4280-8996-735a4d5ead46")
 	)
 	(label "UART0_TX"
-		(at 158.75 55.88 180)
+		(at 153.67 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18312,7 +18411,7 @@
 		)
 		(uuid "0c58da67-d415-4bc6-96e5-3eb93b14a480")
 	)
-	(label "KEY48"
+	(label "~{KEY48}"
 		(at 189.23 49.53 90)
 		(fields_autoplaced yes)
 		(effects
@@ -18367,7 +18466,7 @@
 		)
 		(uuid "1039503a-9802-4139-afc6-645d914e60ef")
 	)
-	(label "KEY38"
+	(label "~{KEY38}"
 		(at 227.33 41.91 90)
 		(fields_autoplaced yes)
 		(effects
@@ -18378,7 +18477,7 @@
 		)
 		(uuid "10dfb857-4f36-49ca-8bed-66fde4247163")
 	)
-	(label "KEY64"
+	(label "~{KEY64}"
 		(at 196.85 57.15 90)
 		(fields_autoplaced yes)
 		(effects
@@ -18411,7 +18510,7 @@
 		)
 		(uuid "14cbc694-ecd6-4558-833e-cc90269c568c")
 	)
-	(label "BOOT"
+	(label "~{BOOT}"
 		(at 138.43 259.08 180)
 		(fields_autoplaced yes)
 		(effects
@@ -18433,7 +18532,7 @@
 		)
 		(uuid "1680a134-fd3b-48b3-895a-761faf99ecb0")
 	)
-	(label "KEY62"
+	(label "~{KEY62}"
 		(at 181.61 57.15 90)
 		(fields_autoplaced yes)
 		(effects
@@ -18444,7 +18543,7 @@
 		)
 		(uuid "184f6140-38fd-4f81-890d-9a8bb100686b")
 	)
-	(label "KEY55"
+	(label "~{KEY55}"
 		(at 242.57 49.53 90)
 		(fields_autoplaced yes)
 		(effects
@@ -18455,7 +18554,7 @@
 		)
 		(uuid "196b8f7a-5ed1-46ec-ad0c-3e93c67ca185")
 	)
-	(label "KEY11"
+	(label "~{KEY11}"
 		(at 250.19 26.67 90)
 		(fields_autoplaced yes)
 		(effects
@@ -18478,7 +18577,7 @@
 		(uuid "1cb74c1d-7182-4545-902d-e393d3e8dc25")
 	)
 	(label "USB_D-"
-		(at 146.05 48.26 180)
+		(at 143.51 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18499,7 +18598,7 @@
 		)
 		(uuid "1fb7607f-405f-4e72-9106-071f72434dee")
 	)
-	(label "KEY14"
+	(label "~{KEY14}"
 		(at 273.05 26.67 90)
 		(fields_autoplaced yes)
 		(effects
@@ -18532,7 +18631,7 @@
 		)
 		(uuid "225e8814-36af-4951-9079-11aa06e0c597")
 	)
-	(label "KEY44"
+	(label "~{KEY44}"
 		(at 273.05 41.91 90)
 		(fields_autoplaced yes)
 		(effects
@@ -18554,7 +18653,7 @@
 		)
 		(uuid "23471a08-67c7-4b9d-9a0a-9ac512fa16f3")
 	)
-	(label "KEY51"
+	(label "~{KEY51}"
 		(at 212.09 49.53 90)
 		(fields_autoplaced yes)
 		(effects
@@ -18587,7 +18686,7 @@
 		)
 		(uuid "26360050-c08a-493e-b5ab-7f85190e6786")
 	)
-	(label "KEY5"
+	(label "~{KEY5}"
 		(at 204.47 26.67 90)
 		(fields_autoplaced yes)
 		(effects
@@ -18598,7 +18697,7 @@
 		)
 		(uuid "26471630-6a3b-4cce-85d9-ddbeb40e77c7")
 	)
-	(label "KEY4"
+	(label "~{KEY4}"
 		(at 196.85 26.67 90)
 		(fields_autoplaced yes)
 		(effects
@@ -18631,7 +18730,7 @@
 		)
 		(uuid "29a15014-7199-46f8-b054-7bd936f628a2")
 	)
-	(label "KEY31"
+	(label "~{KEY31}"
 		(at 173.99 41.91 90)
 		(fields_autoplaced yes)
 		(effects
@@ -18642,7 +18741,7 @@
 		)
 		(uuid "2a6fbc19-2fea-4320-acf3-833002f4c24b")
 	)
-	(label "KEY21"
+	(label "~{KEY21}"
 		(at 212.09 34.29 90)
 		(fields_autoplaced yes)
 		(effects
@@ -18665,7 +18764,7 @@
 		(uuid "2cc01d97-8cfc-4818-b0af-f252a2cf11ee")
 	)
 	(label "UART0_RX"
-		(at 158.75 58.42 180)
+		(at 153.67 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18675,7 +18774,7 @@
 		)
 		(uuid "2e41b08e-0dec-4f58-900b-78717dcaee2c")
 	)
-	(label "KEY20"
+	(label "~{KEY20}"
 		(at 204.47 34.29 90)
 		(fields_autoplaced yes)
 		(effects
@@ -18708,7 +18807,7 @@
 		)
 		(uuid "31213ce4-c483-4200-8f2d-a4094f21beb0")
 	)
-	(label "KEY39"
+	(label "~{KEY39}"
 		(at 234.95 41.91 90)
 		(fields_autoplaced yes)
 		(effects
@@ -18719,7 +18818,7 @@
 		)
 		(uuid "31320dd6-849b-49a6-bde8-9f0749f3893c")
 	)
-	(label "KEY40"
+	(label "~{KEY40}"
 		(at 242.57 41.91 90)
 		(fields_autoplaced yes)
 		(effects
@@ -18752,7 +18851,7 @@
 		)
 		(uuid "31dee93a-7d3b-4158-86f9-dc8a66779125")
 	)
-	(label "USB_DM"
+	(label "USB_D-"
 		(at 45.72 252.73 0)
 		(fields_autoplaced yes)
 		(effects
@@ -18763,7 +18862,7 @@
 		)
 		(uuid "32394182-ddf5-4341-92bb-753d16610483")
 	)
-	(label "RESET"
+	(label "~{RESET}"
 		(at 45.72 113.03 0)
 		(fields_autoplaced yes)
 		(effects
@@ -18774,7 +18873,7 @@
 		)
 		(uuid "329ab195-e250-40a7-b31a-b13cd5139d65")
 	)
-	(label "KEY37"
+	(label "~{KEY37}"
 		(at 219.71 41.91 90)
 		(fields_autoplaced yes)
 		(effects
@@ -18785,7 +18884,7 @@
 		)
 		(uuid "350b2e6a-e602-4786-b518-f626aac3d87c")
 	)
-	(label "KEY8"
+	(label "~{KEY8}"
 		(at 227.33 26.67 90)
 		(fields_autoplaced yes)
 		(effects
@@ -18830,7 +18929,7 @@
 		(uuid "3cec760d-f17f-4f6e-8e06-4250824f4cf8")
 	)
 	(label "USB_D+"
-		(at 146.05 45.72 180)
+		(at 143.51 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18840,7 +18939,7 @@
 		)
 		(uuid "3d77328b-cfa8-47bd-a66f-ee250175bd27")
 	)
-	(label "KEY23"
+	(label "~{KEY23}"
 		(at 227.33 34.29 90)
 		(fields_autoplaced yes)
 		(effects
@@ -18873,7 +18972,7 @@
 		)
 		(uuid "41a4e786-6e98-4158-abe9-8cc86f0f5133")
 	)
-	(label "KEY32"
+	(label "~{KEY32}"
 		(at 181.61 41.91 90)
 		(fields_autoplaced yes)
 		(effects
@@ -18884,7 +18983,7 @@
 		)
 		(uuid "428f173a-fead-40bd-b64f-5a48d9488ed5")
 	)
-	(label "KEY22"
+	(label "~{KEY22}"
 		(at 219.71 34.29 90)
 		(fields_autoplaced yes)
 		(effects
@@ -18906,7 +19005,7 @@
 		)
 		(uuid "462e14ca-87c2-45b0-bdb2-7489b5f290e0")
 	)
-	(label "KEY73"
+	(label "~{KEY73}"
 		(at 265.43 57.15 90)
 		(fields_autoplaced yes)
 		(effects
@@ -18961,7 +19060,7 @@
 		)
 		(uuid "4b4d1b1d-3dab-44bd-8fdf-297f198b8eef")
 	)
-	(label "KEY42"
+	(label "~{KEY42}"
 		(at 257.81 41.91 90)
 		(fields_autoplaced yes)
 		(effects
@@ -18994,6 +19093,17 @@
 		)
 		(uuid "4bba7e62-b192-402f-b0ef-bfc5e20ebf23")
 	)
+	(label "I2C1_SCL"
+		(at 78.74 189.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d1b6b55-8b59-475e-8831-4257175f7c10")
+	)
 	(label "~{KEY26}"
 		(at 252.73 198.12 0)
 		(fields_autoplaced yes)
@@ -19016,7 +19126,7 @@
 		)
 		(uuid "4dd45f41-fadb-42ef-a9aa-0bc2213dd440")
 	)
-	(label "KEY50"
+	(label "~{KEY50}"
 		(at 204.47 49.53 90)
 		(fields_autoplaced yes)
 		(effects
@@ -19038,7 +19148,7 @@
 		)
 		(uuid "4ebf430b-a336-45ea-b163-3a2c649f220b")
 	)
-	(label "KEY30"
+	(label "~{KEY30}"
 		(at 280.67 34.29 90)
 		(fields_autoplaced yes)
 		(effects
@@ -19049,7 +19159,7 @@
 		)
 		(uuid "53b6f291-b691-47f1-b9f9-a1fe75587d12")
 	)
-	(label "KEY45"
+	(label "~{KEY45}"
 		(at 280.67 41.91 90)
 		(fields_autoplaced yes)
 		(effects
@@ -19071,7 +19181,7 @@
 		)
 		(uuid "5530dfd6-35de-43da-a694-376ccef1d841")
 	)
-	(label "KEY19"
+	(label "~{KEY19}"
 		(at 196.85 34.29 90)
 		(fields_autoplaced yes)
 		(effects
@@ -19082,7 +19192,7 @@
 		)
 		(uuid "56773edd-0c48-4562-88a0-e8eacbfb40aa")
 	)
-	(label "KEY53"
+	(label "~{KEY53}"
 		(at 227.33 49.53 90)
 		(fields_autoplaced yes)
 		(effects
@@ -19148,7 +19258,7 @@
 		)
 		(uuid "5a5b73d5-3f80-4bb1-a168-cbc39c32bd99")
 	)
-	(label "KEY34"
+	(label "~{KEY34}"
 		(at 196.85 41.91 90)
 		(fields_autoplaced yes)
 		(effects
@@ -19181,7 +19291,7 @@
 		)
 		(uuid "5e7f17e0-c923-466b-9583-f4522b75f531")
 	)
-	(label "KEY33"
+	(label "~{KEY33}"
 		(at 189.23 41.91 90)
 		(fields_autoplaced yes)
 		(effects
@@ -19192,7 +19302,7 @@
 		)
 		(uuid "5f624346-f335-4fcf-9aab-7831df540c75")
 	)
-	(label "KEY24"
+	(label "~{KEY24}"
 		(at 234.95 34.29 90)
 		(fields_autoplaced yes)
 		(effects
@@ -19236,7 +19346,7 @@
 		)
 		(uuid "614e4cff-ec25-4e85-b5f5-bcf6441daa96")
 	)
-	(label "KEY36"
+	(label "~{KEY36}"
 		(at 212.09 41.91 90)
 		(fields_autoplaced yes)
 		(effects
@@ -19280,7 +19390,7 @@
 		)
 		(uuid "69389ad8-efed-4dca-8622-909576aab2be")
 	)
-	(label "KEY66"
+	(label "~{KEY66}"
 		(at 212.09 57.15 90)
 		(fields_autoplaced yes)
 		(effects
@@ -19324,7 +19434,7 @@
 		)
 		(uuid "6d0e6f7c-61d5-4916-80df-431ac5316530")
 	)
-	(label "USB_DP"
+	(label "USB_D+"
 		(at 45.72 257.81 0)
 		(fields_autoplaced yes)
 		(effects
@@ -19335,7 +19445,7 @@
 		)
 		(uuid "6d2a3710-90dd-4fb8-a993-6092523d416c")
 	)
-	(label "KEY10"
+	(label "~{KEY10}"
 		(at 242.57 26.67 90)
 		(fields_autoplaced yes)
 		(effects
@@ -19401,7 +19511,7 @@
 		)
 		(uuid "71b3fcb1-3983-4b8b-b449-574c4b9582eb")
 	)
-	(label "KEY67"
+	(label "~{KEY67}"
 		(at 219.71 57.15 90)
 		(fields_autoplaced yes)
 		(effects
@@ -19423,7 +19533,7 @@
 		)
 		(uuid "78227579-1fca-4767-86d9-69148bd90447")
 	)
-	(label "RESET"
+	(label "~{RESET}"
 		(at 138.43 252.73 180)
 		(fields_autoplaced yes)
 		(effects
@@ -19445,7 +19555,7 @@
 		)
 		(uuid "7948a169-e332-4208-bffa-180706976903")
 	)
-	(label "KEY25"
+	(label "~{KEY25}"
 		(at 242.57 34.29 90)
 		(fields_autoplaced yes)
 		(effects
@@ -19489,7 +19599,7 @@
 		)
 		(uuid "7f441197-9f78-4325-8899-4d5035e633c4")
 	)
-	(label "KEY56"
+	(label "~{KEY56}"
 		(at 250.19 49.53 90)
 		(fields_autoplaced yes)
 		(effects
@@ -19501,7 +19611,7 @@
 		(uuid "7ffc7b3c-968e-45c9-b357-c1dec1ddbac8")
 	)
 	(label "ENCODER_B"
-		(at 158.75 63.5 180)
+		(at 153.67 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19512,7 +19622,7 @@
 		(uuid "80096343-dcab-41f9-a8e7-6d9af84bf0df")
 	)
 	(label "I2C1_SCL"
-		(at 158.75 68.58 180)
+		(at 153.67 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19544,7 +19654,7 @@
 		)
 		(uuid "81893d8b-11ff-4cbd-90c8-b71ed5121cf4")
 	)
-	(label "KEY12"
+	(label "~{KEY12}"
 		(at 257.81 26.67 90)
 		(fields_autoplaced yes)
 		(effects
@@ -19566,7 +19676,7 @@
 		)
 		(uuid "8418d0d8-81f8-4b1a-bc0c-4e0a33762892")
 	)
-	(label "KEY54"
+	(label "~{KEY54}"
 		(at 234.95 49.53 90)
 		(fields_autoplaced yes)
 		(effects
@@ -19578,7 +19688,7 @@
 		(uuid "84a1c421-2f35-432b-9396-4427a68d18c0")
 	)
 	(label "I2C1_SDA"
-		(at 158.75 66.04 180)
+		(at 153.67 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19588,7 +19698,7 @@
 		)
 		(uuid "84abe58d-69b8-4b70-99d5-6a44017e1b1f")
 	)
-	(label "KEY72"
+	(label "~{KEY72}"
 		(at 257.81 57.15 90)
 		(fields_autoplaced yes)
 		(effects
@@ -19610,7 +19720,7 @@
 		)
 		(uuid "878a3f2e-de95-4bfc-ae5d-d598edebef2d")
 	)
-	(label "KEY28"
+	(label "~{KEY28}"
 		(at 265.43 34.29 90)
 		(fields_autoplaced yes)
 		(effects
@@ -19622,7 +19732,7 @@
 		(uuid "88c5d526-aa6c-4b60-82ca-1e199f034234")
 	)
 	(label "BUZZER"
-		(at 158.75 96.52 180)
+		(at 153.67 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19632,7 +19742,7 @@
 		)
 		(uuid "8c6ffda2-231f-4e13-a2ae-64dfebb93c50")
 	)
-	(label "KEY60"
+	(label "~{KEY60}"
 		(at 280.67 49.53 90)
 		(fields_autoplaced yes)
 		(effects
@@ -19643,7 +19753,7 @@
 		)
 		(uuid "8d5b7a37-e2a2-49da-abf5-8722f61f522e")
 	)
-	(label "KEY6"
+	(label "~{KEY6}"
 		(at 212.09 26.67 90)
 		(fields_autoplaced yes)
 		(effects
@@ -19654,7 +19764,7 @@
 		)
 		(uuid "8de5d058-9726-456e-a6f3-2b9ad831d805")
 	)
-	(label "KEY18"
+	(label "~{KEY18}"
 		(at 189.23 34.29 90)
 		(fields_autoplaced yes)
 		(effects
@@ -19676,7 +19786,7 @@
 		)
 		(uuid "8fc0e8e9-58b1-4e11-be98-fa6ba6edbb6c")
 	)
-	(label "KEY27"
+	(label "~{KEY27}"
 		(at 257.81 34.29 90)
 		(fields_autoplaced yes)
 		(effects
@@ -19699,7 +19809,7 @@
 		(uuid "92b826b3-c7cb-4827-a0fc-3d9621cc4528")
 	)
 	(label "EXPANDER1_INT"
-		(at 158.75 73.66 180)
+		(at 153.67 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19720,7 +19830,7 @@
 		)
 		(uuid "95fc4bcd-f45c-4a59-add0-6414533fdc7f")
 	)
-	(label "KEY26"
+	(label "~{KEY26}"
 		(at 250.19 34.29 90)
 		(fields_autoplaced yes)
 		(effects
@@ -19731,7 +19841,7 @@
 		)
 		(uuid "97272a68-a6c5-4ebb-be7d-56ce0502cbd4")
 	)
-	(label "KEY35"
+	(label "~{KEY35}"
 		(at 204.47 41.91 90)
 		(fields_autoplaced yes)
 		(effects
@@ -19742,7 +19852,7 @@
 		)
 		(uuid "986aec82-4a00-4c24-837f-8fa51feb7ea0")
 	)
-	(label "KEY59"
+	(label "~{KEY59}"
 		(at 273.05 49.53 90)
 		(fields_autoplaced yes)
 		(effects
@@ -19797,7 +19907,7 @@
 		)
 		(uuid "9e9cb1e5-2ecd-4dd0-8c88-d0e49a35008d")
 	)
-	(label "KEY17"
+	(label "~{KEY17}"
 		(at 181.61 34.29 90)
 		(fields_autoplaced yes)
 		(effects
@@ -19808,7 +19918,7 @@
 		)
 		(uuid "9f842f19-2f6b-43b5-b1a5-be5faa0daa5f")
 	)
-	(label "KEY3"
+	(label "~{KEY3}"
 		(at 189.23 26.67 90)
 		(fields_autoplaced yes)
 		(effects
@@ -19841,7 +19951,7 @@
 		)
 		(uuid "a421498b-2174-40a1-9242-33f95f359d9a")
 	)
-	(label "KEY2"
+	(label "~{KEY2}"
 		(at 181.61 26.67 90)
 		(fields_autoplaced yes)
 		(effects
@@ -19874,6 +19984,17 @@
 		)
 		(uuid "a688b9f5-ae4e-4133-86c0-2804b4114617")
 	)
+	(label "I2C1_SDA"
+		(at 78.74 194.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a704763d-741e-4739-a7c8-67895ea0c12b")
+	)
 	(label "NEOPIXEL_SHIFTER_INPUT"
 		(at 85.09 224.79 180)
 		(fields_autoplaced yes)
@@ -19896,7 +20017,7 @@
 		)
 		(uuid "aa05b7ad-f66d-4e7f-b2ca-c1e6b7df5d4d")
 	)
-	(label "KEY65"
+	(label "~{KEY65}"
 		(at 204.47 57.15 90)
 		(fields_autoplaced yes)
 		(effects
@@ -19929,7 +20050,7 @@
 		)
 		(uuid "afdadb52-99a0-4382-85d4-3b549cd763b4")
 	)
-	(label "KEY70"
+	(label "~{KEY70}"
 		(at 242.57 57.15 90)
 		(fields_autoplaced yes)
 		(effects
@@ -19940,7 +20061,7 @@
 		)
 		(uuid "b09639c2-f9f1-43fa-ac9a-7daf129b2147")
 	)
-	(label "KEY49"
+	(label "~{KEY49}"
 		(at 196.85 49.53 90)
 		(fields_autoplaced yes)
 		(effects
@@ -19951,7 +20072,7 @@
 		)
 		(uuid "b0986fee-91bd-46e3-b15f-dead6aeb7955")
 	)
-	(label "KEY71"
+	(label "~{KEY71}"
 		(at 250.19 57.15 90)
 		(fields_autoplaced yes)
 		(effects
@@ -19984,7 +20105,7 @@
 		)
 		(uuid "b1d42f1b-1fba-468b-8bde-8a9d85d0521b")
 	)
-	(label "KEY46"
+	(label "~{KEY46}"
 		(at 173.99 49.53 90)
 		(fields_autoplaced yes)
 		(effects
@@ -20040,7 +20161,7 @@
 		(uuid "b6a7cf31-f9af-42ca-b03e-e785ff6c3ef9")
 	)
 	(label "EXPANDER5_INT"
-		(at 158.75 83.82 180)
+		(at 153.67 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20073,7 +20194,7 @@
 		(uuid "bb6d308e-631c-46af-a365-e68245700f81")
 	)
 	(label "ENCODER_A"
-		(at 158.75 60.96 180)
+		(at 153.67 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20117,7 +20238,7 @@
 		(uuid "bf8624cb-964f-4ffd-9fed-7603b65eaf68")
 	)
 	(label "EXPANDER4_INT"
-		(at 158.75 81.28 180)
+		(at 153.67 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20149,7 +20270,7 @@
 		)
 		(uuid "c480d120-ab9f-459e-90c5-59c7fb3753b3")
 	)
-	(label "KEY15"
+	(label "~{KEY15}"
 		(at 280.67 26.67 90)
 		(fields_autoplaced yes)
 		(effects
@@ -20160,7 +20281,7 @@
 		)
 		(uuid "c50a43f5-a0fa-4be2-994f-8620d4919eb5")
 	)
-	(label "KEY29"
+	(label "~{KEY29}"
 		(at 273.05 34.29 90)
 		(fields_autoplaced yes)
 		(effects
@@ -20193,7 +20314,7 @@
 		)
 		(uuid "ca6c4c86-a065-443d-a4f7-65ca309e7e76")
 	)
-	(label "KEY43"
+	(label "~{KEY43}"
 		(at 265.43 41.91 90)
 		(fields_autoplaced yes)
 		(effects
@@ -20204,7 +20325,7 @@
 		)
 		(uuid "cafba4df-0b5b-4fbe-86f2-50610f5ac7a5")
 	)
-	(label "KEY16"
+	(label "~{KEY16}"
 		(at 173.99 34.29 90)
 		(fields_autoplaced yes)
 		(effects
@@ -20282,7 +20403,7 @@
 		(uuid "d4dc8612-d803-4f10-bcd4-96e10f1a362e")
 	)
 	(label "NEOPIXEL_SHIFTER_INPUT"
-		(at 158.75 71.12 180)
+		(at 153.67 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20325,7 +20446,7 @@
 		)
 		(uuid "dbdd3fde-bbdb-482f-8f78-2a3625725734")
 	)
-	(label "KEY13"
+	(label "~{KEY13}"
 		(at 265.43 26.67 90)
 		(fields_autoplaced yes)
 		(effects
@@ -20336,7 +20457,7 @@
 		)
 		(uuid "dc788590-39fb-4528-92db-eb9414a6ec94")
 	)
-	(label "KEY41"
+	(label "~{KEY41}"
 		(at 250.19 41.91 90)
 		(fields_autoplaced yes)
 		(effects
@@ -20347,7 +20468,7 @@
 		)
 		(uuid "dd15ad72-db14-447a-9f90-aec4544e31a9")
 	)
-	(label "KEY52"
+	(label "~{KEY52}"
 		(at 219.71 49.53 90)
 		(fields_autoplaced yes)
 		(effects
@@ -20369,7 +20490,7 @@
 		)
 		(uuid "dfb41331-0061-4b4f-92c5-f30c187185e5")
 	)
-	(label "KEY63"
+	(label "~{KEY63}"
 		(at 189.23 57.15 90)
 		(fields_autoplaced yes)
 		(effects
@@ -20380,7 +20501,7 @@
 		)
 		(uuid "e44491cb-825c-472c-a5ff-2792eec9d540")
 	)
-	(label "KEY7"
+	(label "~{KEY7}"
 		(at 219.71 26.67 90)
 		(fields_autoplaced yes)
 		(effects
@@ -20391,7 +20512,7 @@
 		)
 		(uuid "e4f1e984-c2f4-4c02-b735-b192b87bc1d6")
 	)
-	(label "KEY58"
+	(label "~{KEY58}"
 		(at 265.43 49.53 90)
 		(fields_autoplaced yes)
 		(effects
@@ -20402,7 +20523,7 @@
 		)
 		(uuid "e71633ab-3ae6-42fd-ad11-6cc5a8799cfe")
 	)
-	(label "KEY9"
+	(label "~{KEY9}"
 		(at 234.95 26.67 90)
 		(fields_autoplaced yes)
 		(effects
@@ -20447,7 +20568,7 @@
 		(uuid "ea17f742-22bc-4627-9a4e-cbb9b648f5b5")
 	)
 	(label "EXPANDER2_INT"
-		(at 158.75 76.2 180)
+		(at 153.67 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20468,7 +20589,7 @@
 		)
 		(uuid "eb0242a7-5bdf-495c-ae9c-ee47fdd717e7")
 	)
-	(label "KEY75"
+	(label "~{KEY75}"
 		(at 280.67 57.15 90)
 		(fields_autoplaced yes)
 		(effects
@@ -20479,7 +20600,7 @@
 		)
 		(uuid "effbd040-d6a1-4648-8484-a1bbad25acfe")
 	)
-	(label "KEY47"
+	(label "~{KEY47}"
 		(at 181.61 49.53 90)
 		(fields_autoplaced yes)
 		(effects
@@ -20490,7 +20611,7 @@
 		)
 		(uuid "f06a0b5d-7e7f-47ad-837f-f7bf633683df")
 	)
-	(label "KEY69"
+	(label "~{KEY69}"
 		(at 234.95 57.15 90)
 		(fields_autoplaced yes)
 		(effects
@@ -20523,7 +20644,7 @@
 		)
 		(uuid "f3b08d21-22e0-4bb5-822c-051ec65c68f9")
 	)
-	(label "KEY61"
+	(label "~{KEY61}"
 		(at 173.99 57.15 90)
 		(fields_autoplaced yes)
 		(effects
@@ -20567,7 +20688,7 @@
 		)
 		(uuid "fb55c5db-a607-43c1-ab56-1f8b2b42b312")
 	)
-	(label "KEY74"
+	(label "~{KEY74}"
 		(at 273.05 57.15 90)
 		(fields_autoplaced yes)
 		(effects
@@ -20579,7 +20700,7 @@
 		(uuid "fc724f08-02ac-4123-b905-144196d4f7c8")
 	)
 	(label "EXPANDER3_INT"
-		(at 158.75 78.74 180)
+		(at 153.67 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20625,7 +20746,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 185.42 46.99 0)
 			(effects
 				(font
@@ -20693,7 +20814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 138.43 215.9 0)
 			(effects
 				(font
@@ -20826,7 +20947,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 383.8448 82.55 0)
 			(effects
 				(font
@@ -20968,7 +21089,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 292.4048 100.33 0)
 			(effects
 				(font
@@ -21103,7 +21224,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 216.2048 118.11 0)
 			(effects
 				(font
@@ -21172,7 +21293,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 338.1248 118.11 0)
 			(effects
 				(font
@@ -21239,7 +21360,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 193.04 39.37 0)
 			(effects
 				(font
@@ -21375,7 +21496,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 231.14 31.75 0)
 			(effects
 				(font
@@ -21484,6 +21605,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 72.39 180.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06c91cbc-ec2e-4b63-b105-df244cfb6f5b")
+		(property "Reference" "C85"
+			(at 70.866 177.292 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 73.406 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 68.58 181.3052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 72.39 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4dd9317e-c0fd-4449-8435-65e0044b8125")
+		)
+		(pin "2"
+			(uuid "4c6a5ed9-d546-4ab2-83fb-74e4ae44cfb8")
+		)
+		(instances
+			(project "Slab"
+				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
+					(reference "C85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 144.78 273.05 270)
 		(unit 1)
@@ -21510,7 +21700,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 144.78 271.272 90)
 			(effects
 				(font
@@ -21579,7 +21769,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 338.1248 82.55 0)
 			(effects
 				(font
@@ -21646,7 +21836,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 193.04 24.13 0)
 			(effects
 				(font
@@ -21683,72 +21873,6 @@
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
 					(reference "MX4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 62.23 269.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "07cd439c-e289-4653-b7aa-bd6d552aaf0f")
-		(property "Reference" "TP30"
-			(at 62.992 265.43 0)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "QSPI_SCLK"
-			(at 62.992 266.7 0)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 67.31 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 67.31 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 62.23 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "624b2d6f-b4e7-422a-8537-7d9b764d0348")
-		)
-		(instances
-			(project "Slab"
-				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP30")
 					(unit 1)
 				)
 			)
@@ -21918,7 +22042,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 177.8 46.99 0)
 			(effects
 				(font
@@ -21987,7 +22111,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 192.0748 153.67 0)
 			(effects
 				(font
@@ -22054,7 +22178,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 215.9 46.99 0)
 			(effects
 				(font
@@ -22123,7 +22247,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 322.8848 64.77 0)
 			(effects
 				(font
@@ -22326,7 +22450,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 353.3648 82.55 0)
 			(effects
 				(font
@@ -22466,7 +22590,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 238.76 46.99 0)
 			(effects
 				(font
@@ -22641,6 +22765,71 @@
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
 					(reference "#PWR0525")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "127649a1-0125-4459-81eb-20bb3cf8609b")
+		(property "Reference" "#PWR08"
+			(at 49.53 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 45.72 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1cf18884-f2e3-4624-9371-8fdcc2f9bfd8")
+		)
+		(instances
+			(project "Slab"
+				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -23017,7 +23206,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 261.9248 82.55 0)
 			(effects
 				(font
@@ -23125,6 +23314,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 49.53 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1435042c-08c5-40ca-80ec-bcc235ab63b7")
+		(property "Reference" "MP7"
+			(at 47.498 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 45.974 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 49.53 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 49.53 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a9b60e3-0b76-40c8-b71e-a24b319e484c")
+		)
+		(instances
+			(project "Slab"
+				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
+					(reference "MP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 139.7 232.41 90)
 		(unit 1)
@@ -23150,7 +23406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 139.7 227.33 0)
 			(effects
 				(font
@@ -23214,7 +23470,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 223.52 46.99 0)
 			(effects
 				(font
@@ -23282,7 +23538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 138.43 210.82 0)
 			(effects
 				(font
@@ -23482,7 +23738,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 193.04 31.75 0)
 			(effects
 				(font
@@ -23551,7 +23807,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 322.8848 82.55 0)
 			(effects
 				(font
@@ -23660,7 +23916,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 149.86 48.26 0)
+		(at 147.32 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23668,7 +23924,7 @@
 		(dnp no)
 		(uuid "17d14a33-eee9-49f7-bee2-70d8f706e820")
 		(property "Reference" "TP3"
-			(at 150.622 44.45 0)
+			(at 148.082 44.45 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -23677,7 +23933,7 @@
 			)
 		)
 		(property "Value" "USB_DM"
-			(at 150.622 45.72 0)
+			(at 148.082 45.72 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -23686,7 +23942,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 154.94 48.26 0)
+			(at 152.4 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23695,7 +23951,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 48.26 0)
+			(at 152.4 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23704,7 +23960,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 149.86 48.26 0)
+			(at 147.32 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23856,7 +24112,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 307.6448 82.55 0)
 			(effects
 				(font
@@ -23893,72 +24149,6 @@
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
 					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 227.33 184.15 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "191b0833-00b8-4709-ab2a-8bb9e5e65dc9")
-		(property "Reference" "TP36"
-			(at 226.06 187.452 0)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "EXP2_INT"
-			(at 228.346 188.976 0)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 222.25 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 222.25 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 227.33 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ef6d49cf-a233-44c8-8737-a647716e4c0f")
-		)
-		(instances
-			(project "Slab"
-				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP36")
 					(unit 1)
 				)
 			)
@@ -24104,7 +24294,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 147.32 45.72 0)
+		(at 144.78 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24112,7 +24302,7 @@
 		(dnp no)
 		(uuid "1b508c61-679a-4c78-9999-aa03ecb563be")
 		(property "Reference" "TP2"
-			(at 148.082 41.91 0)
+			(at 145.542 41.91 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -24121,7 +24311,7 @@
 			)
 		)
 		(property "Value" "USB_DP"
-			(at 148.082 43.18 0)
+			(at 145.542 43.18 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -24130,7 +24320,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 152.4 45.72 0)
+			(at 149.86 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24139,7 +24329,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 45.72 0)
+			(at 149.86 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24148,7 +24338,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 147.32 45.72 0)
+			(at 144.78 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24260,7 +24450,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 170.18 31.75 0)
 			(effects
 				(font
@@ -24400,7 +24590,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 238.76 54.61 0)
 			(effects
 				(font
@@ -24469,7 +24659,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 399.0848 100.33 0)
 			(effects
 				(font
@@ -24536,7 +24726,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 223.52 54.61 0)
 			(effects
 				(font
@@ -24603,7 +24793,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 231.14 46.99 0)
 			(effects
 				(font
@@ -24640,6 +24830,73 @@
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
 					(reference "MX54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 39.37 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20ccccad-2021-4fa3-937a-de689f45a004")
+		(property "Reference" "MP5"
+			(at 37.338 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 35.814 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 39.37 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 39.37 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2ffb690-2f43-4a32-bc3e-968c66f037e5")
+		)
+		(instances
+			(project "Slab"
+				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
+					(reference "MP5")
 					(unit 1)
 				)
 			)
@@ -24813,7 +25070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 138.43 213.36 0)
 			(effects
 				(font
@@ -24879,7 +25136,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 338.1248 64.77 0)
 			(effects
 				(font
@@ -24946,7 +25203,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 375.92 30.988 90)
 			(effects
 				(font
@@ -25013,7 +25270,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 223.52 31.75 0)
 			(effects
 				(font
@@ -25291,7 +25548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 200.66 39.37 0)
 			(effects
 				(font
@@ -25496,7 +25753,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 215.9 39.37 0)
 			(effects
 				(font
@@ -25700,7 +25957,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 261.62 54.61 0)
 			(effects
 				(font
@@ -25842,7 +26099,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 144.78 275.082 90)
 			(effects
 				(font
@@ -26088,7 +26345,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 185.7248 100.33 0)
 			(effects
 				(font
@@ -26297,7 +26554,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 231.4448 135.89 0)
 			(effects
 				(font
@@ -26366,7 +26623,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 383.8448 64.77 0)
 			(effects
 				(font
@@ -26565,7 +26822,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 215.9 31.75 0)
 			(effects
 				(font
@@ -26699,7 +26956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 139.7 224.79 0)
 			(effects
 				(font
@@ -27041,7 +27298,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 46.99 248.158 90)
 			(effects
 				(font
@@ -27244,7 +27501,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 261.9248 100.33 0)
 			(effects
 				(font
@@ -27313,7 +27570,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 261.9248 135.89 0)
 			(effects
 				(font
@@ -27350,138 +27607,6 @@
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
 					(reference "C66")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+5V_2")
-		(lib_id "power:+5V")
-		(at 152.4 220.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "398b7c50-e0cf-47c8-8087-226d6116cb03")
-		(property "Reference" "#PWR0107"
-			(at 152.4 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 152.4 222.504 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 152.4 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "363690b6-d658-4b55-bf85-143c18ccdb37")
-		)
-		(instances
-			(project "Slab"
-				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 180.34 184.15 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3ae5616c-bd72-425b-9a8f-df3cc5c735d4")
-		(property "Reference" "TP35"
-			(at 179.07 187.452 0)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "EXP1_INT"
-			(at 181.356 188.976 0)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 175.26 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 180.34 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e60a476-f28d-4ee7-9e14-de0a736a8629")
-		)
-		(instances
-			(project "Slab"
-				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP35")
 					(unit 1)
 				)
 			)
@@ -27632,6 +27757,253 @@
 		)
 	)
 	(symbol
+		(lib_id "RP2350_60:RP2350_60QFN")
+		(at 90.17 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3daa1d98-6f8f-4271-8024-d033a9e67dd1")
+		(property "Reference" "U10"
+			(at 92.3641 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RP2350_60QFN"
+			(at 92.3641 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CustomKeyboardLibrary:RP2350-QFN-60-1EP_7x7_P0.4mm_EP3.4x3.4mm_ThermalVias"
+			(at 71.12 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "19"
+			(uuid "2c8dbf0a-6391-4d97-80aa-cdb0915f2051")
+		)
+		(pin "58"
+			(uuid "8a3d644c-2862-42fa-824c-0b2fd18d8e92")
+		)
+		(pin "60"
+			(uuid "c1b5c830-0fbb-4f7d-bffa-2072c6d4206d")
+		)
+		(pin "3"
+			(uuid "7952b322-49f1-4302-9669-2b01b0ec6dba")
+		)
+		(pin "8"
+			(uuid "d6b51feb-cf14-4c6d-a74c-defe3dfae253")
+		)
+		(pin "61"
+			(uuid "362e21cd-3581-4a8c-8744-13567f6e4cb3")
+		)
+		(pin "49"
+			(uuid "f8178433-21e3-4ff7-9e9c-e0324bc17ff6")
+		)
+		(pin "56"
+			(uuid "f496a806-677f-4491-acad-3b4ed8a43482")
+		)
+		(pin "45"
+			(uuid "d2498409-8aac-4493-af49-de1826ac98c6")
+		)
+		(pin "4"
+			(uuid "5a488cf6-b0aa-4493-ae06-8b0c081654d2")
+		)
+		(pin "43"
+			(uuid "dd2648cc-4191-4097-bf74-255f8f066ca8")
+		)
+		(pin "34"
+			(uuid "8c9ecefe-daa9-4997-abb6-74ea239407e0")
+		)
+		(pin "26"
+			(uuid "aa6dc0f1-714f-4f5e-a383-c00325bfa180")
+		)
+		(pin "25"
+			(uuid "feced437-e771-4a81-8e08-6576cebb90de")
+		)
+		(pin "16"
+			(uuid "59de86f3-77f9-473a-ad0d-d3aa8cdcf390")
+		)
+		(pin "29"
+			(uuid "7df848d2-19cb-4124-917d-022b6aaa414b")
+		)
+		(pin "14"
+			(uuid "8761d53f-dc36-45f2-9795-0a7803ac9da8")
+		)
+		(pin "33"
+			(uuid "2ade6c6f-f003-45df-87d2-a618406de88b")
+		)
+		(pin "30"
+			(uuid "a7f8d67b-7b1b-4123-8248-8dc1b401b3c1")
+		)
+		(pin "46"
+			(uuid "ed24e6a1-db0a-4275-8718-d1748182548d")
+		)
+		(pin "35"
+			(uuid "7f8d32a0-5a89-4518-9414-7e9f44885620")
+		)
+		(pin "37"
+			(uuid "7c6133c3-2f0e-44a3-8046-366d22a011a2")
+		)
+		(pin "39"
+			(uuid "ace3663a-41a0-456e-80ab-a1b52760d05e")
+		)
+		(pin "6"
+			(uuid "c515c340-984e-4761-ae9f-783ffdf68eb4")
+		)
+		(pin "36"
+			(uuid "86b567d6-e3b5-4029-903b-3a31132fad3a")
+		)
+		(pin "31"
+			(uuid "e7df30d1-281f-4d6f-acc4-472f2ff3adbb")
+		)
+		(pin "15"
+			(uuid "17136aea-7dad-4d8e-b94c-144769210e75")
+		)
+		(pin "32"
+			(uuid "0c04d7fd-112d-4637-b0e7-af933511a1df")
+		)
+		(pin "48"
+			(uuid "2c7a0e58-5ccc-466b-963c-cb5ec1b3b0b4")
+		)
+		(pin "28"
+			(uuid "72b10246-344e-4fe1-a84c-9b8bf3de4006")
+		)
+		(pin "13"
+			(uuid "9240c685-3762-4c12-9cc4-e0ddc9a51fbd")
+		)
+		(pin "59"
+			(uuid "99a50b8f-2cd5-49bd-9458-b68eec029dfb")
+		)
+		(pin "57"
+			(uuid "94016144-796a-4760-9e11-7be47acb8a7a")
+		)
+		(pin "52"
+			(uuid "bdcefc10-7814-4ec7-b2f2-2df7bb082aaf")
+		)
+		(pin "38"
+			(uuid "411ad1e0-6996-4d8c-a4b7-7604bc9aa91f")
+		)
+		(pin "17"
+			(uuid "2f642cb7-1fc9-4963-b9ff-9714d0a91dfd")
+		)
+		(pin "9"
+			(uuid "ca00da86-6466-465b-a0a6-2146fd5a6619")
+		)
+		(pin "40"
+			(uuid "ef7bf80c-fe35-4f80-ad08-027c063bf8f7")
+		)
+		(pin "5"
+			(uuid "ac745802-05c7-49d3-a08e-807792d90305")
+		)
+		(pin "41"
+			(uuid "931ec717-bc71-4546-988e-fd884aec2791")
+		)
+		(pin "21"
+			(uuid "aeb1209d-14a1-42f8-b42a-ce6da776afc6")
+		)
+		(pin "42"
+			(uuid "e8f3316e-c772-427f-a77f-e0d3065731cc")
+		)
+		(pin "2"
+			(uuid "44a359a7-85ff-48be-b71a-d6a439f24206")
+		)
+		(pin "24"
+			(uuid "43a7ec7e-61b5-4b25-90b5-338df6b6f828")
+		)
+		(pin "11"
+			(uuid "c8f93fc1-79b8-4926-8086-323bc3b021e5")
+		)
+		(pin "44"
+			(uuid "ebf91e56-1dd2-4a77-b2ac-b5293fb1a06c")
+		)
+		(pin "10"
+			(uuid "730b8a39-136b-4823-9254-64846681b34e")
+		)
+		(pin "20"
+			(uuid "e7c8aeba-bcda-4160-93a0-19ad99b79ff1")
+		)
+		(pin "47"
+			(uuid "3e971252-f316-4185-aa4d-b714d91a7fac")
+		)
+		(pin "18"
+			(uuid "7118fb07-e87d-4916-ba68-bb16cb3cfc5c")
+		)
+		(pin "53"
+			(uuid "ec3d99e1-3ead-4686-88d8-5828d89545f2")
+		)
+		(pin "7"
+			(uuid "38308a52-5965-45c2-82d0-390a21a26fd9")
+		)
+		(pin "27"
+			(uuid "987db32e-290b-40b7-afb7-a8b473d60c0f")
+		)
+		(pin "54"
+			(uuid "adad2c11-0d93-41a1-bf98-8ed840a2a597")
+		)
+		(pin "22"
+			(uuid "b2c872b9-c47c-4ff6-af45-d18e1ed842e8")
+		)
+		(pin "50"
+			(uuid "1b0f9b6d-4bb0-453f-ba3c-f7b0fd3f4823")
+		)
+		(pin "1"
+			(uuid "c9641870-9da6-403e-ad0f-5e291358786a")
+		)
+		(pin "51"
+			(uuid "9338bc3e-fbea-4b2e-93fb-844e8a0f9e45")
+		)
+		(pin "23"
+			(uuid "dc8461dc-52ba-4ecd-b0b3-a6a408dadd38")
+		)
+		(pin "55"
+			(uuid "7f4034b3-f1aa-456a-9e33-4c193f98da88")
+		)
+		(pin "12"
+			(uuid "d3b5fb57-9306-447b-986d-953bea0e2746")
+		)
+		(instances
+			(project "Slab"
+				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 304.8 50.8 0)
 		(unit 1)
@@ -27707,6 +28079,73 @@
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 24.13 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "405f2eb8-b659-4eea-a7c7-957fc6ce11b4")
+		(property "Reference" "MP2"
+			(at 22.098 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 20.574 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 24.13 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 24.13 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbf9c1d1-de1f-4726-89f2-b5dd64ec4b2a")
+		)
+		(instances
+			(project "Slab"
+				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
+					(reference "MP2")
 					(unit 1)
 				)
 			)
@@ -27849,6 +28288,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 34.29 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4272f671-d600-445e-853a-bba32b45f22c")
+		(property "Reference" "MP4"
+			(at 32.258 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 30.734 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 34.29 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 34.29 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1f29149-d622-4e37-80fb-0eac4ed55de3")
+		)
+		(instances
+			(project "Slab"
+				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
+					(reference "MP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 240.03 139.7 0)
 		(unit 1)
@@ -27946,7 +28452,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 208.28 54.61 0)
 			(effects
 				(font
@@ -27983,6 +28489,71 @@
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
 					(reference "MX66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 152.4 220.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4428cc47-0f61-4cfe-928f-b09686d7f200")
+		(property "Reference" "#PWR01"
+			(at 152.4 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 152.4 217.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 152.4 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5f0fd98-bd3d-4b33-b267-1f0023a9a807")
+		)
+		(instances
+			(project "Slab"
+				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -28127,72 +28698,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 117.475 264.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "44fac9d9-3680-4e87-b968-70b725764392")
-		(property "Reference" "TP27"
-			(at 118.237 260.35 0)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "QSPI_SD1"
-			(at 118.237 261.62 0)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 122.555 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 122.555 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 117.475 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "32477241-d33c-4137-b7a8-19b705ee78a8")
-		)
-		(instances
-			(project "Slab"
-				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
 		(at 170.18 39.37 0)
 		(unit 1)
@@ -28217,7 +28722,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 170.18 39.37 0)
 			(effects
 				(font
@@ -28284,7 +28789,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 208.28 24.13 0)
 			(effects
 				(font
@@ -28751,7 +29256,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 185.7248 118.11 0)
 			(effects
 				(font
@@ -28963,7 +29468,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 200.9648 64.77 0)
 			(effects
 				(font
@@ -29030,7 +29535,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 215.9 54.61 0)
 			(effects
 				(font
@@ -29298,7 +29803,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 368.6048 135.89 0)
 			(effects
 				(font
@@ -29365,7 +29870,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 185.42 31.75 0)
 			(effects
 				(font
@@ -29758,6 +30263,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 49.53 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51404bad-b914-49e0-83ac-a7d226341c51")
+		(property "Reference" "#PWR09"
+			(at 49.53 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 45.212 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52cc34a8-c524-4b9b-8350-d71913ef8c90")
+		)
+		(instances
+			(project "Slab"
+				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 186.69 68.58 180)
 		(unit 1)
@@ -29784,7 +30354,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 185.7248 64.77 0)
 			(effects
 				(font
@@ -29919,7 +30489,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 277.1648 135.89 0)
 			(effects
 				(font
@@ -29986,7 +30556,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 254 54.61 0)
 			(effects
 				(font
@@ -30233,72 +30803,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 114.935 269.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "542ee682-8182-4d5e-8ad0-893901969f18")
-		(property "Reference" "TP31"
-			(at 115.697 265.43 0)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "QSPI_SD2"
-			(at 115.697 266.7 0)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 120.015 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.015 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 114.935 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00188b5c-f8ff-4f25-b8ba-1f527547b675")
-		)
-		(instances
-			(project "Slab"
-				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 232.41 68.58 180)
 		(unit 1)
@@ -30325,7 +30829,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 231.4448 64.77 0)
 			(effects
 				(font
@@ -30394,7 +30898,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 335.5848 153.67 0)
 			(effects
 				(font
@@ -30463,7 +30967,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 95.25 253.0348 0)
 			(effects
 				(font
@@ -30603,7 +31107,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 208.28 39.37 0)
 			(effects
 				(font
@@ -30672,7 +31176,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 239.0648 153.67 0)
 			(effects
 				(font
@@ -31021,7 +31525,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 185.42 54.61 0)
 			(effects
 				(font
@@ -31089,7 +31593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 139.7 234.95 0)
 			(effects
 				(font
@@ -31238,7 +31742,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 193.04 46.99 0)
 			(effects
 				(font
@@ -31444,7 +31948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 138.43 205.74 0)
 			(effects
 				(font
@@ -31577,7 +32081,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 246.6848 82.55 0)
 			(effects
 				(font
@@ -32202,7 +32706,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 322.8848 118.11 0)
 			(effects
 				(font
@@ -32245,34 +32749,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 372.11 184.15 180)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 44.45 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6633895a-acc0-4af7-8695-93b02f3a91bf")
-		(property "Reference" "TP39"
-			(at 370.84 187.452 0)
+		(uuid "684060f4-2df5-4237-bb06-4da7204e4e6d")
+		(property "Reference" "MP6"
+			(at 42.418 154.686 0)
 			(effects
 				(font
-					(size 0.75 0.75)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "EXP5_INT"
-			(at 373.126 188.976 0)
+		(property "Value" "MountingHole_Pad"
+			(at 40.894 150.114 0)
 			(effects
 				(font
-					(size 0.75 0.75)
+					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 367.03 184.15 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 44.45 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32281,7 +32786,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 367.03 184.15 0)
+			(at 44.45 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32289,74 +32794,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 372.11 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aeed910d-2bc2-4dbc-8374-99bdbe49cd99")
-		)
-		(instances
-			(project "Slab"
-				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 116.205 271.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "668f299c-dbbc-4aac-abd7-66b53e3a8d9e")
-		(property "Reference" "TP32"
-			(at 116.967 267.97 0)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "QSPI_SD3"
-			(at 116.967 269.24 0)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 121.285 271.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.285 271.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 116.205 271.78 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 44.45 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32365,12 +32804,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "762553fe-21a9-4e3b-bdee-08cf937c0d4a")
+			(uuid "cef4d78e-41f2-48df-ac99-26d27775b14f")
 		)
 		(instances
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP32")
+					(reference "MP6")
 					(unit 1)
 				)
 			)
@@ -32378,7 +32817,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 36.83 171.45 0)
+		(at 44.45 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32386,7 +32825,7 @@
 		(dnp no)
 		(uuid "69b3b279-cb7a-4711-9bba-ed6852497e66")
 		(property "Reference" "#PWR0119"
-			(at 36.83 175.26 0)
+			(at 44.45 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32395,7 +32834,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 40.386 169.926 0)
+			(at 48.006 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32403,7 +32842,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 171.45 0)
+			(at 44.45 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32412,7 +32851,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 171.45 0)
+			(at 44.45 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32421,7 +32860,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 171.45 0)
+			(at 44.45 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32752,7 +33191,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 307.6448 64.77 0)
 			(effects
 				(font
@@ -32795,74 +33234,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 43.18 266.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6cb57807-184e-4e34-b701-e368428e46e3")
-		(property "Reference" "TP28"
-			(at 44.45 262.636 0)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SBU1"
-			(at 44.45 263.906 0)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 48.26 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 43.18 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d3fac19d-1880-4354-8998-e0d1e746cd4c")
-		)
-		(instances
-			(project "Slab"
-				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 36.83 179.07 0)
+		(at 44.45 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32870,7 +33243,7 @@
 		(dnp no)
 		(uuid "6cb9498f-2aef-4881-ae9e-2945cacc5bb3")
 		(property "Reference" "#PWR0118"
-			(at 36.83 185.42 0)
+			(at 44.45 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32879,7 +33252,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 180.34 0)
+			(at 40.64 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32887,7 +33260,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 179.07 0)
+			(at 44.45 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32896,7 +33269,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 179.07 0)
+			(at 44.45 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32905,7 +33278,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 179.07 0)
+			(at 44.45 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32920,6 +33293,88 @@
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
 					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_ADC:ADS1110")
+		(at 68.58 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d01983c-7f1e-401f-a202-ecb0f662ec6f")
+		(property "Reference" "U1"
+			(at 52.578 183.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ADS1110"
+			(at 55.88 183.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 80.01 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ads1110.pdf"
+			(at 60.96 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "16 Bit Analog to Digital converter with on board reference"
+			(at 68.58 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dba58174-e7da-4f1f-974b-084a23493f40")
+		)
+		(pin "2"
+			(uuid "bcddd978-47b4-4aa8-8dfa-8c3a504cf60c")
+		)
+		(pin "4"
+			(uuid "dd2e87c1-6130-43db-a0c9-12e9e5f96b4c")
+		)
+		(pin "5"
+			(uuid "d57215ba-796f-4d32-8ac2-3d89d4f4d8dd")
+		)
+		(pin "3"
+			(uuid "e5fc9bbe-1537-47b7-9cea-8aaa8e18d462")
+		)
+		(pin "6"
+			(uuid "118e25d1-3d19-430c-b3fb-bc73229f2639")
+		)
+		(instances
+			(project "Slab"
+				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -33161,7 +33616,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 246.6848 118.11 0)
 			(effects
 				(font
@@ -33230,7 +33685,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 353.3648 118.11 0)
 			(effects
 				(font
@@ -33445,7 +33900,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 353.3648 100.33 0)
 			(effects
 				(font
@@ -33514,7 +33969,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 399.0848 64.77 0)
 			(effects
 				(font
@@ -33630,34 +34085,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 86.36 33.02 0)
+		(lib_id "power:+3V3")
+		(at 68.58 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "749828e0-7fa6-4234-a3c2-4d2ade0e0401")
-		(property "Reference" "C80"
-			(at 85.598 31.496 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 85.598 37.338 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 87.3252 36.83 0)
+		(uuid "73ed1c09-888a-41d4-83ba-2dad5cb537bb")
+		(property "Reference" "#PWR06"
+			(at 68.58 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33665,8 +34102,25 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 86.36 33.02 0)
+		(property "Value" "+3V3"
+			(at 64.262 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33675,7 +34129,73 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 33.02 0)
+			(at 68.58 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8dc6ebf-f040-47f5-811f-29ca55ca399c")
+		)
+		(instances
+			(project "Slab"
+				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 88.9 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "749828e0-7fa6-4234-a3c2-4d2ade0e0401")
+		(property "Reference" "C80"
+			(at 88.138 31.496 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 88.138 37.338 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 89.8652 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33764,74 +34284,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 275.59 184.15 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "75c991f9-7fcc-4c0f-aaaf-56e45a8a26b3")
-		(property "Reference" "TP37"
-			(at 274.32 187.452 0)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "EXP3_INT"
-			(at 276.606 188.976 0)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 270.51 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 270.51 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 275.59 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a7c5e496-b0b1-421c-b8f8-d7f837c81ee4")
-		)
-		(instances
-			(project "Slab"
-				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 132.08 45.72 270)
+		(at 129.54 45.72 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33839,7 +34293,7 @@
 		(dnp no)
 		(uuid "761784bc-8341-4284-82f0-b3cc44bb15ba")
 		(property "Reference" "R2"
-			(at 130.048 43.18 90)
+			(at 127.508 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33847,7 +34301,7 @@
 			)
 		)
 		(property "Value" "27"
-			(at 134.366 43.18 90)
+			(at 131.826 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33855,7 +34309,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 132.08 43.942 90)
+			(at 129.54 43.942 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33864,7 +34318,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 45.72 0)
+			(at 129.54 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33873,7 +34327,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 45.72 0)
+			(at 129.54 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34054,7 +34508,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 176.53 179.578 90)
 			(effects
 				(font
@@ -34123,7 +34577,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 307.6448 100.33 0)
 			(effects
 				(font
@@ -34257,7 +34711,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 338.1248 100.33 0)
 			(effects
 				(font
@@ -34392,7 +34846,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 185.7248 82.55 0)
 			(effects
 				(font
@@ -34641,6 +35095,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 58.42 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7bbf4223-bf19-47a5-ae9d-f98ecfb5c535")
+		(property "Reference" "#PWR07"
+			(at 58.42 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2097f83-ca4c-4412-b2a7-fdf3e18eb104")
+		)
+		(instances
+			(project "Slab"
+				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 384.81 121.92 180)
 		(unit 1)
@@ -34667,7 +35186,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 383.8448 118.11 0)
 			(effects
 				(font
@@ -34802,7 +35321,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 383.8448 100.33 0)
 			(effects
 				(font
@@ -34870,7 +35389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 138.43 208.28 0)
 			(effects
 				(font
@@ -35074,7 +35593,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 216.2048 64.77 0)
 			(effects
 				(font
@@ -35117,6 +35636,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 29.21 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "823e36fd-b7f8-41aa-9d92-24f61303f612")
+		(property "Reference" "MP3"
+			(at 27.178 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 25.654 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 29.21 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 29.21 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "170fc828-5abc-4b7a-8ec3-959499853f3e")
+		)
+		(instances
+			(project "Slab"
+				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
+					(reference "MP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 201.93 121.92 180)
 		(unit 1)
@@ -35143,7 +35729,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 200.9648 118.11 0)
 			(effects
 				(font
@@ -35278,7 +35864,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 368.6048 100.33 0)
 			(effects
 				(font
@@ -35456,6 +36042,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 64.77 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86ba0f73-fe9d-4cdb-8882-6e7bf4d5c4ce")
+		(property "Reference" "MP10"
+			(at 62.738 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 61.214 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 64.77 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 64.77 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89561db5-e216-44f8-bd13-11bf5c525428")
+		)
+		(instances
+			(project "Slab"
+				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
+					(reference "MP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 223.52 177.8 90)
 		(unit 1)
@@ -35480,7 +36133,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 223.52 179.578 90)
 			(effects
 				(font
@@ -35523,6 +36176,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 76.2 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87d5c483-9793-490d-a839-890034cc7742")
+		(property "Reference" "#PWR010"
+			(at 76.2 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 79.502 182.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06966cbe-91ef-4a70-ae8e-059ddebc7211")
+		)
+		(instances
+			(project "Slab"
+				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 139.7 234.95 90)
 		(unit 1)
@@ -35548,7 +36266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 139.7 229.87 0)
 			(effects
 				(font
@@ -35612,7 +36330,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 368.3 179.578 90)
 			(effects
 				(font
@@ -35681,7 +36399,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 216.2048 82.55 0)
 			(effects
 				(font
@@ -35750,7 +36468,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 399.0848 135.89 0)
 			(effects
 				(font
@@ -35819,7 +36537,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 292.4048 135.89 0)
 			(effects
 				(font
@@ -35952,7 +36670,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 223.52 24.13 0)
 			(effects
 				(font
@@ -36061,7 +36779,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 132.08 48.26 270)
+		(at 129.54 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36069,7 +36787,7 @@
 		(dnp no)
 		(uuid "8c1ab15d-8a98-4bc7-888c-32378a2548fc")
 		(property "Reference" "R3"
-			(at 130.302 51.054 90)
+			(at 127.762 51.054 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36077,7 +36795,7 @@
 			)
 		)
 		(property "Value" "27"
-			(at 134.62 51.054 90)
+			(at 132.08 51.054 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36085,7 +36803,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 132.08 46.482 90)
+			(at 129.54 46.482 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36094,7 +36812,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 48.26 0)
+			(at 129.54 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36103,7 +36821,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 48.26 0)
+			(at 129.54 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36153,7 +36871,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 277.1648 118.11 0)
 			(effects
 				(font
@@ -36295,7 +37013,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 200.9648 100.33 0)
 			(effects
 				(font
@@ -36338,72 +37056,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 323.85 184.15 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "921091bf-c028-4cec-a2d3-3407f689f30b")
-		(property "Reference" "TP38"
-			(at 322.58 187.452 0)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "EXP4_INT"
-			(at 324.866 188.976 0)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 318.77 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 318.77 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 323.85 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "861c5c28-4e6b-4e33-bf17-34244705b846")
-		)
-		(instances
-			(project "Slab"
-				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
 		(at 200.66 46.99 0)
 		(unit 1)
@@ -36428,7 +37080,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 200.66 46.99 0)
 			(effects
 				(font
@@ -36495,7 +37147,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 276.86 54.61 0)
 			(effects
 				(font
@@ -36710,7 +37362,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 216.2048 100.33 0)
 			(effects
 				(font
@@ -37052,7 +37704,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 231.14 54.61 0)
 			(effects
 				(font
@@ -37193,7 +37845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 139.7 222.25 0)
 			(effects
 				(font
@@ -37324,7 +37976,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 216.2048 135.89 0)
 			(effects
 				(font
@@ -37521,7 +38173,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 177.8 31.75 0)
 			(effects
 				(font
@@ -37565,7 +38217,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 36.83 175.26 0)
+		(at 44.45 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37573,7 +38225,7 @@
 		(dnp no)
 		(uuid "99ac771b-0744-4273-b570-540ce0612ed4")
 		(property "Reference" "C93"
-			(at 39.751 174.0916 0)
+			(at 47.371 133.4516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37582,7 +38234,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 39.751 176.403 0)
+			(at 47.371 135.763 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37591,7 +38243,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 37.7952 179.07 0)
+			(at 45.4152 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37600,7 +38252,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 175.26 0)
+			(at 44.45 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37609,7 +38261,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 175.26 0)
+			(at 44.45 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37657,7 +38309,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 177.8 24.13 0)
 			(effects
 				(font
@@ -37772,74 +38424,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 52.07 238.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9b3ea97a-9871-4817-ae5c-29c03af25b15")
-		(property "Reference" "TP21"
-			(at 52.832 234.95 0)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 52.832 236.22 0)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 57.15 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 57.15 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 52.07 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b015cbc-3d23-4a17-8fd3-de75b2f1fe79")
-		)
-		(instances
-			(project "Slab"
-				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 111.76 33.02 0)
+		(at 106.68 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37847,7 +38433,7 @@
 		(dnp no)
 		(uuid "9c31e783-87a0-4340-aab6-740289d3abf1")
 		(property "Reference" "C87"
-			(at 110.998 31.496 90)
+			(at 105.918 31.496 90)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -37856,7 +38442,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 110.998 37.338 90)
+			(at 105.918 37.338 90)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -37865,7 +38451,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 112.7252 36.83 0)
+			(at 107.6452 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37874,7 +38460,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 33.02 0)
+			(at 106.68 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37883,7 +38469,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 33.02 0)
+			(at 106.68 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37901,6 +38487,71 @@
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
 					(reference "C87")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 19.05 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c9e9a12-a38e-449e-8888-e16920e91d3f")
+		(property "Reference" "#PWR03"
+			(at 19.05 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 22.606 164.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 19.05 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 19.05 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13c945b4-8815-48c8-bf46-230ca16db7df")
+		)
+		(instances
+			(project "Slab"
+				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -38238,312 +38889,6 @@
 		)
 	)
 	(symbol
-		(lib_id "RP2350:RP2350_80QFN")
-		(at 90.17 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9f96288b-33ef-4613-ab8d-0e6afdcc89c5")
-		(property "Reference" "U1"
-			(at 106.172 184.658 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RP2350_80QFN"
-			(at 109.982 184.658 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CustomKeyboardLibrary:RP2350-QFN-80-1EP_10x10_P0.4mm_EP3.4x3.4mm_ThermalVias"
-			(at 71.12 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 90.17 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "51"
-			(uuid "e2b25e78-bd77-40bb-9019-825d5b105cb2")
-		)
-		(pin "52"
-			(uuid "645c4673-7685-4f3a-ba4e-90b4c1a60f8b")
-		)
-		(pin "48"
-			(uuid "6bfeab9d-fa1b-46a1-a96a-7fb9cd06e5d9")
-		)
-		(pin "31"
-			(uuid "d164a3ef-f7ec-481c-87e5-90345f440ca5")
-		)
-		(pin "64"
-			(uuid "966a840e-7a71-432f-bcb7-24180d2aca50")
-		)
-		(pin "71"
-			(uuid "a432fcf2-6a0b-42d5-9864-ec047654e6bc")
-		)
-		(pin "9"
-			(uuid "85933c8c-68ed-48bb-b410-49f2c8c63f9d")
-		)
-		(pin "44"
-			(uuid "bbe2f242-5e72-4252-aa9c-14d13e5d39ce")
-		)
-		(pin "78"
-			(uuid "bb70e0c2-f0e6-4edf-8c15-29e9f43a768e")
-		)
-		(pin "16"
-			(uuid "4859f375-8b26-4f9c-85a1-e5809d6d125d")
-		)
-		(pin "61"
-			(uuid "f8c9fa77-e77d-40b5-b057-93dc04d777d2")
-		)
-		(pin "28"
-			(uuid "eb8e5d4d-8339-47ef-8058-18be1eabd985")
-		)
-		(pin "8"
-			(uuid "d8fbb9f7-9fa0-470e-b831-e773a19e256f")
-		)
-		(pin "68"
-			(uuid "2e1174e3-8257-4dc3-a754-d5b8c9e7f227")
-		)
-		(pin "25"
-			(uuid "376107b6-f4f3-4dea-90fb-156b2a7d04a2")
-		)
-		(pin "59"
-			(uuid "4d28ae05-eca7-4208-955a-1e82ca19dd0b")
-		)
-		(pin "70"
-			(uuid "40485ced-0455-4695-a061-9629eb3464a1")
-		)
-		(pin "6"
-			(uuid "992c276b-a10e-4a89-b156-580f762362e2")
-		)
-		(pin "45"
-			(uuid "224788ae-d1ae-4fb2-b708-512ba08ad273")
-		)
-		(pin "42"
-			(uuid "a3f69f7e-7ee7-4b31-ac38-f655ccb1ccba")
-		)
-		(pin "20"
-			(uuid "a0e188ea-bfa9-4161-ae32-8e0446451aa6")
-		)
-		(pin "67"
-			(uuid "1738664e-e6a5-4249-8055-be18bec02c7e")
-		)
-		(pin "74"
-			(uuid "68c7c8ae-2138-4aa5-90f3-e7bec3174da4")
-		)
-		(pin "43"
-			(uuid "932c7edc-416f-432e-a5dd-172c4af56e21")
-		)
-		(pin "80"
-			(uuid "ea068d30-02e5-473b-ad30-9fdb7085a661")
-		)
-		(pin "29"
-			(uuid "1e645f22-61b0-4e12-810e-93f84a3a4ed7")
-		)
-		(pin "21"
-			(uuid "7e9183bb-1161-499b-8369-c699468318c1")
-		)
-		(pin "22"
-			(uuid "f6a74efa-e5b2-4ba0-8c59-49eca059b407")
-		)
-		(pin "34"
-			(uuid "d8c3fb80-ea01-424d-9554-dec86482bbd7")
-		)
-		(pin "33"
-			(uuid "df2e1e9e-db22-4743-8397-02cb8082417b")
-		)
-		(pin "75"
-			(uuid "39f957a4-3712-453f-b0ce-49b3fed8e693")
-		)
-		(pin "55"
-			(uuid "7e905624-ecd9-422b-8cbc-b8f28892ac32")
-		)
-		(pin "23"
-			(uuid "a8da7369-f9e5-4c50-be30-240fc273c141")
-		)
-		(pin "69"
-			(uuid "ad8bb3ae-f8bb-4819-9b6b-f878821eb505")
-		)
-		(pin "3"
-			(uuid "5b46482a-f02d-47e5-8726-35ebc8526847")
-		)
-		(pin "73"
-			(uuid "e386c79f-6ddb-4f5a-979a-57a2baf10bb9")
-		)
-		(pin "4"
-			(uuid "5333bbfc-3584-445a-9c77-a76720c52dd1")
-		)
-		(pin "17"
-			(uuid "06711f42-4ccf-4b6b-a1e2-6067b62a8043")
-		)
-		(pin "15"
-			(uuid "387c3622-ef1e-41ce-93c5-c2a6c5809fbf")
-		)
-		(pin "24"
-			(uuid "5c45a7d2-8835-45c0-9468-44e1307ea8ea")
-		)
-		(pin "54"
-			(uuid "da8f631d-3aac-4660-9a8e-646e4a3c11d6")
-		)
-		(pin "60"
-			(uuid "8d883ad0-40f7-43e2-9105-3c582c67d039")
-		)
-		(pin "19"
-			(uuid "3a203a47-ff19-4955-94ad-00030e601858")
-		)
-		(pin "62"
-			(uuid "021aa49b-d6d3-4815-9795-d50603343bad")
-		)
-		(pin "36"
-			(uuid "ad453623-09a3-4178-b5ac-c67d927635c9")
-		)
-		(pin "56"
-			(uuid "8bc9235f-c1f2-48cb-9aad-f81f4fece071")
-		)
-		(pin "49"
-			(uuid "29fa6d0a-7a11-47fe-a7ad-77b58ef2c871")
-		)
-		(pin "76"
-			(uuid "f9853025-78d6-4df4-a649-2c669294c880")
-		)
-		(pin "5"
-			(uuid "e0d380c4-0240-452b-9ded-60e9c35cc60c")
-		)
-		(pin "79"
-			(uuid "3fcff3b1-3620-421a-920a-3d5689bf6838")
-		)
-		(pin "66"
-			(uuid "1b9ac2db-a142-4dbe-9cfe-775aaf6a2c69")
-		)
-		(pin "65"
-			(uuid "3c258e30-6623-4816-88a6-ad0fa1bf3f0e")
-		)
-		(pin "7"
-			(uuid "5bb94b08-7e05-4696-8c2c-6be5d72b117a")
-		)
-		(pin "37"
-			(uuid "c41e914b-1e87-4cc5-b250-c45cb88c0499")
-		)
-		(pin "30"
-			(uuid "41481916-c501-4583-81ab-ad9ee577e6e1")
-		)
-		(pin "27"
-			(uuid "0436c2e1-0707-4e86-8aa8-6bafbe6ff0a7")
-		)
-		(pin "53"
-			(uuid "880ebaa8-bd0a-4824-9554-2a91d01b7b57")
-		)
-		(pin "39"
-			(uuid "04bcbac8-c66b-4691-b41c-7a292a1db6a1")
-		)
-		(pin "50"
-			(uuid "1e797160-0a9b-44a5-8ebc-f728ad8c1e62")
-		)
-		(pin "47"
-			(uuid "76259037-686d-411f-8560-9233b0b46cc8")
-		)
-		(pin "63"
-			(uuid "7f01b478-6039-4ad5-a611-c8639c3c3205")
-		)
-		(pin "40"
-			(uuid "3d502181-8b9f-48cb-8ae4-f093e3773730")
-		)
-		(pin "35"
-			(uuid "b97d2fb3-bb20-4be6-886e-f43a61d4130b")
-		)
-		(pin "2"
-			(uuid "5f074814-8917-4783-9c40-d9716772498c")
-		)
-		(pin "32"
-			(uuid "a5eb9357-a78c-4fd9-8bca-1aebe529d30d")
-		)
-		(pin "77"
-			(uuid "9a827e19-61f4-494d-b82c-c0babd126324")
-		)
-		(pin "46"
-			(uuid "ff7b7ea0-5aac-4cc3-b5f6-cc79248db0be")
-		)
-		(pin "38"
-			(uuid "6b15bedf-fa03-467d-9221-d955bf826482")
-		)
-		(pin "58"
-			(uuid "1deaee33-a351-4d83-bdd9-f39e5716bd19")
-		)
-		(pin "57"
-			(uuid "f7c629c7-2d10-401b-b679-e8cf764b6b1f")
-		)
-		(pin "18"
-			(uuid "d1b0a527-ecba-4140-898f-3e5dfe23a391")
-		)
-		(pin "72"
-			(uuid "268a30af-c48f-44eb-aca2-26e0ff74c2c6")
-		)
-		(pin "81"
-			(uuid "42a02b3d-97f5-4ec1-9972-afdaf0743d29")
-		)
-		(pin "14"
-			(uuid "f245bf25-09df-49ed-bcbd-9e84f16b8321")
-		)
-		(pin "11"
-			(uuid "a9e52d4e-3512-4820-b1f1-1c9b82faa763")
-		)
-		(pin "1"
-			(uuid "816c48eb-918a-4f2e-ad67-bbdafb44d0b5")
-		)
-		(pin "10"
-			(uuid "119fa6b4-6088-419b-ac18-bbeac84d6ce8")
-		)
-		(pin "12"
-			(uuid "09580c5b-fac5-4895-80fc-5af16ce7f41b")
-		)
-		(pin "13"
-			(uuid "425da5f6-83f3-4357-ae33-37b30f5d52e3")
-		)
-		(pin "26"
-			(uuid "c4d296fb-3660-4205-912a-7b272bcfcda8")
-		)
-		(pin "41"
-			(uuid "979d04e3-7f80-4d36-a5db-f8bbdb9b80eb")
-		)
-		(instances
-			(project "Slab"
-				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 400.05 86.36 180)
 		(unit 1)
@@ -38570,7 +38915,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 399.0848 82.55 0)
 			(effects
 				(font
@@ -38639,7 +38984,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 277.1648 100.33 0)
 			(effects
 				(font
@@ -38894,6 +39239,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 19.05 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4c17216-2d60-426e-b8e2-9dc6e1301242")
+		(property "Reference" "MP1"
+			(at 17.018 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 15.494 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 19.05 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 19.05 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 19.05 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f6a4711-5785-4495-91fe-24507eec1d93")
+		)
+		(instances
+			(project "Slab"
+				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
+					(reference "MP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 346.71 121.92 0)
 		(unit 1)
@@ -38993,7 +39404,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 116.84 211.1248 0)
 			(effects
 				(font
@@ -39135,7 +39546,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 353.3648 135.89 0)
 			(effects
 				(font
@@ -39760,7 +40171,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 277.1648 82.55 0)
 			(effects
 				(font
@@ -39829,7 +40240,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 231.4448 82.55 0)
 			(effects
 				(font
@@ -40157,7 +40568,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 90.17 185.42 0)
+		(at 90.17 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -40165,7 +40576,7 @@
 		(dnp no)
 		(uuid "b1286c3c-25b4-45fa-868c-e8893e4be2e7")
 		(property "Reference" "#PWR0125"
-			(at 90.17 191.77 0)
+			(at 90.17 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40174,7 +40585,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.424 189.23 0)
+			(at 90.424 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40182,7 +40593,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 185.42 0)
+			(at 90.17 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40191,7 +40602,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 185.42 0)
+			(at 90.17 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40200,7 +40611,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 185.42 0)
+			(at 90.17 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40215,6 +40626,73 @@
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
 					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 54.61 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b179ae18-2c5a-43f6-960a-1f411f4a3a0e")
+		(property "Reference" "MP8"
+			(at 52.578 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 51.054 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 54.61 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 54.61 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "edd72096-4dbc-4dc4-a7df-7e9067db86dd")
+		)
+		(instances
+			(project "Slab"
+				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
+					(reference "MP8")
 					(unit 1)
 				)
 			)
@@ -40245,7 +40723,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SN74AHCT125PWR"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 46.99 245.618 90)
 			(effects
 				(font
@@ -40379,7 +40857,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 368.6048 64.77 0)
 			(effects
 				(font
@@ -40448,7 +40926,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 292.4048 64.77 0)
 			(effects
 				(font
@@ -40662,7 +41140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 139.7 232.41 0)
 			(effects
 				(font
@@ -40726,7 +41204,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 269.24 54.61 0)
 			(effects
 				(font
@@ -40793,7 +41271,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 170.18 46.99 0)
 			(effects
 				(font
@@ -40862,7 +41340,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 200.9648 82.55 0)
 			(effects
 				(font
@@ -40931,7 +41409,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 338.1248 135.89 0)
 			(effects
 				(font
@@ -41136,7 +41614,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 200.66 54.61 0)
 			(effects
 				(font
@@ -41472,7 +41950,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 231.4448 100.33 0)
 			(effects
 				(font
@@ -41582,6 +42060,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 59.69 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "badbe918-f526-4138-a2d7-292fe7916d36")
+		(property "Reference" "MP9"
+			(at 57.658 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 56.134 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 59.69 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 59.69 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f829139-c979-4364-9a30-9fbc51a0f00f")
+		)
+		(instances
+			(project "Slab"
+				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
+					(reference "MP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 46.99 29.21 0)
 		(unit 1)
@@ -41645,6 +42190,71 @@
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
 					(reference "C76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 151.13 240.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be93aa2c-dd02-4414-b5e3-5d0550f64bda")
+		(property "Reference" "#PWR02"
+			(at 151.13 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 151.13 236.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 151.13 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a15cf394-798f-419c-a7aa-a107938da4b0")
+		)
+		(instances
+			(project "Slab"
+				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -42019,7 +42629,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 307.6448 135.89 0)
 			(effects
 				(font
@@ -42157,7 +42767,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 292.4048 118.11 0)
 			(effects
 				(font
@@ -42299,7 +42909,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 185.7248 135.89 0)
 			(effects
 				(font
@@ -42467,75 +43077,6 @@
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
 					(reference "TP33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 104.14 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c8439987-1e26-4d27-a518-905a1bbc3097")
-		(property "Reference" "C86"
-			(at 103.378 31.496 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 103.378 37.338 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 105.1052 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 104.14 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e9becd9a-3168-4645-a0dd-660931e5a238")
-		)
-		(pin "2"
-			(uuid "d544dda9-c62e-400c-8f85-fe4d4d12bdde")
-		)
-		(instances
-			(project "Slab"
-				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "C86")
 					(unit 1)
 				)
 			)
@@ -42921,7 +43462,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 307.0352 29.21 0)
 			(effects
 				(font
@@ -43306,6 +43847,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 68.58 201.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cfe4c337-5032-4261-8050-cac1451d5515")
+		(property "Reference" "#PWR05"
+			(at 68.58 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "758b9bb0-2da7-4dff-83be-d96776cd7ae3")
+		)
+		(instances
+			(project "Slab"
+				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
 		(at 170.18 24.13 0)
 		(unit 1)
@@ -43330,7 +43936,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 170.18 24.13 0)
 			(effects
 				(font
@@ -43475,7 +44081,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 215.9 24.13 0)
 			(effects
 				(font
@@ -43676,7 +44282,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 200.9648 135.89 0)
 			(effects
 				(font
@@ -43719,72 +44325,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 43.18 269.24 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d4280a13-fa0b-4876-83c1-0a51b51490fc")
-		(property "Reference" "TP29"
-			(at 41.91 273.304 0)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SBU2"
-			(at 41.91 272.034 0)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 38.1 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 43.18 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d0305de-48e1-42e1-861c-76e9dd3dff36")
-		)
-		(instances
-			(project "Slab"
-				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 400.05 121.92 180)
 		(unit 1)
@@ -43811,7 +44351,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 399.0848 118.11 0)
 			(effects
 				(font
@@ -43880,7 +44420,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 368.6048 82.55 0)
 			(effects
 				(font
@@ -43947,7 +44487,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 320.04 179.578 90)
 			(effects
 				(font
@@ -44016,7 +44556,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 231.4448 118.11 0)
 			(effects
 				(font
@@ -44085,7 +44625,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 246.6848 135.89 0)
 			(effects
 				(font
@@ -44128,6 +44668,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 49.53 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d84815e6-e153-4a03-8d72-60aa6325a374")
+		(property "Reference" "RV1"
+			(at 46.99 190.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 46.99 193.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CustomKeyboardLibrary:SW_RS45111A900F_ALPS"
+			(at 49.53 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 49.53 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e06b213b-255d-49e6-b6f2-7f7d8c669ebf")
+		)
+		(pin "2"
+			(uuid "69f543eb-49af-4e7d-aa33-b1dc4c0e8a3f")
+		)
+		(pin "3"
+			(uuid "079d6765-6f60-4aa4-a0a0-fa8fa7fd5233")
+		)
+		(instances
+			(project "Slab"
+				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
 		(at 185.42 39.37 0)
 		(unit 1)
@@ -44152,7 +44765,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 185.42 39.37 0)
 			(effects
 				(font
@@ -44437,7 +45050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 138.43 203.2 0)
 			(effects
 				(font
@@ -44931,7 +45544,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 261.9248 118.11 0)
 			(effects
 				(font
@@ -44974,72 +45587,6 @@
 		)
 	)
 	(symbol
-		(lib_name "+5V_2")
-		(lib_id "power:+5V")
-		(at 151.13 240.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "df50e3cc-b42a-4f8e-8b76-1ee165e67d9a")
-		(property "Reference" "#PWR0110"
-			(at 151.13 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 151.13 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 151.13 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a02b04dd-e3fe-4f07-bc4c-8938caae1940")
-		)
-		(instances
-			(project "Slab"
-				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "#PWR0110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
 		(at 200.66 24.13 0)
 		(unit 1)
@@ -45064,7 +45611,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 200.66 24.13 0)
 			(effects
 				(font
@@ -45133,7 +45680,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 292.4048 82.55 0)
 			(effects
 				(font
@@ -45202,7 +45749,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 322.8848 100.33 0)
 			(effects
 				(font
@@ -45336,7 +45883,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 261.9248 64.77 0)
 			(effects
 				(font
@@ -45683,7 +46230,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 287.3248 153.67 0)
 			(effects
 				(font
@@ -45752,7 +46299,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 307.6448 118.11 0)
 			(effects
 				(font
@@ -45789,75 +46336,6 @@
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
 					(reference "C54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 101.6 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e4eeda42-2b37-4cea-af70-578250fd77cb")
-		(property "Reference" "C85"
-			(at 100.838 31.496 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 100.838 37.338 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 102.5652 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ffdc5908-7e6e-4c5b-ac23-1aa813e6c1f3")
-		)
-		(pin "2"
-			(uuid "51abcc69-bbb4-47f2-b459-e8de6421dd71")
-		)
-		(instances
-			(project "Slab"
-				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "C85")
 					(unit 1)
 				)
 			)
@@ -46027,7 +46505,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 208.28 31.75 0)
 			(effects
 				(font
@@ -46096,7 +46574,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 353.3648 64.77 0)
 			(effects
 				(font
@@ -46374,7 +46852,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 246.38 54.61 0)
 			(effects
 				(font
@@ -46443,7 +46921,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 322.8848 135.89 0)
 			(effects
 				(font
@@ -46708,7 +47186,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 193.04 54.61 0)
 			(effects
 				(font
@@ -46745,72 +47223,6 @@
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
 					(reference "MX64")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 116.205 261.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ec196a8e-02d3-434f-8c1d-356810360de1")
-		(property "Reference" "TP25"
-			(at 116.967 257.81 0)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "QSPI_SD0"
-			(at 116.967 259.08 0)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 121.285 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.285 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 116.205 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ce6d146-8cc8-443f-ba5f-e50d0c2ce81f")
-		)
-		(instances
-			(project "Slab"
-				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP25")
 					(unit 1)
 				)
 			)
@@ -46978,7 +47390,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 246.6848 64.77 0)
 			(effects
 				(font
@@ -47184,7 +47596,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 170.18 54.61 0)
 			(effects
 				(font
@@ -47663,7 +48075,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 185.42 24.13 0)
 			(effects
 				(font
@@ -47803,7 +48215,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 208.28 46.99 0)
 			(effects
 				(font
@@ -47872,7 +48284,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 383.8448 153.67 0)
 			(effects
 				(font
@@ -47988,6 +48400,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 148.59 229.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f693f1cf-fa26-4064-8dad-3d37d9d5f956")
+		(property "Reference" "#PWR04"
+			(at 148.59 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 144.78 228.092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "207cd59a-6434-495d-8502-fbd0c1a7597e")
+		)
+		(instances
+			(project "Slab"
+				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 331.47 139.7 0)
 		(unit 1)
@@ -48085,7 +48562,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 177.8 54.61 0)
 			(effects
 				(font
@@ -48152,7 +48629,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 271.78 179.578 90)
 			(effects
 				(font
@@ -48422,7 +48899,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 277.1648 64.77 0)
 			(effects
 				(font
@@ -48489,7 +48966,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 200.66 31.75 0)
 			(effects
 				(font
@@ -48532,72 +49009,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 41.91 217.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fb429a2e-3b64-4e8d-b913-4ff19f6e886e")
-		(property "Reference" "TP11"
-			(at 40.894 211.074 0)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3V3"
-			(at 40.894 212.344 0)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 46.99 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 41.91 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "611a8abe-d93e-44b4-a17f-b03524a3e291")
-		)
-		(instances
-			(project "Slab"
-				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 384.81 139.7 180)
 		(unit 1)
@@ -48624,7 +49035,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 383.8448 135.89 0)
 			(effects
 				(font
@@ -48693,7 +49104,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 246.6848 100.33 0)
 			(effects
 				(font
@@ -48762,7 +49173,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 368.6048 118.11 0)
 			(effects
 				(font
@@ -48829,7 +49240,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined"
+		(property "Footprint" "CustomKeyboardLibrary:SW_choc_mx_combined_swapped_pads"
 			(at 177.8 39.37 0)
 			(effects
 				(font
