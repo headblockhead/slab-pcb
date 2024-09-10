@@ -1195,6 +1195,261 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic:Conn_01x06"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x06_1_1"
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "CustomSymbols:SN74AHCT125PWR"
 			(pin_names
 				(offset 0.254)
@@ -7331,6 +7586,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "748cdc35-0952-488d-8394-c6e2ed4583fe")
+	)
+	(junction
+		(at 64.77 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "755ea57e-b225-4b63-a8a9-3a61f65652dc")
 	)
 	(junction
 		(at 331.47 129.54)
@@ -17626,6 +17887,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 161.29) (xy 69.85 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f96bf225-c39a-4774-8f32-c5716bb584fb")
+	)
+	(wire
+		(pts
 			(xy 201.93 96.52) (xy 209.55 96.52)
 		)
 		(stroke
@@ -20789,71 +21060,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 138.43 220.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0106e966-c61b-4c97-89de-d7ab6d9323ee")
-		(property "Reference" "TP13"
-			(at 132.08 220.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 138.684 221.996 90)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 138.43 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 138.43 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "17d7bff1-7e0f-4125-82e9-50bfd018773e")
-		)
-		(instances
-			(project "Slab"
-				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
 		(at 276.86 31.75 0)
 		(unit 1)
@@ -23381,71 +23587,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 139.7 232.41 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1454d96f-09ab-43c6-8853-20aa8cfda001")
-		(property "Reference" "TP18"
-			(at 133.35 232.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 139.954 233.426 90)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 139.7 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 139.7 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ae0956d-91cb-42d6-8e8b-1835774c086c")
-		)
-		(instances
-			(project "Slab"
-				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
 		(at 223.52 46.99 0)
 		(unit 1)
@@ -23507,71 +23648,6 @@
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
 					(reference "MX53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 138.43 215.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "14cc7155-ebb2-4826-826d-43c8b5949267")
-		(property "Reference" "TP10"
-			(at 132.08 215.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 138.684 216.916 90)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 138.43 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 138.43 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f6069237-54e0-4409-ad51-dbcb03362706")
-		)
-		(instances
-			(project "Slab"
-				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -25039,71 +25115,6 @@
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
 					(reference "C90")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 138.43 218.44 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "23f8a6a5-4fba-42ab-b40a-d2920bbe5a38")
-		(property "Reference" "TP12"
-			(at 132.08 218.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 138.684 219.456 90)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 138.43 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 138.43 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0ab2f9cb-486c-4459-b075-64203880ee9f")
-		)
-		(instances
-			(project "Slab"
-				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -26931,71 +26942,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 139.7 229.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "308e7b22-a8a2-4a23-a173-65c4bae1b9b4")
-		(property "Reference" "TP17"
-			(at 133.35 229.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 139.954 230.886 90)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 139.7 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 139.7 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "07491c8b-27b0-453e-be28-6084ff070d0a")
-		)
-		(instances
-			(project "Slab"
-				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 392.43 104.14 0)
 		(unit 1)
@@ -28513,7 +28459,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 152.4 217.424 0)
+			(at 148.844 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31568,71 +31514,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 139.7 240.03 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5ba7ab83-be97-411d-8f53-c5836a8d3f4f")
-		(property "Reference" "TP22"
-			(at 133.35 240.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 139.954 241.046 90)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 139.7 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 139.7 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ab1f55b8-a49b-4f82-9a0c-e66fb2714b16")
-		)
-		(instances
-			(project "Slab"
-				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Memory_Flash:W25Q128JVS")
 		(at 87.63 266.7 0)
 		(unit 1)
@@ -31917,71 +31798,6 @@
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
 					(reference "#PWR0134")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 138.43 210.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "610fb24d-189d-4051-bca4-ca3676c81c4d")
-		(property "Reference" "TP8"
-			(at 132.08 210.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 138.684 211.836 90)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 138.43 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 138.43 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8097e223-f0c4-40ba-974a-6ce0ed198da7")
-		)
-		(instances
-			(project "Slab"
-				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -33653,6 +33469,85 @@
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
 					(reference "C50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 134.62 234.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7027efea-0241-4f41-902a-d7aebf4a8887")
+		(property "Reference" "J4"
+			(at 131.826 227.076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 132.08 234.442 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+			(at 134.62 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 134.62 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "bb0f6160-e33e-4325-93f6-f70bc0d06a0a")
+		)
+		(pin "1"
+			(uuid "2e77cede-e1d6-41df-8e70-02909224ae77")
+		)
+		(pin "5"
+			(uuid "6c412e6c-5b53-4ce9-ad68-1179fb49e368")
+		)
+		(pin "4"
+			(uuid "81c566be-bf9c-4e99-96b0-2736f6347717")
+		)
+		(pin "3"
+			(uuid "3b157649-c33a-46a4-8d36-ace2875a569b")
+		)
+		(pin "2"
+			(uuid "bb07952d-6f1d-47ed-944e-b0e05098c3db")
+		)
+		(instances
+			(project "Slab"
+				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -35364,71 +35259,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 138.43 213.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7dd92747-9b4f-4818-a867-78966e9bf1f6")
-		(property "Reference" "TP9"
-			(at 132.08 213.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 138.684 214.376 90)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 138.43 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 138.43 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ade59c3c-25bd-4cc9-af5c-51f63aac5b48")
-		)
-		(instances
-			(project "Slab"
-				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 298.45 33.02 0)
 		(unit 1)
@@ -36235,71 +36065,6 @@
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 139.7 234.95 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "87fb3388-1601-4360-a623-1838896f8ea4")
-		(property "Reference" "TP19"
-			(at 133.35 234.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 139.954 235.966 90)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 139.7 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 139.7 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "285160ff-33bb-4610-a958-96948ef3356f")
-		)
-		(instances
-			(project "Slab"
-				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -37820,71 +37585,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 139.7 227.33 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9659b1ac-40e1-423a-9c3f-75adaba50129")
-		(property "Reference" "TP15"
-			(at 133.35 227.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 136.398 224.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 139.7 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 139.7 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "224aac3d-e298-49be-8abc-96830e8f7a39")
-		)
-		(instances
-			(project "Slab"
-				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 44.45 109.22 0)
 		(unit 1)
@@ -38817,6 +38517,85 @@
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
 					(reference "#PWR0556")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 133.35 215.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9f47e5ab-baab-497e-b257-5daffaaa220e")
+		(property "Reference" "J3"
+			(at 130.81 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 131.064 215.392 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+			(at 133.35 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 133.35 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "261d7b70-2968-4388-8144-b3ec35416de1")
+		)
+		(pin "1"
+			(uuid "6e264db4-aab3-43f0-b760-c23117cd6255")
+		)
+		(pin "5"
+			(uuid "ed2d8169-5f29-4dda-a6e4-f60ea1f1935d")
+		)
+		(pin "4"
+			(uuid "53438598-51a1-4ec9-bff2-18437c91ac81")
+		)
+		(pin "3"
+			(uuid "4de1570f-cda9-4c3b-b998-f1557b367ceb")
+		)
+		(pin "2"
+			(uuid "7e0a3fed-6493-4916-8473-fc1ff52bb00a")
+		)
+		(instances
+			(project "Slab"
+				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -41115,71 +40894,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 139.7 237.49 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b34ac741-e3e0-42d8-8acb-4bd020aecaea")
-		(property "Reference" "TP20"
-			(at 133.35 237.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 139.954 238.506 90)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 139.7 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 139.7 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d4f01a3e-bd76-4f27-bca9-e60a367d3f55")
-		)
-		(instances
-			(project "Slab"
-				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
 		(at 269.24 54.61 0)
 		(unit 1)
@@ -42214,7 +41928,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 151.13 236.474 0)
+			(at 147.32 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44191,6 +43905,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 69.85 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2312149-2ca9-467c-84cb-ae85c67aa6bb")
+		(property "Reference" "MP11"
+			(at 67.818 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 66.294 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
+			(at 69.85 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 69.85 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b34e7f77-2741-4eb3-88c2-647f7338fbf0")
+		)
+		(instances
+			(project "Slab"
+				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
+					(reference "MP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 19.05 95.25 0)
 		(unit 1)
@@ -45019,71 +44800,6 @@
 			(project "Slab"
 				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
 					(reference "LED11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 138.43 208.28 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dc4165bf-c1be-4b7d-928d-411dc17c897c")
-		(property "Reference" "TP7"
-			(at 132.08 208.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 135.128 205.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 138.43 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 138.43 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "74c56e91-280c-4aa9-8ccd-49c8feaa12b0")
-		)
-		(instances
-			(project "Slab"
-				(path "/b21db611-fb95-4475-9a20-45dd707d028a"
-					(reference "TP7")
 					(unit 1)
 				)
 			)
