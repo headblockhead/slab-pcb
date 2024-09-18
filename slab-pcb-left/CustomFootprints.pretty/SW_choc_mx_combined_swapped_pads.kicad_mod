@@ -997,7 +997,7 @@
 		(roundrect_rratio 0.1)
 		(uuid "89a83d47-feb0-4031-953a-c981caccf136")
 	)
-	(pad "MP" thru_hole circle
+	(pad "2" thru_hole circle
 		(at 14.525 14.675 180)
 		(size 2.4 2.4)
 		(drill 1.6)
