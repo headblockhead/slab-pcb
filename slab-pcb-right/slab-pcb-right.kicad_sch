@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "2d36872c-cd86-4c0b-a812-2eca2fd821a3")
 	(paper "A4")
+	(title_block
+		(title "The Slab Keyboard - Right Module")
+		(date "2024-10-16")
+		(company "Edward Hesketh")
+	)
 	(lib_symbols
 		(symbol "Analog_ADC:ADS1110"
 			(pin_names
