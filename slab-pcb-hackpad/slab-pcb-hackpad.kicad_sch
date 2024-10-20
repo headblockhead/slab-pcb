@@ -784,23 +784,23 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 30.48 10.16 0)
+				(at -9.398 13.716 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Value" "SN74AHCT125PWR"
-				(at 30.48 7.62 0)
+			(property "Value" ""
+				(at -0.254 10.668 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" "PW14"
-				(at 0 0 0)
+			(property "Footprint" "CustomFootprints:SN74AHCT125PWR"
+				(at -0.508 -16.002 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -810,7 +810,7 @@
 				)
 			)
 			(property "Datasheet" "SN74AHCT125PWR"
-				(at 0 0 0)
+				(at 0.254 -13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -820,20 +820,12 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at -8.89 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_keywords" "SN74AHCT125PWR"
@@ -856,7 +848,7 @@
 			)
 			(symbol "SN74AHCT125PWR_0_1"
 				(pin input line
-					(at 0 0 0)
+					(at -16.51 6.35 0)
 					(length 7.62)
 					(name "*1OE"
 						(effects
@@ -874,7 +866,7 @@
 					)
 				)
 				(pin input line
-					(at 31.75 -10.16 180)
+					(at 15.24 -3.81 180)
 					(length 7.62)
 					(name "*3OE"
 						(effects
@@ -892,7 +884,7 @@
 					)
 				)
 				(pin input line
-					(at 31.75 -5.08 180)
+					(at 15.24 1.27 180)
 					(length 7.62)
 					(name "4A"
 						(effects
@@ -910,7 +902,7 @@
 					)
 				)
 				(pin input line
-					(at 31.75 -2.54 180)
+					(at 15.24 3.81 180)
 					(length 7.62)
 					(name "*4OE"
 						(effects
@@ -928,7 +920,7 @@
 					)
 				)
 				(pin power_in line
-					(at 31.75 0 180)
+					(at 15.24 6.35 180)
 					(length 7.62)
 					(name "VCC"
 						(effects
@@ -946,7 +938,7 @@
 					)
 				)
 				(pin input line
-					(at 0 -2.54 0)
+					(at -16.51 3.81 0)
 					(length 7.62)
 					(name "1A"
 						(effects
@@ -964,7 +956,7 @@
 					)
 				)
 				(pin input line
-					(at 0 -7.62 0)
+					(at -16.51 -1.27 0)
 					(length 7.62)
 					(name "*2OE"
 						(effects
@@ -982,7 +974,7 @@
 					)
 				)
 				(pin input line
-					(at 0 -10.16 0)
+					(at -16.51 -3.81 0)
 					(length 7.62)
 					(name "2A"
 						(effects
@@ -1000,7 +992,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -15.24 0)
+					(at -16.51 -8.89 0)
 					(length 7.62)
 					(name "GND"
 						(effects
@@ -1018,7 +1010,7 @@
 					)
 				)
 				(pin input line
-					(at 31.75 -12.7 180)
+					(at 15.24 -6.35 180)
 					(length 7.62)
 					(name "3A"
 						(effects
@@ -1038,8 +1030,8 @@
 			)
 			(symbol "SN74AHCT125PWR_1_1"
 				(rectangle
-					(start 7.62 2.54)
-					(end 24.13 -17.78)
+					(start -8.89 8.89)
+					(end 7.62 -11.43)
 					(stroke
 						(width 0)
 						(type default)
@@ -1049,7 +1041,7 @@
 					)
 				)
 				(pin output line
-					(at 31.75 -7.62 180)
+					(at 15.24 -1.27 180)
 					(length 7.62)
 					(name "4Y"
 						(effects
@@ -1067,7 +1059,7 @@
 					)
 				)
 				(pin output line
-					(at 0 -5.08 0)
+					(at -16.51 1.27 0)
 					(length 7.62)
 					(name "1Y"
 						(effects
@@ -1085,7 +1077,7 @@
 					)
 				)
 				(pin output line
-					(at 0 -12.7 0)
+					(at -16.51 -6.35 0)
 					(length 7.62)
 					(name "2Y"
 						(effects
@@ -1103,7 +1095,7 @@
 					)
 				)
 				(pin output line
-					(at 31.75 -15.24 180)
+					(at 15.24 -8.89 180)
 					(length 7.62)
 					(name "3Y"
 						(effects
@@ -8551,7 +8543,7 @@
 	)
 	(symbol
 		(lib_id "CustomSymbols:SN74AHCT125PWR")
-		(at 242.57 140.97 0)
+		(at 259.08 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8559,7 +8551,7 @@
 		(dnp no)
 		(uuid "03550115-2eb4-4c0e-bca8-c759a4acbe83")
 		(property "Reference" "U4"
-			(at 258.064 134.874 0)
+			(at 251.46 160.528 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8567,7 +8559,7 @@
 			)
 		)
 		(property "Value" "SN74AHCT125PWR"
-			(at 258.826 137.16 0)
+			(at 259.08 137.16 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8575,7 +8567,7 @@
 			)
 		)
 		(property "Footprint" "CustomFootprints:SN74AHCT125PWR"
-			(at 242.57 140.97 0)
+			(at 259.08 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8585,7 +8577,7 @@
 			)
 		)
 		(property "Datasheet" "SN74AHCT125PWR"
-			(at 242.57 140.97 0)
+			(at 251.46 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8595,7 +8587,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 242.57 140.97 0)
+			(at 251.46 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16267,7 +16259,7 @@
 		(dnp no)
 		(uuid "c2abe4c8-0770-4021-b2bc-94e1541d8452")
 		(property "Reference" "C32"
-			(at 262.128 129.286 90)
+			(at 272.288 127.254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16276,7 +16268,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 268.732 129.286 90)
+			(at 267.97 127.254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
