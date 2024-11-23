@@ -10064,6 +10064,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 100.33 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "148d6aa9-7c14-4c37-b228-1a0acdd44fda")
+		(property "Reference" "R5"
+			(at 102.87 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "6.2k"
+			(at 102.87 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 98.552 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 100.33 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "727a84f2-ac2c-42ec-a6ca-7fd8979613d9")
+		)
+		(pin "1"
+			(uuid "e370513e-ca5a-47a8-b3d6-55a4a51abbec")
+		)
+		(instances
+			(project ""
+				(path "/2d36872c-cd86-4c0b-a812-2eca2fd821a3"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 180.34 166.37 0)
 		(unit 1)
@@ -12571,15 +12641,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 100.33 92.71 0)
+		(at 100.33 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "54594c07-6b0c-4f0c-9384-c3a2303cd9e8")
+		(uuid "5518f3e2-7248-4823-9934-05948fde56d3")
 		(property "Reference" "#PWR018"
-			(at 100.33 96.52 0)
+			(at 100.33 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12588,7 +12658,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 96.012 91.44 0)
+			(at 96.012 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12596,7 +12666,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 92.71 0)
+			(at 100.33 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12605,7 +12675,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 92.71 0)
+			(at 100.33 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12614,7 +12684,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.33 92.71 0)
+			(at 100.33 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12623,7 +12693,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8518d9c9-95ce-45f5-920e-a7f9b2ed4922")
+			(uuid "94c74c05-86b4-411c-966c-7c6c5989f283")
 		)
 		(instances
 			(project "slab-pcb-right"
@@ -13322,6 +13392,71 @@
 			(project "slab-pcb-right"
 				(path "/2d36872c-cd86-4c0b-a812-2eca2fd821a3"
 					(reference "LED16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 142.24 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65023dbf-3947-489b-93c2-1519f9d29215")
+		(property "Reference" "#PWR048"
+			(at 142.24 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 137.922 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bbf38cf-846a-4777-ac90-6438d6a22a24")
+		)
+		(instances
+			(project "slab-pcb-right"
+				(path "/2d36872c-cd86-4c0b-a812-2eca2fd821a3"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -14820,6 +14955,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 142.24 95.25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7bf63bd0-bd61-40d1-841f-9fd5f04a6e26")
+		(property "Reference" "C35"
+			(at 145.542 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 144.526 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 141.2748 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 142.24 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f02f62ef-9765-4cea-a295-8dfc5d896246")
+		)
+		(pin "1"
+			(uuid "e849d5f4-bbfd-453e-a5d7-21190c22cb7a")
+		)
+		(instances
+			(project "slab-pcb-right"
+				(path "/2d36872c-cd86-4c0b-a812-2eca2fd821a3"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 186.69 80.01 0)
 		(unit 1)
@@ -15505,6 +15709,71 @@
 			(project "slab-pcb-right"
 				(path "/2d36872c-cd86-4c0b-a812-2eca2fd821a3"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.24 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f285809-48b0-495e-904b-9604f67e52ee")
+		(property "Reference" "#PWR049"
+			(at 142.24 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f49c836-6014-4055-aadb-b4597af33b63")
+		)
+		(instances
+			(project "slab-pcb-right"
+				(path "/2d36872c-cd86-4c0b-a812-2eca2fd821a3"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
