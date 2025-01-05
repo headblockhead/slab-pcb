@@ -1,0 +1,23 @@
+name: Generate Gerbers
+on: [push, pull_request]
+
+jobs:
+  generate_models:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: DeterminateSystems/nix-installer-action@main
+    - uses: DeterminateSystems/magic-nix-cache-action@main
+    - run: nix build
+    - uses: actions/upload-artifact@v4
+      with:
+        name: left
+        path: result/left/*
+    - uses: actions/upload-artifact@v4
+      with:
+        name: right
+        path: result/right/*
+    - uses: actions/upload-artifact@v4
+      with:
+        name: hackpad
+        path: result/hackpad/*
