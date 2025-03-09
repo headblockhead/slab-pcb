@@ -81,7 +81,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "/home/headb/Downloads/slab-pcb-left-grb/")
+			(outputdirectory "/home/headb/Downloads/slab-pcb-left-grb-assembled/")
 		)
 	)
 	(net 0 "")
@@ -239,6 +239,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C94599"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30d5fcf4-34e0-41e0-a1e4-66ea8b1b8973")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -747,6 +760,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "23d1d36b-6055-418d-8b4a-76b6836fb1df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/afeaf4ca-28c8-4e8f-b1ca-c82132e4f753")
 		(sheetname "Root")
@@ -957,6 +983,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b712fad-4f3c-4d5c-88a4-f7ba6fb0167f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2179,6 +2218,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b1f2cc9-5ade-4d8e-9fe3-116d9a789845")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/6f4e619a-22e3-48aa-a457-9e4c08faa6a1")
 		(sheetname "Root")
@@ -2388,6 +2440,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d27eb660-9f74-498f-b9e5-6de5c029e10a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2606,6 +2671,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c78f0677-2c50-4be4-84a5-d2650e5072e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/8e62af32-9ef5-4a73-8072-c42cda7198db")
 		(sheetname "Root")
 		(sheetfile "slab-pcb-left.kicad_sch")
@@ -2796,7 +2874,7 @@
 		)
 		(fp_arc
 			(start 8.478289 16.1733)
-			(mid 8.599879 16.122381)
+			(mid 8.599876 16.122379)
 			(end 8.730547 16.105001)
 			(stroke
 				(width 0.1)
@@ -2807,7 +2885,7 @@
 		)
 		(fp_arc
 			(start 8.730548 13.105001)
-			(mid 8.59988 13.087624)
+			(mid 8.599876 13.087624)
 			(end 8.47829 13.036702)
 			(stroke
 				(width 0.1)
@@ -2829,7 +2907,7 @@
 		)
 		(fp_arc
 			(start 10.571711 13.036702)
-			(mid 10.45012 13.087621)
+			(mid 10.450123 13.087623)
 			(end 10.319452 13.105001)
 			(stroke
 				(width 0.1)
@@ -3127,6 +3205,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "917de640-3183-4082-8d6a-2969c1c838cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ae296e79-e514-4092-bb86-b63f8571dbf9")
 		(sheetname "Root")
 		(sheetfile "slab-pcb-left.kicad_sch")
@@ -3317,7 +3408,7 @@
 		)
 		(fp_arc
 			(start 8.478289 16.1733)
-			(mid 8.599879 16.122381)
+			(mid 8.599876 16.122379)
 			(end 8.730547 16.105001)
 			(stroke
 				(width 0.1)
@@ -3328,7 +3419,7 @@
 		)
 		(fp_arc
 			(start 8.730548 13.105001)
-			(mid 8.59988 13.087624)
+			(mid 8.599876 13.087624)
 			(end 8.47829 13.036702)
 			(stroke
 				(width 0.1)
@@ -3350,7 +3441,7 @@
 		)
 		(fp_arc
 			(start 10.571711 13.036702)
-			(mid 10.45012 13.087621)
+			(mid 10.450123 13.087623)
 			(end 10.319452 13.105001)
 			(stroke
 				(width 0.1)
@@ -3648,6 +3739,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80d74d9a-8887-422a-963e-ff722a01fc0b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/43b769a6-397f-42c8-a1b1-8215f87e6098")
 		(sheetname "Root")
 		(sheetfile "slab-pcb-left.kicad_sch")
@@ -3838,7 +3942,7 @@
 		)
 		(fp_arc
 			(start 8.478289 16.1733)
-			(mid 8.599879 16.122381)
+			(mid 8.599876 16.122379)
 			(end 8.730547 16.105001)
 			(stroke
 				(width 0.1)
@@ -3849,7 +3953,7 @@
 		)
 		(fp_arc
 			(start 8.730548 13.105001)
-			(mid 8.59988 13.087624)
+			(mid 8.599876 13.087624)
 			(end 8.47829 13.036702)
 			(stroke
 				(width 0.1)
@@ -3871,7 +3975,7 @@
 		)
 		(fp_arc
 			(start 10.571711 13.036702)
-			(mid 10.45012 13.087621)
+			(mid 10.450123 13.087623)
 			(end 10.319452 13.105001)
 			(stroke
 				(width 0.1)
@@ -4169,6 +4273,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1675270a-d5d8-4efa-8507-278c39a7db43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/a555dd31-c257-4917-b454-d8d26893e1c8")
 		(sheetname "Root")
 		(sheetfile "slab-pcb-left.kicad_sch")
@@ -4359,7 +4476,7 @@
 		)
 		(fp_arc
 			(start 8.478289 16.1733)
-			(mid 8.599879 16.122381)
+			(mid 8.599876 16.122379)
 			(end 8.730547 16.105001)
 			(stroke
 				(width 0.1)
@@ -4370,7 +4487,7 @@
 		)
 		(fp_arc
 			(start 8.730548 13.105001)
-			(mid 8.59988 13.087624)
+			(mid 8.599876 13.087624)
 			(end 8.47829 13.036702)
 			(stroke
 				(width 0.1)
@@ -4392,7 +4509,7 @@
 		)
 		(fp_arc
 			(start 10.571711 13.036702)
-			(mid 10.45012 13.087621)
+			(mid 10.450123 13.087623)
 			(end 10.319452 13.105001)
 			(stroke
 				(width 0.1)
@@ -4686,6 +4803,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1cb4a319-c87c-465e-b690-da385fab75bb")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5909,6 +6039,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d093c3e6-baea-4864-9bc6-253b1ea5205b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/6481fa65-2705-42f5-876b-243ea4e3c4c2")
 		(sheetname "Root")
 		(sheetfile "slab-pcb-left.kicad_sch")
@@ -7128,6 +7271,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11c4f3ad-e15b-4c6d-9cb5-2f752fbcb7ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/5d9bb918-b256-4930-84e5-e72893bcb358")
 		(sheetname "Root")
 		(sheetfile "slab-pcb-left.kicad_sch")
@@ -7318,7 +7474,7 @@
 		)
 		(fp_arc
 			(start 8.478289 16.1733)
-			(mid 8.599879 16.122381)
+			(mid 8.599876 16.122379)
 			(end 8.730547 16.105001)
 			(stroke
 				(width 0.1)
@@ -7329,7 +7485,7 @@
 		)
 		(fp_arc
 			(start 8.730548 13.105001)
-			(mid 8.59988 13.087624)
+			(mid 8.599876 13.087624)
 			(end 8.47829 13.036702)
 			(stroke
 				(width 0.1)
@@ -7351,7 +7507,7 @@
 		)
 		(fp_arc
 			(start 10.571711 13.036702)
-			(mid 10.45012 13.087621)
+			(mid 10.450123 13.087623)
 			(end 10.319452 13.105001)
 			(stroke
 				(width 0.1)
@@ -7649,6 +7805,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "653abd94-00c3-4ba3-9212-2ca515567ec7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/8c23b950-1eaf-4521-af93-a5deb4ac363e")
 		(sheetname "Root")
 		(sheetfile "slab-pcb-left.kicad_sch")
@@ -7839,7 +8008,7 @@
 		)
 		(fp_arc
 			(start 8.478289 16.1733)
-			(mid 8.599879 16.122381)
+			(mid 8.599876 16.122379)
 			(end 8.730547 16.105001)
 			(stroke
 				(width 0.1)
@@ -7850,7 +8019,7 @@
 		)
 		(fp_arc
 			(start 8.730548 13.105001)
-			(mid 8.59988 13.087624)
+			(mid 8.599876 13.087624)
 			(end 8.47829 13.036702)
 			(stroke
 				(width 0.1)
@@ -7872,7 +8041,7 @@
 		)
 		(fp_arc
 			(start 10.571711 13.036702)
-			(mid 10.45012 13.087621)
+			(mid 10.450123 13.087623)
 			(end 10.319452 13.105001)
 			(stroke
 				(width 0.1)
@@ -8169,6 +8338,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95084632-6412-4798-90b2-0b46151447b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/61576e3d-ffe3-4bf4-ab92-04c7e565876f")
 		(sheetname "Root")
@@ -8383,6 +8565,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "819ccf60-6f09-4463-9bd5-9e0f0d45847f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/c730fa7c-407c-40f9-9278-90071bb37f32")
 		(sheetname "Root")
 		(sheetfile "slab-pcb-left.kicad_sch")
@@ -8573,7 +8768,7 @@
 		)
 		(fp_arc
 			(start 8.478289 16.1733)
-			(mid 8.599879 16.122381)
+			(mid 8.599876 16.122379)
 			(end 8.730547 16.105001)
 			(stroke
 				(width 0.1)
@@ -8584,7 +8779,7 @@
 		)
 		(fp_arc
 			(start 8.730548 13.105001)
-			(mid 8.59988 13.087624)
+			(mid 8.599876 13.087624)
 			(end 8.47829 13.036702)
 			(stroke
 				(width 0.1)
@@ -8606,7 +8801,7 @@
 		)
 		(fp_arc
 			(start 10.571711 13.036702)
-			(mid 10.45012 13.087621)
+			(mid 10.450123 13.087623)
 			(end 10.319452 13.105001)
 			(stroke
 				(width 0.1)
@@ -8903,6 +9098,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e85c59e-6548-4553-8dd8-484f34078f90")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/311cee75-22b3-456c-86ff-6bdda933c307")
 		(sheetname "Root")
@@ -9113,6 +9321,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5222909b-01c3-4632-b1e5-ee6a2d9baf38")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10335,6 +10556,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "89c2788a-faad-4ac7-8b90-0f7526277669")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/93dd47f8-18af-40ea-abdc-488760181bf1")
 		(sheetname "Root")
@@ -10545,6 +10779,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de7cb98f-6976-4fc8-adc9-895c050b15d1")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -11767,6 +12014,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b713ebc2-daea-42a4-8e34-4d107911cc59")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/623c500e-6b19-4fe5-8bad-ab7396260e73")
 		(sheetname "Root")
@@ -11981,6 +12241,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f6740d3-49fb-420e-8d1f-fdae661e6b45")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/975c34f3-f734-4514-9f07-05fe005fe442")
 		(sheetname "Root")
 		(sheetfile "slab-pcb-left.kicad_sch")
@@ -12171,7 +12444,7 @@
 		)
 		(fp_arc
 			(start 8.478289 16.1733)
-			(mid 8.599879 16.122381)
+			(mid 8.599876 16.122379)
 			(end 8.730547 16.105001)
 			(stroke
 				(width 0.1)
@@ -12182,7 +12455,7 @@
 		)
 		(fp_arc
 			(start 8.730548 13.105001)
-			(mid 8.59988 13.087624)
+			(mid 8.599876 13.087624)
 			(end 8.47829 13.036702)
 			(stroke
 				(width 0.1)
@@ -12204,7 +12477,7 @@
 		)
 		(fp_arc
 			(start 10.571711 13.036702)
-			(mid 10.45012 13.087621)
+			(mid 10.450123 13.087623)
 			(end 10.319452 13.105001)
 			(stroke
 				(width 0.1)
@@ -12498,6 +12771,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "23b3c985-ca30-4470-ba27-01ca978fd0c9")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -13894,6 +14180,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "992bdf6f-81a8-4d55-8ed8-77f28b1eea16")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/17e0c634-1b90-4886-9348-f6dbc172fda4")
 		(sheetname "Root")
 		(sheetfile "slab-pcb-left.kicad_sch")
@@ -14084,7 +14383,7 @@
 		)
 		(fp_arc
 			(start 8.478289 16.1733)
-			(mid 8.599879 16.122381)
+			(mid 8.599876 16.122379)
 			(end 8.730547 16.105001)
 			(stroke
 				(width 0.1)
@@ -14095,7 +14394,7 @@
 		)
 		(fp_arc
 			(start 8.730548 13.105001)
-			(mid 8.59988 13.087624)
+			(mid 8.599876 13.087624)
 			(end 8.47829 13.036702)
 			(stroke
 				(width 0.1)
@@ -14117,7 +14416,7 @@
 		)
 		(fp_arc
 			(start 10.571711 13.036702)
-			(mid 10.45012 13.087621)
+			(mid 10.450123 13.087623)
 			(end 10.319452 13.105001)
 			(stroke
 				(width 0.1)
@@ -14410,6 +14709,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5440741-8d04-44c9-9851-ad63f27e3e15")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -14832,6 +15144,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "685e2e77-f0d3-4864-a5f1-87d519755315")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/0011d926-5647-4a60-a5a1-f7029884a203")
 		(sheetname "Root")
@@ -15041,6 +15366,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "732351ee-6366-4830-9a9f-d93db13356fd")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -15258,6 +15596,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3ec5a77-4d6b-4553-91f6-1ec73adb4943")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/6838dac4-b2ea-4aa8-a43e-86dc51251936")
 		(sheetname "Root")
@@ -15467,6 +15818,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e696a80-6bca-46fe-abaa-a1bdcce4f54a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -15685,6 +16049,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba1eda3f-a199-4ab8-a1ad-b99ffc314ddc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/dc75ddb0-4718-44b4-a7a2-82e7ecdac87f")
 		(sheetname "Root")
 		(sheetfile "slab-pcb-left.kicad_sch")
@@ -15875,7 +16252,7 @@
 		)
 		(fp_arc
 			(start 8.478289 16.1733)
-			(mid 8.599879 16.122381)
+			(mid 8.599876 16.122379)
 			(end 8.730547 16.105001)
 			(stroke
 				(width 0.1)
@@ -15886,7 +16263,7 @@
 		)
 		(fp_arc
 			(start 8.730548 13.105001)
-			(mid 8.59988 13.087624)
+			(mid 8.599876 13.087624)
 			(end 8.47829 13.036702)
 			(stroke
 				(width 0.1)
@@ -15908,7 +16285,7 @@
 		)
 		(fp_arc
 			(start 10.571711 13.036702)
-			(mid 10.45012 13.087621)
+			(mid 10.450123 13.087623)
 			(end 10.319452 13.105001)
 			(stroke
 				(width 0.1)
@@ -16202,6 +16579,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f296e206-adc4-4be6-ad9a-af6e93e6a4e0")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -17424,6 +17814,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26e5a6e4-4a23-476b-871b-8fbc2fbab62e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/9a9687d9-4fed-4154-b35a-c86d66177b7e")
 		(sheetname "Root")
@@ -17633,6 +18036,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2907054"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "094faff6-d61c-4006-956b-a7aaf5b40486")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -17847,6 +18263,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5391a2a-c55b-4fc3-9804-1b6b2e35bfbe")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -19204,6 +19633,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8499fbee-9f5f-4210-aebd-3fcd8d32c479")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b561e98c-e663-4720-9c3a-09d571572151")
 		(sheetname "Root")
@@ -19418,6 +19860,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3883dda8-366e-42c5-b010-c5642d49e176")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/95353dbe-eae2-43ed-8b89-dcbe58f29549")
 		(sheetname "Root")
 		(sheetfile "slab-pcb-left.kicad_sch")
@@ -19608,7 +20063,7 @@
 		)
 		(fp_arc
 			(start 8.478289 16.1733)
-			(mid 8.599879 16.122381)
+			(mid 8.599876 16.122379)
 			(end 8.730547 16.105001)
 			(stroke
 				(width 0.1)
@@ -19619,7 +20074,7 @@
 		)
 		(fp_arc
 			(start 8.730548 13.105001)
-			(mid 8.59988 13.087624)
+			(mid 8.599876 13.087624)
 			(end 8.47829 13.036702)
 			(stroke
 				(width 0.1)
@@ -19641,7 +20096,7 @@
 		)
 		(fp_arc
 			(start 10.571711 13.036702)
-			(mid 10.45012 13.087621)
+			(mid 10.450123 13.087623)
 			(end 10.319452 13.105001)
 			(stroke
 				(width 0.1)
@@ -19939,6 +20394,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "569f89a7-0812-47c9-afa7-23cfeee647f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/9dfb7801-5675-4fe0-b2c3-7526d8dd2908")
 		(sheetname "Root")
 		(sheetfile "slab-pcb-left.kicad_sch")
@@ -20129,7 +20597,7 @@
 		)
 		(fp_arc
 			(start 8.478289 16.1733)
-			(mid 8.599879 16.122381)
+			(mid 8.599876 16.122379)
 			(end 8.730547 16.105001)
 			(stroke
 				(width 0.1)
@@ -20140,7 +20608,7 @@
 		)
 		(fp_arc
 			(start 8.730548 13.105001)
-			(mid 8.59988 13.087624)
+			(mid 8.599876 13.087624)
 			(end 8.47829 13.036702)
 			(stroke
 				(width 0.1)
@@ -20162,7 +20630,7 @@
 		)
 		(fp_arc
 			(start 10.571711 13.036702)
-			(mid 10.45012 13.087621)
+			(mid 10.450123 13.087623)
 			(end 10.319452 13.105001)
 			(stroke
 				(width 0.1)
@@ -20459,6 +20927,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "704204a2-a66f-4ab0-bbf3-12532c22468b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a18ae057-3e35-484f-9651-c8e2337d02d5")
 		(sheetname "Root")
@@ -20673,6 +21154,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b490d7e3-16b5-436d-8e7e-3075998dd368")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/d71562d0-dbf6-4b0d-b8bd-4bb3860b5a9d")
 		(sheetname "Root")
 		(sheetfile "slab-pcb-left.kicad_sch")
@@ -20863,7 +21357,7 @@
 		)
 		(fp_arc
 			(start 8.478289 16.1733)
-			(mid 8.599879 16.122381)
+			(mid 8.599876 16.122379)
 			(end 8.730547 16.105001)
 			(stroke
 				(width 0.1)
@@ -20874,7 +21368,7 @@
 		)
 		(fp_arc
 			(start 8.730548 13.105001)
-			(mid 8.59988 13.087624)
+			(mid 8.599876 13.087624)
 			(end 8.47829 13.036702)
 			(stroke
 				(width 0.1)
@@ -20896,7 +21390,7 @@
 		)
 		(fp_arc
 			(start 10.571711 13.036702)
-			(mid 10.45012 13.087621)
+			(mid 10.450123 13.087623)
 			(end 10.319452 13.105001)
 			(stroke
 				(width 0.1)
@@ -21190,6 +21684,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b35fd71-383e-4803-bb89-d296f5f6b989")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -22412,6 +22919,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C4190"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f953a93-0fed-4b8e-9e03-1282dd60aa8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/cafc46f9-8eff-4846-87da-66bc7af1e13d")
 		(sheetname "Root")
@@ -22621,6 +23141,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c3d0ba6-07e2-4fa8-9471-019f1cbd13d9")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -22970,6 +23503,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63eb60d5-ff2c-4847-9f09-04c3331631f5")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -24192,6 +24738,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa39a644-4268-49ab-83a4-e46408f9ff6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ffe8839d-73a2-4447-8b43-b19d7b45d3a0")
 		(sheetname "Root")
@@ -24406,6 +24965,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2dbeb529-ff30-49d1-92c5-4fef71127d31")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/00f57811-453f-402d-98c9-c9ed98d46a92")
 		(sheetname "Root")
 		(sheetfile "slab-pcb-left.kicad_sch")
@@ -24596,7 +25168,7 @@
 		)
 		(fp_arc
 			(start 8.478289 16.1733)
-			(mid 8.599879 16.122381)
+			(mid 8.599876 16.122379)
 			(end 8.730547 16.105001)
 			(stroke
 				(width 0.1)
@@ -24607,7 +25179,7 @@
 		)
 		(fp_arc
 			(start 8.730548 13.105001)
-			(mid 8.59988 13.087624)
+			(mid 8.599876 13.087624)
 			(end 8.47829 13.036702)
 			(stroke
 				(width 0.1)
@@ -24629,7 +25201,7 @@
 		)
 		(fp_arc
 			(start 10.571711 13.036702)
-			(mid 10.45012 13.087621)
+			(mid 10.450123 13.087623)
 			(end 10.319452 13.105001)
 			(stroke
 				(width 0.1)
@@ -25061,6 +25633,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81e6b0c9-0c5a-486d-ae12-260c069ffcc0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/61e2dd75-8c2d-41ca-9b3d-8896461b6ba6")
 		(sheetname "Root")
@@ -25406,6 +25991,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1330c630-1f39-425c-8857-4d08b708c013")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -26629,6 +27227,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "261a1ebf-a9da-4aa8-8f9f-739e77aed2bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/d2ddb20b-386d-4dcb-b0ab-6d833820aee6")
 		(sheetname "Root")
 		(sheetfile "slab-pcb-left.kicad_sch")
@@ -26819,7 +27430,7 @@
 		)
 		(fp_arc
 			(start 8.478289 16.1733)
-			(mid 8.599879 16.122381)
+			(mid 8.599876 16.122379)
 			(end 8.730547 16.105001)
 			(stroke
 				(width 0.1)
@@ -26830,7 +27441,7 @@
 		)
 		(fp_arc
 			(start 8.730548 13.105001)
-			(mid 8.59988 13.087624)
+			(mid 8.599876 13.087624)
 			(end 8.47829 13.036702)
 			(stroke
 				(width 0.1)
@@ -26852,7 +27463,7 @@
 		)
 		(fp_arc
 			(start 10.571711 13.036702)
-			(mid 10.45012 13.087621)
+			(mid 10.450123 13.087623)
 			(end 10.319452 13.105001)
 			(stroke
 				(width 0.1)
@@ -27280,6 +27891,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5705e17c-5b5d-4baa-a882-2d8d390e3840")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -27906,7 +28530,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "SN74AHCT125PWR"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27953,6 +28577,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C36365"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "693b68a9-fa12-4aea-b2f2-273ee1f8e9f4")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -29411,6 +30048,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d8efaf2-b3b6-44ee-aead-7c450afdfca9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/f0fc11d4-2d60-49b4-8958-1cd8faf59123")
 		(sheetname "Root")
@@ -29620,6 +30270,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C22471993"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e8cc10c-e3d1-40a1-bb2a-7c1f03ac1610")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -29912,6 +30575,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6b87588-ab4b-4eee-8e2d-15b8334c4074")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/2cb04a77-b656-4449-8881-4ec7623d8eb4")
 		(sheetname "Root")
 		(sheetfile "slab-pcb-left.kicad_sch")
@@ -30102,7 +30778,7 @@
 		)
 		(fp_arc
 			(start 8.478289 16.1733)
-			(mid 8.599879 16.122381)
+			(mid 8.599876 16.122379)
 			(end 8.730547 16.105001)
 			(stroke
 				(width 0.1)
@@ -30113,7 +30789,7 @@
 		)
 		(fp_arc
 			(start 8.730548 13.105001)
-			(mid 8.59988 13.087624)
+			(mid 8.599876 13.087624)
 			(end 8.47829 13.036702)
 			(stroke
 				(width 0.1)
@@ -30135,7 +30811,7 @@
 		)
 		(fp_arc
 			(start 10.571711 13.036702)
-			(mid 10.45012 13.087621)
+			(mid 10.450123 13.087623)
 			(end 10.319452 13.105001)
 			(stroke
 				(width 0.1)
@@ -30429,6 +31105,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc45739b-f850-489d-98da-c0154bd8f71d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -31651,6 +32340,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ecd595e-f57d-4a12-8815-444e60408479")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/e8b89436-bcd0-40c2-92e1-a3e47690fffd")
 		(sheetname "Root")
@@ -31860,6 +32562,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b7eb34a-ebef-4a56-9750-217638164594")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -32077,6 +32792,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ed60408-7f88-4176-9d24-0d37060f2eb4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/9de9ae42-f4f9-4c19-aee4-1a655a3b7072")
 		(sheetname "Root")
@@ -32287,6 +33015,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "387d7e92-bb4f-4f1c-9c44-3fe9511e8648")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -33510,6 +34251,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b04166d0-be67-4a7b-a723-28fc619eb014")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ce236815-447e-4a6a-963a-5514a62e031e")
 		(sheetname "Root")
 		(sheetfile "slab-pcb-left.kicad_sch")
@@ -33700,7 +34454,7 @@
 		)
 		(fp_arc
 			(start 8.478289 16.1733)
-			(mid 8.599879 16.122381)
+			(mid 8.599876 16.122379)
 			(end 8.730547 16.105001)
 			(stroke
 				(width 0.1)
@@ -33711,7 +34465,7 @@
 		)
 		(fp_arc
 			(start 8.730548 13.105001)
-			(mid 8.59988 13.087624)
+			(mid 8.599876 13.087624)
 			(end 8.47829 13.036702)
 			(stroke
 				(width 0.1)
@@ -33733,7 +34487,7 @@
 		)
 		(fp_arc
 			(start 10.571711 13.036702)
-			(mid 10.45012 13.087621)
+			(mid 10.450123 13.087623)
 			(end 10.319452 13.105001)
 			(stroke
 				(width 0.1)
@@ -34027,6 +34781,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3cfb12a-76ce-4260-8736-690951afaa9d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -35384,6 +36151,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62bff0f9-c80b-42be-8ead-bc65e08d70ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/3178d5ee-117a-422b-93ce-beb692f71a2c")
 		(sheetname "Root")
@@ -35594,6 +36374,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30633874-c498-4b04-be92-aa42068aeb21")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -36952,6 +37745,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65ffdd99-f2a5-4d06-9e3a-23c0846db474")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/1b01359c-6a49-4bfc-88e4-fdb5dcbb6515")
 		(sheetname "Root")
 		(sheetfile "slab-pcb-left.kicad_sch")
@@ -38167,6 +38973,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3783b479-be08-49e1-88f6-d2d0fffdb934")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -39390,6 +40209,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d244d8bb-d2d6-485d-acfc-9b0ff5d6980b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/e7e94298-c2f9-4f7f-9f64-36a9c29789e8")
 		(sheetname "Root")
 		(sheetfile "slab-pcb-left.kicad_sch")
@@ -40605,6 +41437,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9e1563f-4320-4df5-be26-3fa9581e1893")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -41828,6 +42673,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43abb6b6-2ddf-4235-9c8b-acc7059b4c26")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/445258e4-3c03-4f9f-9501-3b300e0d371b")
 		(sheetname "Root")
 		(sheetfile "slab-pcb-left.kicad_sch")
@@ -43046,6 +43904,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "587def8d-6d80-431d-9ee6-aeeccfc292cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/eea013b6-200d-4f20-9c75-fe6904e4998c")
 		(sheetname "Root")
@@ -43256,6 +44127,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b406419c-f92d-42c2-8d9f-c311520ec296")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -44479,6 +45363,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56c10552-64c3-4139-acbe-c1a6d96b92ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/4ae763bd-94ba-4908-ac29-cdcd3fd1f0a5")
 		(sheetname "Root")
 		(sheetfile "slab-pcb-left.kicad_sch")
@@ -45697,6 +46594,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C128392"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8820a790-8b66-4b5d-b202-f88bfbc82591")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TSSOP*4.4x7.8mm*P0.65mm*")
 		(path "/e1a8a56e-5227-460e-bf3b-5249b6227d68")
 		(sheetname "Root")
@@ -46174,6 +47084,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "133a039f-0abc-4453-8abe-bab53abdd087")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/108d367d-bb9d-444a-9b36-007c269d0516")
 		(sheetname "Root")
@@ -46384,6 +47307,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1dfaef6f-1803-4ebb-87af-f13fb65076bd")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -47607,6 +48543,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4721db2d-5e12-407b-9250-1cb07f43cd85")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/6554ca6b-0cf4-4347-9f29-9549d91855d1")
 		(sheetname "Root")
 		(sheetfile "slab-pcb-left.kicad_sch")
@@ -47797,7 +48746,7 @@
 		)
 		(fp_arc
 			(start 8.478289 16.1733)
-			(mid 8.599879 16.122381)
+			(mid 8.599876 16.122379)
 			(end 8.730547 16.105001)
 			(stroke
 				(width 0.1)
@@ -47808,7 +48757,7 @@
 		)
 		(fp_arc
 			(start 8.730548 13.105001)
-			(mid 8.59988 13.087624)
+			(mid 8.599876 13.087624)
 			(end 8.47829 13.036702)
 			(stroke
 				(width 0.1)
@@ -47830,7 +48779,7 @@
 		)
 		(fp_arc
 			(start 10.571711 13.036702)
-			(mid 10.45012 13.087621)
+			(mid 10.450123 13.087623)
 			(end 10.319452 13.105001)
 			(stroke
 				(width 0.1)
@@ -48128,6 +49077,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bec476ab-9350-43e7-8021-2a113221794d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/6480f1f4-29a6-412e-8db0-a051a30d8282")
 		(sheetname "Root")
 		(sheetfile "slab-pcb-left.kicad_sch")
@@ -48318,7 +49280,7 @@
 		)
 		(fp_arc
 			(start 8.478289 16.1733)
-			(mid 8.599879 16.122381)
+			(mid 8.599876 16.122379)
 			(end 8.730547 16.105001)
 			(stroke
 				(width 0.1)
@@ -48329,7 +49291,7 @@
 		)
 		(fp_arc
 			(start 8.730548 13.105001)
-			(mid 8.59988 13.087624)
+			(mid 8.599876 13.087624)
 			(end 8.47829 13.036702)
 			(stroke
 				(width 0.1)
@@ -48351,7 +49313,7 @@
 		)
 		(fp_arc
 			(start 10.571711 13.036702)
-			(mid 10.45012 13.087621)
+			(mid 10.450123 13.087623)
 			(end 10.319452 13.105001)
 			(stroke
 				(width 0.1)
@@ -48649,6 +49611,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ae981c4-b0c7-4e9b-aa32-f8bb53fe8281")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ce5ecfe0-f39a-48fd-b491-8abff38a36ef")
 		(sheetname "Root")
 		(sheetfile "slab-pcb-left.kicad_sch")
@@ -48839,7 +49814,7 @@
 		)
 		(fp_arc
 			(start 8.478289 16.1733)
-			(mid 8.599879 16.122381)
+			(mid 8.599876 16.122379)
 			(end 8.730547 16.105001)
 			(stroke
 				(width 0.1)
@@ -48850,7 +49825,7 @@
 		)
 		(fp_arc
 			(start 8.730548 13.105001)
-			(mid 8.59988 13.087624)
+			(mid 8.599876 13.087624)
 			(end 8.47829 13.036702)
 			(stroke
 				(width 0.1)
@@ -48872,7 +49847,7 @@
 		)
 		(fp_arc
 			(start 10.571711 13.036702)
-			(mid 10.45012 13.087621)
+			(mid 10.450123 13.087623)
 			(end 10.319452 13.105001)
 			(stroke
 				(width 0.1)
@@ -49343,6 +50318,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bcb05a41-6003-4c37-9fdb-e2ee17ba99e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/5d93c377-cdb0-4498-8463-633666a5f5ab")
 		(sheetname "Root")
 		(sheetfile "slab-pcb-left.kicad_sch")
@@ -49533,7 +50521,7 @@
 		)
 		(fp_arc
 			(start 8.478289 16.1733)
-			(mid 8.599879 16.122381)
+			(mid 8.599876 16.122379)
 			(end 8.730547 16.105001)
 			(stroke
 				(width 0.1)
@@ -49544,7 +50532,7 @@
 		)
 		(fp_arc
 			(start 8.730548 13.105001)
-			(mid 8.59988 13.087624)
+			(mid 8.599876 13.087624)
 			(end 8.47829 13.036702)
 			(stroke
 				(width 0.1)
@@ -49566,7 +50554,7 @@
 		)
 		(fp_arc
 			(start 10.571711 13.036702)
-			(mid 10.45012 13.087621)
+			(mid 10.450123 13.087623)
 			(end 10.319452 13.105001)
 			(stroke
 				(width 0.1)
@@ -49998,6 +50986,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0136bfe5-1b75-40c7-ad44-9e3bb7968298")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/59ca69fb-a9bc-4150-bf8d-d1f20f4b12f3")
 		(sheetname "Root")
@@ -50208,6 +51209,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d090596-8665-4a2a-964c-7015423ac1ab")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -51430,6 +52444,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6cbe33f7-7b3e-4373-8221-44cdb5eecd56")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/144cbdc0-91e4-43f0-9501-569071fae343")
 		(sheetname "Root")
@@ -51644,6 +52671,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b9c891e-b13e-42a8-8e5a-53823536eaec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b7d65dda-648e-4f0f-858a-f0cf381b35a1")
 		(sheetname "Root")
 		(sheetfile "slab-pcb-left.kicad_sch")
@@ -51834,7 +52874,7 @@
 		)
 		(fp_arc
 			(start 8.478289 16.1733)
-			(mid 8.599879 16.122381)
+			(mid 8.599876 16.122379)
 			(end 8.730547 16.105001)
 			(stroke
 				(width 0.1)
@@ -51845,7 +52885,7 @@
 		)
 		(fp_arc
 			(start 8.730548 13.105001)
-			(mid 8.59988 13.087624)
+			(mid 8.599876 13.087624)
 			(end 8.47829 13.036702)
 			(stroke
 				(width 0.1)
@@ -51867,7 +52907,7 @@
 		)
 		(fp_arc
 			(start 10.571711 13.036702)
-			(mid 10.45012 13.087621)
+			(mid 10.450123 13.087623)
 			(end 10.319452 13.105001)
 			(stroke
 				(width 0.1)
@@ -52161,6 +53201,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f98aef1-4e6a-48e9-819f-4dd44458537f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -53384,6 +54437,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "698cec32-0ac5-4cd7-927c-a038a933dfb0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/29be911d-ec4c-45e9-b4e4-0eebf3f4696d")
 		(sheetname "Root")
 		(sheetfile "slab-pcb-left.kicad_sch")
@@ -54599,6 +55665,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7f20195-f8c4-48e7-9507-def2376495a4")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -55822,6 +56901,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "594f3686-e33b-420e-9b8e-601dae0eb04c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/58d575dc-62e6-4023-9c14-7fffec3f8d28")
 		(sheetname "Root")
 		(sheetfile "slab-pcb-left.kicad_sch")
@@ -56012,7 +57104,7 @@
 		)
 		(fp_arc
 			(start 8.478289 16.1733)
-			(mid 8.599879 16.122381)
+			(mid 8.599876 16.122379)
 			(end 8.730547 16.105001)
 			(stroke
 				(width 0.1)
@@ -56023,7 +57115,7 @@
 		)
 		(fp_arc
 			(start 8.730548 13.105001)
-			(mid 8.59988 13.087624)
+			(mid 8.599876 13.087624)
 			(end 8.47829 13.036702)
 			(stroke
 				(width 0.1)
@@ -56045,7 +57137,7 @@
 		)
 		(fp_arc
 			(start 10.571711 13.036702)
-			(mid 10.45012 13.087621)
+			(mid 10.450123 13.087623)
 			(end 10.319452 13.105001)
 			(stroke
 				(width 0.1)
@@ -56339,6 +57431,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ebf0a34-37e9-42a2-92cf-4cb0ac9d6f8d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -57561,6 +58666,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de5e2d63-c327-4d0d-8a82-d54d770d3261")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/803edbfb-e6ce-478e-9fdc-650e7a3718bc")
 		(sheetname "Root")
@@ -57775,6 +58893,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "199f5875-4db2-4301-b15a-81f0c673ed4d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/95315b69-cbec-4aab-a6fb-28749077eedf")
 		(sheetname "Root")
 		(sheetfile "slab-pcb-left.kicad_sch")
@@ -57965,7 +59096,7 @@
 		)
 		(fp_arc
 			(start 8.478289 16.1733)
-			(mid 8.599879 16.122381)
+			(mid 8.599876 16.122379)
 			(end 8.730547 16.105001)
 			(stroke
 				(width 0.1)
@@ -57976,7 +59107,7 @@
 		)
 		(fp_arc
 			(start 8.730548 13.105001)
-			(mid 8.59988 13.087624)
+			(mid 8.599876 13.087624)
 			(end 8.47829 13.036702)
 			(stroke
 				(width 0.1)
@@ -57998,7 +59129,7 @@
 		)
 		(fp_arc
 			(start 10.571711 13.036702)
-			(mid 10.45012 13.087621)
+			(mid 10.450123 13.087623)
 			(end 10.319452 13.105001)
 			(stroke
 				(width 0.1)
@@ -58291,6 +59422,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb190d8d-0249-405a-8a88-06319ae3cba1")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -58644,6 +59788,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b4c6203-69f4-45d3-83f2-048311f8f147")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/665be60d-5178-472a-89d0-7caa536e9b19")
 		(sheetname "Root")
 		(sheetfile "slab-pcb-left.kicad_sch")
@@ -58834,7 +59991,7 @@
 		)
 		(fp_arc
 			(start 8.478289 16.1733)
-			(mid 8.599879 16.122381)
+			(mid 8.599876 16.122379)
 			(end 8.730547 16.105001)
 			(stroke
 				(width 0.1)
@@ -58845,7 +60002,7 @@
 		)
 		(fp_arc
 			(start 8.730548 13.105001)
-			(mid 8.59988 13.087624)
+			(mid 8.599876 13.087624)
 			(end 8.47829 13.036702)
 			(stroke
 				(width 0.1)
@@ -58867,7 +60024,7 @@
 		)
 		(fp_arc
 			(start 10.571711 13.036702)
-			(mid 10.45012 13.087621)
+			(mid 10.450123 13.087623)
 			(end 10.319452 13.105001)
 			(stroke
 				(width 0.1)
@@ -59164,6 +60321,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf62723b-0538-4eb3-8385-a1342dc4b58a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/506752fc-4313-4690-9781-027e23fa53cc")
 		(sheetname "Root")
@@ -59373,6 +60543,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eea26c50-01b6-450b-b333-cbe16cafcf44")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -59590,6 +60773,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34061a93-3bf1-4291-af01-fb1fd23b2938")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/187908e8-0a57-451b-abdb-0b8ba9b94c35")
 		(sheetname "Root")
@@ -59800,6 +60996,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2944df24-a45c-4f16-865f-6a687d5a5c38")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -61023,6 +62232,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93774584-15e3-4c02-9a9a-4ca6da13f7fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b8a319b2-96c2-4151-9ee6-be4087ddae46")
 		(sheetname "Root")
 		(sheetfile "slab-pcb-left.kicad_sch")
@@ -61213,7 +62435,7 @@
 		)
 		(fp_arc
 			(start 8.478289 16.1733)
-			(mid 8.599879 16.122381)
+			(mid 8.599876 16.122379)
 			(end 8.730547 16.105001)
 			(stroke
 				(width 0.1)
@@ -61224,7 +62446,7 @@
 		)
 		(fp_arc
 			(start 8.730548 13.105001)
-			(mid 8.59988 13.087624)
+			(mid 8.599876 13.087624)
 			(end 8.47829 13.036702)
 			(stroke
 				(width 0.1)
@@ -61246,7 +62468,7 @@
 		)
 		(fp_arc
 			(start 10.571711 13.036702)
-			(mid 10.45012 13.087621)
+			(mid 10.450123 13.087623)
 			(end 10.319452 13.105001)
 			(stroke
 				(width 0.1)
@@ -61543,6 +62765,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d6b4307c-df88-4833-8b4f-71344dc22a51")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/db4b9fcc-a95d-43b6-8834-600123d91613")
 		(sheetname "Root")
@@ -61752,6 +62987,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C128392"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87dac13e-2a58-4360-8534-56334385218d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -62234,6 +63482,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a743f5b5-e299-4acf-ae64-64ddab13a752")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/15b7a5b2-7b84-4b89-aadc-e8d1dd39bdb4")
 		(sheetname "Root")
 		(sheetfile "slab-pcb-left.kicad_sch")
@@ -62424,7 +63685,7 @@
 		)
 		(fp_arc
 			(start 8.478289 16.1733)
-			(mid 8.599879 16.122381)
+			(mid 8.599876 16.122379)
 			(end 8.730547 16.105001)
 			(stroke
 				(width 0.1)
@@ -62435,7 +63696,7 @@
 		)
 		(fp_arc
 			(start 8.730548 13.105001)
-			(mid 8.59988 13.087624)
+			(mid 8.599876 13.087624)
 			(end 8.47829 13.036702)
 			(stroke
 				(width 0.1)
@@ -62457,7 +63718,7 @@
 		)
 		(fp_arc
 			(start 10.571711 13.036702)
-			(mid 10.45012 13.087621)
+			(mid 10.450123 13.087623)
 			(end 10.319452 13.105001)
 			(stroke
 				(width 0.1)
@@ -62755,6 +64016,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19e5ce8f-5a5c-4e85-a2b1-80dad1ab638f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/f56cd5cd-6ed8-4594-b994-910b95822978")
 		(sheetname "Root")
 		(sheetfile "slab-pcb-left.kicad_sch")
@@ -62945,7 +64219,7 @@
 		)
 		(fp_arc
 			(start 8.478289 16.1733)
-			(mid 8.599879 16.122381)
+			(mid 8.599876 16.122379)
 			(end 8.730547 16.105001)
 			(stroke
 				(width 0.1)
@@ -62956,7 +64230,7 @@
 		)
 		(fp_arc
 			(start 8.730548 13.105001)
-			(mid 8.59988 13.087624)
+			(mid 8.599876 13.087624)
 			(end 8.47829 13.036702)
 			(stroke
 				(width 0.1)
@@ -62978,7 +64252,7 @@
 		)
 		(fp_arc
 			(start 10.571711 13.036702)
-			(mid 10.45012 13.087621)
+			(mid 10.450123 13.087623)
 			(end 10.319452 13.105001)
 			(stroke
 				(width 0.1)
@@ -63275,6 +64549,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45efa29b-6884-4bb5-b33b-09a82753d905")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/bea8d2fc-2c19-4811-b38f-74d247a87154")
 		(sheetname "Root")
@@ -63485,6 +64772,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d3911aeb-b21f-40dd-9ebf-403496986087")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -64707,6 +66007,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0ce2faf-8d8a-429d-870c-14651925e109")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b3d64e50-f469-4ef3-b241-a86995c8b04e")
 		(sheetname "Root")
@@ -64921,6 +66234,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "485b27bc-c110-4bea-9e30-6d4dca1c5f7e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/47a44ada-9341-4796-9522-ff43c994c7d9")
 		(sheetname "Root")
 		(sheetfile "slab-pcb-left.kicad_sch")
@@ -65111,7 +66437,7 @@
 		)
 		(fp_arc
 			(start 8.478289 16.1733)
-			(mid 8.599879 16.122381)
+			(mid 8.599876 16.122379)
 			(end 8.730547 16.105001)
 			(stroke
 				(width 0.1)
@@ -65122,7 +66448,7 @@
 		)
 		(fp_arc
 			(start 8.730548 13.105001)
-			(mid 8.59988 13.087624)
+			(mid 8.599876 13.087624)
 			(end 8.47829 13.036702)
 			(stroke
 				(width 0.1)
@@ -65144,7 +66470,7 @@
 		)
 		(fp_arc
 			(start 10.571711 13.036702)
-			(mid 10.45012 13.087621)
+			(mid 10.450123 13.087623)
 			(end 10.319452 13.105001)
 			(stroke
 				(width 0.1)
@@ -65441,6 +66767,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37c01828-107e-41b3-8896-fe34c2ce2e08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/9a969041-5e72-4329-8557-4186fa5d9018")
 		(sheetname "Root")
@@ -65650,6 +66989,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C4190"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e71dbd0-0cca-4194-abc3-294c3e8b76df")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -66179,6 +67531,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5149201"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b0fd99e-72b8-4823-8a65-19b549a97933")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/1b6cd29a-b531-4126-ae04-b9d534624b9f")
 		(sheetname "Root")
 		(sheetfile "slab-pcb-left.kicad_sch")
@@ -66369,7 +67734,7 @@
 		)
 		(fp_arc
 			(start 8.478289 16.1733)
-			(mid 8.599879 16.122381)
+			(mid 8.599876 16.122379)
 			(end 8.730547 16.105001)
 			(stroke
 				(width 0.1)
@@ -66380,7 +67745,7 @@
 		)
 		(fp_arc
 			(start 8.730548 13.105001)
-			(mid 8.59988 13.087624)
+			(mid 8.599876 13.087624)
 			(end 8.47829 13.036702)
 			(stroke
 				(width 0.1)
@@ -66402,7 +67767,7 @@
 		)
 		(fp_arc
 			(start 10.571711 13.036702)
-			(mid 10.45012 13.087621)
+			(mid 10.450123 13.087623)
 			(end 10.319452 13.105001)
 			(stroke
 				(width 0.1)
@@ -66695,6 +68060,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2871997-962e-430f-9cc8-81244ea2225e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -67284,6 +68662,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C5248081"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "96ae4271-7cb6-41d5-99cb-90d812b8116b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/85cf1b44-b312-45fb-8d76-2a7ad2710886")
 		(sheetname "Root")
@@ -67777,6 +69169,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C95562"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a2974116-010f-4c09-a431-ab2c6bd8db7c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Jack*")
 		(path "/7227f950-8fdc-4db6-9f67-cb9bf4931076")
 		(sheetname "Root")
@@ -68157,6 +69563,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C95562"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4be862e7-f780-41f0-b9fd-67b3bf1f887c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Jack*")
 		(path "/dbd3ce76-c9fa-4801-a9bb-2a29f86ce918")
 		(sheetname "Root")
@@ -68531,6 +69951,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C470640"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5d167625-3497-4309-8f74-3b035b62a039")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -69309,6 +70743,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C351235"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0c6cda7c-e3c1-43c0-8c29-80ebe69b4940")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -71762,6 +73210,358 @@
 		(layer "Edge.Cuts")
 		(uuid "ff438052-f81a-4220-b31a-21ad2455f52e")
 	)
+	(gr_rect
+		(start 148 95.5)
+		(end 167 114.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.6")
+		(uuid "01a0695c-c7a1-4688-b3d3-cc91ace8d70a")
+	)
+	(gr_rect
+		(start 167 121)
+		(end 186 140)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.6")
+		(uuid "1f856616-9e4a-4633-86dd-9d34e1511e81")
+	)
+	(gr_rect
+		(start 91 40.5)
+		(end 110 59.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.6")
+		(uuid "33b85ab0-4057-4cda-b812-0f0ad9ce27f5")
+	)
+	(gr_rect
+		(start 91 116.5)
+		(end 110 135.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.6")
+		(uuid "354f2384-7a26-4a82-8c37-95e403b3131b")
+	)
+	(gr_rect
+		(start 148 38.5)
+		(end 167 57.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.6")
+		(uuid "3566e60b-a63c-449a-8f7b-46d4441f169b")
+	)
+	(gr_rect
+		(start 129 55)
+		(end 148 74)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.6")
+		(uuid "463f36f9-25f7-49ad-ae16-700a1998eaf2")
+	)
+	(gr_rect
+		(start 91 97.5)
+		(end 110 116.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.6")
+		(uuid "4ce18725-94d3-447c-a2e9-6887ea908c13")
+	)
+	(gr_rect
+		(start 110 94.5)
+		(end 129 113.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.6")
+		(uuid "510c868d-0761-4328-bc3e-54d3aac29799")
+	)
+	(gr_rect
+		(start 110 37.5)
+		(end 129 56.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.6")
+		(uuid "6e4daf33-e6af-4630-827e-8cf5c725306b")
+	)
+	(gr_rect
+		(start 186 45)
+		(end 205 64)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.6")
+		(uuid "72a86468-0a60-49eb-9f85-da48fcbf36d9")
+	)
+	(gr_rect
+		(start 186 64)
+		(end 205 83)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.6")
+		(uuid "7959ae5c-e4bd-4d26-8289-daa4a9954ec1")
+	)
+	(gr_rect
+		(start 186 102)
+		(end 205 121)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.6")
+		(uuid "7bc5b20e-b2af-42ba-86bc-d5ccd5ec99fb")
+	)
+	(gr_rect
+		(start 72 45)
+		(end 91 140)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.6")
+		(uuid "7d7aae3d-f90b-4e57-9a9a-e26cd7be8cab")
+	)
+	(gr_rect
+		(start 129 93)
+		(end 148 112)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.6")
+		(uuid "8efc88ad-5e57-4cf6-814c-7c5d159823d4")
+	)
+	(gr_rect
+		(start 129 74)
+		(end 148 93)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.6")
+		(uuid "90072f1f-bcdf-46d3-a848-fd419df1bdc8")
+	)
+	(gr_rect
+		(start 129 112)
+		(end 148 131)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.6")
+		(uuid "95ca6982-1d98-441b-8e0d-316228488c5b")
+	)
+	(gr_rect
+		(start 110 75.5)
+		(end 129 94.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.6")
+		(uuid "9b4930ef-d5a1-4e19-b2a9-ce384d7da1e1")
+	)
+	(gr_rect
+		(start 148 76.5)
+		(end 167 95.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.6")
+		(uuid "a25b6ea6-efd7-4383-9b3f-45fa2b99897a")
+	)
+	(gr_rect
+		(start 129 36)
+		(end 148 55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.6")
+		(uuid "b0b48294-9004-4f9f-90c3-beaa0177de95")
+	)
+	(gr_rect
+		(start 167 45)
+		(end 186 64)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.6")
+		(uuid "b7bfde52-8422-450d-81c0-3947c6031c2e")
+	)
+	(gr_rect
+		(start 110 113.5)
+		(end 129 132.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.6")
+		(uuid "b99fc59f-561e-4286-b442-7dbf34a6cbfe")
+	)
+	(gr_rect
+		(start 148 114.5)
+		(end 167 133.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.6")
+		(uuid "b9ee3057-b9e9-4b90-87d1-92062bc0ffb5")
+	)
+	(gr_rect
+		(start 186 121)
+		(end 205 140)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.6")
+		(uuid "bb38b727-4810-4d25-b3e2-6a7f85ac6356")
+	)
+	(gr_rect
+		(start 91 59.5)
+		(end 110 78.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.6")
+		(uuid "c6aab1e7-8f6d-40cc-9be7-ede7fa51906f")
+	)
+	(gr_rect
+		(start 91 78.5)
+		(end 110 97.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.6")
+		(uuid "cae54c8d-89a0-4436-af3b-b928c003a857")
+	)
+	(gr_rect
+		(start 205 45)
+		(end 230 140)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.6")
+		(uuid "cb3209d2-e179-46cd-ac3f-649098e9560a")
+	)
+	(gr_rect
+		(start 167 102)
+		(end 186 121)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.6")
+		(uuid "cdd8ad9c-f32a-49e0-ba0d-04201d8fd545")
+	)
+	(gr_rect
+		(start 110 56.5)
+		(end 129 75.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.6")
+		(uuid "d10c4fae-2d4c-4b78-9e57-2f6796b3da63")
+	)
+	(gr_rect
+		(start 167 64)
+		(end 186 83)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.6")
+		(uuid "d6a1a5e5-fd10-4e4f-88ae-fa21477756a2")
+	)
+	(gr_rect
+		(start 186 83)
+		(end 205 102)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.6")
+		(uuid "f199bd17-ad5b-425a-9501-57b11aa65ed9")
+	)
+	(gr_rect
+		(start 167 83)
+		(end 186 102)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.6")
+		(uuid "f73709d8-7abc-4e14-bc0a-0c6b6a015c69")
+	)
+	(gr_rect
+		(start 148 57.5)
+		(end 167 76.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.6")
+		(uuid "feb90337-6a55-49ba-bd66-9cd6f5a3cf6b")
+	)
 	(gr_text "VCC"
 		(at 216.9 125.7 90)
 		(layer "B.SilkS")
@@ -72491,6 +74291,18 @@
 					(xy 96.855652 109.07464) (xy 98.00457 109.68427) (xy 99.153488 109.004298)
 				)
 			)
+		)
+	)
+	(gr_text "L"
+		(at 210 82 0)
+		(layer "User.6")
+		(uuid "27dc3619-50fe-46d0-8c32-35217e7c44c3")
+		(effects
+			(font
+				(size 15 15)
+				(thickness 2)
+			)
+			(justify left bottom)
 		)
 	)
 	(segment
