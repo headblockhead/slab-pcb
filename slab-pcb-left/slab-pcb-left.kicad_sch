@@ -4963,6 +4963,10 @@
 		(uuid "2c76fa08-39c6-4dc9-8003-4a041766f140")
 	)
 	(no_connect
+		(at 104.14 167.64)
+		(uuid "2ea99b0d-3e99-41a3-b8cc-b935fd31a3fa")
+	)
+	(no_connect
 		(at 241.3 151.13)
 		(uuid "41a7b37b-e83d-45d7-9dc3-401176cb61e2")
 	)
@@ -4977,6 +4981,10 @@
 	(no_connect
 		(at 44.45 46.99)
 		(uuid "7953281d-f44f-42f2-8514-bb0852cd930e")
+	)
+	(no_connect
+		(at 29.21 67.31)
+		(uuid "847b3f67-70b1-41f6-b360-408922a4b81c")
 	)
 	(no_connect
 		(at 273.05 156.21)
@@ -8754,6 +8762,17 @@
 		)
 		(uuid "70b4a0f0-0364-4637-bc10-b9faaf82fdfc")
 	)
+	(label "EXPANDER1_INT"
+		(at 54.61 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71bfa5e7-7d36-47bf-96be-403d891c2f19")
+	)
 	(label "KEY_PIXEL_SHIFT_INPUT"
 		(at 241.3 143.51 180)
 		(fields_autoplaced yes)
@@ -8775,17 +8794,6 @@
 			(justify left bottom)
 		)
 		(uuid "770d7c49-452a-4cdf-a519-824cab02cc16")
-	)
-	(label "UART0_TX"
-		(at 29.21 67.31 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "79c2d7b3-4d23-4a41-a71c-9098e5cfbbc4")
 	)
 	(label "I2C1_SDA"
 		(at 30.48 148.59 180)
@@ -9029,17 +9037,6 @@
 		)
 		(uuid "babafbcf-3930-481b-b932-5575d9972744")
 	)
-	(label "UART0_RX"
-		(at 54.61 67.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bd9306ca-358e-47bd-be91-72f286623ce6")
-	)
 	(label "I2C1_SCL"
 		(at 78.74 144.78 180)
 		(fields_autoplaced yes)
@@ -9215,17 +9212,6 @@
 			(justify left bottom)
 		)
 		(uuid "e444dafa-19ca-4ebe-b613-463ab72102b2")
-	)
-	(label "EXPANDER1_INT"
-		(at 104.14 167.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e6d54719-0728-4778-bce4-23f1615f575e")
 	)
 	(label "KEY10"
 		(at 55.88 176.53 0)
