@@ -3070,7 +3070,7 @@
 		)
 		(uuid "ff838dee-51e5-41d2-8e15-a21a571fe7ef")
 	)
-	(hierarchical_label "RGBLED_input"
+	(hierarchical_label "Input"
 		(shape input)
 		(at 82.55 53.34 180)
 		(effects
@@ -3081,7 +3081,7 @@
 		)
 		(uuid "3b25989b-c093-4fd2-9b31-1b92c8e21829")
 	)
-	(hierarchical_label "RGBLED_output"
+	(hierarchical_label "Output"
 		(shape input)
 		(at 201.93 124.46 0)
 		(effects
