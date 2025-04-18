@@ -6,6 +6,11 @@ The full PCB, schematics, and gerber downloads for the [Slab keyboard project](h
 
 Downloads are in the releases section.
 
+## Layers
+
+- The layer `User.3` stores non-polygon versions of the silkscreen text elements that can be edited.
+- The layer `User.6` stores a printable outline of keyswitch locations, so a keymap can be drawn on paper to test the layout.
+
 ## Building
 
 This project uses [Nix](https://nixos.org) for CI/CD only, to generate gerber files using KiCAD's CLI.
