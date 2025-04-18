@@ -469,7 +469,7 @@
     ]
   },
   "meta": {
-    "filename": "slab-pcb-right.kicad_pro",
+    "filename": "interchange-pcb-right.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -505,8 +505,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "/home/headb/Downloads/slab-pcb-right-grb/",
-      "pos_files": "",
+      "plot": "../gerbers/interchange-pcb-right/",
+      "pos_files": "/home/headb/Downloads/slab-pcb-right-grb-fri/assy/",
       "specctra_dsn": "",
       "step": "",
       "svg": "/home/headb/Downloads/",
