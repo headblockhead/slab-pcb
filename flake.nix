@@ -1,5 +1,5 @@
 {
-  description = "Tools for developing and building slab-pcb";
+  description = "Tools for developing and building interchange-pcb";
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
@@ -19,12 +19,12 @@
               kicad
             ];
           };
-          packages.slab-pcb = pkgs.stdenv.mkDerivation {
-            name = "slab-pcb";
+          packages.interchange-pcb = pkgs.stdenv.mkDerivation {
+            name = "interchange-pcb";
             src = ./.;
 
             nativeBuildInputs = with pkgs; [
-              kicad
+              kicad-small # (Without 3D-models)
               p7zip
             ];
             buildPhase = ''
@@ -32,12 +32,13 @@
               mkdir -p left
               mkdir -p right
               mkdir -p hackpad
-              kicad-cli pcb export gerbers -o left --layers "F.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask,Edge.Cuts" --no-protel-ext --subtract-soldermask ./slab-pcb-left/slab-pcb-left.kicad_pcb
-              kicad-cli pcb export drill -o left --excellon-separate-th --excellon-units "in" ./slab-pcb-left/slab-pcb-left.kicad_pcb
-              kicad-cli pcb export gerbers -o right --layers "F.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask,Edge.Cuts" --no-protel-ext --subtract-soldermask ./slab-pcb-right/slab-pcb-right.kicad_pcb
-              kicad-cli pcb export drill -o right --excellon-separate-th --excellon-units "in" ./slab-pcb-right/slab-pcb-right.kicad_pcb
-              kicad-cli pcb export gerbers -o hackpad --layers "F.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask,Edge.Cuts" --no-protel-ext --subtract-soldermask ./slab-pcb-hackpad/slab-pcb-hackpad.kicad_pcb
-              kicad-cli pcb export drill -o hackpad --excellon-separate-th --excellon-units "in" ./slab-pcb-hackpad/slab-pcb-hackpad.kicad_pcb
+              export HOME=$PWD # KiCAD creates config files in $HOME
+              #kicad-cli pcb export gerbers -o left --layers "F.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask,Edge.Cuts" --no-protel-ext --subtract-soldermask ./interchange-pcb-left/interchange-pcb-left.kicad_pcb
+              #kicad-cli pcb export drill -o left --excellon-separate-th --excellon-units "in" ./interchange-pcb-left/interchange-pcb-left.kicad_pcb
+              kicad-cli pcb export gerbers -o right --layers "F.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask,Edge.Cuts" --no-protel-ext --subtract-soldermask ./interchange-pcb-right/interchange-pcb-right.kicad_pcb
+              kicad-cli pcb export drill -o right --excellon-separate-th --excellon-units "in" ./interchange-pcb-right/interchange-pcb-right.kicad_pcb
+              #kicad-cli pcb export gerbers -o hackpad --layers "F.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask,Edge.Cuts" --no-protel-ext --subtract-soldermask ./interchange-pcb-hackpad/interchange-pcb-hackpad.kicad_pcb
+              #kicad-cli pcb export drill -o hackpad --excellon-separate-th --excellon-units "in" ./interchange-pcb-hackpad/interchange-pcb-hackpad.kicad_pcb
               runHook postBuild
             '';
             installPhase = ''
@@ -49,7 +50,7 @@
               runHook postInstall
             '';
           };
-          packages.default = packages.slab-pcb;
+          packages.default = packages.interchange-pcb;
         }
       );
 }
