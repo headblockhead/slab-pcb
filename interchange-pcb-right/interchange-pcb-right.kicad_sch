@@ -16680,7 +16680,7 @@
 			)
 		)
 		(instances
-			(project "slab-pcb-right"
+			(project "interchange-pcb-right"
 				(path "/2d36872c-cd86-4c0b-a812-2eca2fd821a3"
 					(page "2")
 				)
