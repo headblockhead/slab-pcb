@@ -8993,6 +8993,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C41430893"
+			(at 267.97 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8a440255-4ef5-4a0f-b6ac-60f5dda664d2")
 		)
@@ -9120,6 +9129,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 62.23 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4260"
+			(at 60.96 27.432 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9656,6 +9674,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C41430893"
+			(at 278.13 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3d44e4f0-db9c-4b48-91a4-054d0b8ff6b2")
 		)
@@ -9779,6 +9806,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 252.73 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41430893"
 			(at 252.73 111.76 0)
 			(effects
 				(font
@@ -9915,6 +9951,15 @@
 		)
 		(property "Description" "IO expander 16 GPIO, I2C 400kHz, Interrupt, 2.3 - 5.5V, TSSOP-24"
 			(at 257.81 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C128392"
+			(at 236.22 29.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10261,6 +10306,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C41430893"
+			(at 262.89 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b4c4358d-185d-4807-ae36-0f2b67a37b23")
 		)
@@ -10533,6 +10587,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C41430893"
+			(at 273.05 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e3b54eae-996e-4a9c-be1a-5e803a51664a")
 		)
@@ -10602,6 +10665,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C4190"
+			(at 135.89 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3354c4c8-6e72-4c33-b290-ca492b88a03c")
 		)
@@ -10661,6 +10733,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 267.97 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41430893"
 			(at 267.97 130.81 0)
 			(effects
 				(font
@@ -10934,6 +11015,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C41430893"
+			(at 278.13 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fdc444e4-bf73-4bec-accc-04cee81c493f")
 		)
@@ -10996,6 +11086,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 205.74 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 203.708 21.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11072,6 +11171,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C4190"
+			(at 144.78 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1c3e40d2-af0a-4407-9c70-d0a3ae90682f")
 		)
@@ -11134,6 +11242,15 @@
 		)
 		(property "Description" ""
 			(at 92.71 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C880333"
+			(at 75.438 148.082 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11221,6 +11338,15 @@
 		)
 		(property "Description" "IO expander 16 GPIO, I2C 400kHz, Interrupt, 2.3 - 5.5V, TSSOP-24"
 			(at 199.39 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C128392"
+			(at 177.8 29.464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11353,6 +11479,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 273.05 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41430893"
 			(at 273.05 111.76 0)
 			(effects
 				(font
@@ -11495,6 +11630,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 164.084 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6df83312-f0cf-415a-8a7e-659bd0513c49")
 		)
@@ -11557,6 +11701,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 264.16 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 262.128 21.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11634,6 +11787,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 100.584 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8b480344-23c1-47f1-b45e-d52f15ac7ab5")
 		)
@@ -11693,6 +11855,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 262.89 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41430893"
 			(at 262.89 118.11 0)
 			(effects
 				(font
@@ -11768,6 +11939,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C41430893"
+			(at 267.97 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b796b385-e012-461c-a56c-8e787c4ec6d1")
 		)
@@ -11828,6 +12008,15 @@
 		)
 		(property "Description" ""
 			(at 88.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 85.598 117.856 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12070,6 +12259,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 262.89 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41430893"
 			(at 262.89 130.81 0)
 			(effects
 				(font
@@ -12479,6 +12677,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C41430893"
+			(at 257.81 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "203dd1ff-4876-4779-8117-bf07fab18e32")
 		)
@@ -12734,6 +12941,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 262.89 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41430893"
 			(at 262.89 111.76 0)
 			(effects
 				(font
@@ -13016,6 +13232,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 225.044 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "be92ecb6-33f0-4e90-a1ce-caba34197ea3")
 		)
@@ -13075,6 +13300,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 267.97 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41430893"
 			(at 267.97 137.16 0)
 			(effects
 				(font
@@ -13608,6 +13842,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C41430893"
+			(at 257.81 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "96681362-a037-40dd-b1e2-f6c555e607a5")
 		)
@@ -13946,6 +14189,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C41430893"
+			(at 278.13 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e0595ec9-a670-4f1c-9569-7b5bf723c326")
 		)
@@ -14145,6 +14397,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C4190"
+			(at 137.16 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5184f2d4-cd46-4b9a-bb63-fece6599592f")
 		)
@@ -14207,6 +14468,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 127 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4190"
+			(at 128.27 34.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14477,6 +14747,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C4190"
+			(at 41.91 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bdd16517-437c-437e-a3a7-878fd7b88a62")
 		)
@@ -14539,6 +14818,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 48.26 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 46.228 20.066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14613,6 +14901,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C41430893"
+			(at 257.81 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a2631bca-8cc6-4152-a2bb-3d89dd75eeb9")
 		)
@@ -14672,6 +14969,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 252.73 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41430893"
 			(at 252.73 118.11 0)
 			(effects
 				(font
@@ -14812,6 +15118,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C41430893"
+			(at 257.81 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "68197caa-3c3c-4f26-983d-65f77ade79ce")
 		)
@@ -14938,6 +15253,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 43.18 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4190"
+			(at 41.402 143.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15145,6 +15469,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C36365"
+			(at 37.084 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "712311f7-1485-4283-92eb-4f72d5fefcb1")
 		)
@@ -15240,6 +15573,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 262.89 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41430893"
 			(at 262.89 137.16 0)
 			(effects
 				(font
@@ -15377,6 +15719,15 @@
 		)
 		(property "Description" "16 Bit Analog to Digital converter with on board reference"
 			(at 41.91 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C16598"
+			(at 22.86 27.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15602,6 +15953,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 131.064 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "98479975-cabc-412f-8c40-44141c9e9e85")
 		)
@@ -15661,6 +16021,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 273.05 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41430893"
 			(at 273.05 124.46 0)
 			(effects
 				(font
@@ -15736,6 +16105,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C41430893"
+			(at 252.73 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "56096d8d-41eb-4d82-a2e7-d4aca9c90433")
 		)
@@ -15795,6 +16173,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 273.05 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41430893"
 			(at 273.05 137.16 0)
 			(effects
 				(font
@@ -15936,6 +16323,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C41430893"
+			(at 278.13 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9fcef1d0-68bf-414d-9104-26bc33f691ce")
 		)
@@ -15995,6 +16391,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 273.05 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41430893"
 			(at 273.05 118.11 0)
 			(effects
 				(font
@@ -16072,6 +16477,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 97.028 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "94e21d28-359d-41a4-8f96-1bd38f5cdf47")
 		)
@@ -16131,6 +16545,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 252.73 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41430893"
 			(at 252.73 137.16 0)
 			(effects
 				(font
@@ -16206,6 +16629,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C41430893"
+			(at 252.73 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "99ed8431-481b-43c2-8769-a654a7332e09")
 		)
@@ -16265,6 +16697,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 278.13 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41430893"
 			(at 278.13 118.11 0)
 			(effects
 				(font
@@ -16340,6 +16781,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C41430893"
+			(at 267.97 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b758718e-31e2-4cec-89cc-c86d46431d71")
 		)
@@ -16399,6 +16849,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 257.81 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41430893"
 			(at 257.81 137.16 0)
 			(effects
 				(font
@@ -16469,6 +16928,15 @@
 		)
 		(property "Description" "Buzzer, polarized"
 			(at 187.96 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C94599"
+			(at 193.802 138.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16603,6 +17071,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 58.42 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 56.388 70.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
