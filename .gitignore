@@ -3,3 +3,6 @@ result
 *fp-info-cache
 gerbers
 *.lck
+interchange-pcb-hackpad/.history/
+interchange-pcb-right/.history/
+slab-pcb-left/.history/
